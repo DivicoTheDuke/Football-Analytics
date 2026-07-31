@@ -1,22 +1,15 @@
-# Provider integration
+# Provider Integration
 
-The repository includes a StatsBomb-style adapter as a concrete example of mapping external event JSON into the canonical event schema.
+The repository contains a small StatsBomb-style mapping example and a generic partitioned dataset loader. A production-quality integration must be implemented against a provider whose terms permit the intended use.
 
-## Why adapters are isolated
+Normalised tables must expose the project's event schema, stable match and event IDs, season, competition, teams, players, coordinates, timestamps and explicit provenance fields. Coordinates must be transformed so every team attacks from x=0 toward x=105.
 
-Provider event names, outcomes, coordinate systems and possession definitions differ. Keeping each mapping in a dedicated module prevents provider-specific assumptions from leaking into research code.
+Recommended layout:
 
-## Production checklist
+```text
+data/historical/<provider>/<season>/events.parquet
+data/historical/<provider>/<season>/matches.parquet
+data/historical/<provider>/<season>/lineups.parquet
+```
 
-1. Store raw provider payloads unchanged.
-2. Record provider version, fixture ID and ingestion time.
-3. Reconcile match, team and player identities against master data.
-4. Normalise coordinates and attacking direction consistently.
-5. Validate event counts, shots, goals and lineups against source summaries.
-6. Version every taxonomy mapping.
-7. Block downstream publication when a quality gate fails.
-8. Add contract tests using representative provider fixtures.
-
-## Included example
-
-`football_analytics.providers.statsbomb.normalise_statsbomb_events` maps a limited StatsBomb-style payload to the fields required by this project. It is intentionally small and must be extended before processing a full provider feed.
+FPL `bootstrap-static` is not a five-season event provider. It is used only for current club/player reference names in the synthetic demo generator.

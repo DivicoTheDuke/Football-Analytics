@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.streamlit/secrets.toml
+.env
+.DS_Store
+models/*.joblib
+models/*.json
+reports/*.html
+!models/.gitkeep
+!reports/.gitkeep

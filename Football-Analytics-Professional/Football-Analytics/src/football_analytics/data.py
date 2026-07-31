@@ -18,6 +18,8 @@ def load_events(path: str | Path) -> pd.DataFrame:
     path = Path(path)
     if path.suffix.lower() == ".csv":
         events = pd.read_csv(path)
+    elif path.suffix.lower() == ".parquet":
+        events = pd.read_parquet(path)
     elif path.suffix.lower() == ".json":
         with path.open(encoding="utf-8") as handle:
             raw = json.load(handle)
@@ -38,13 +40,15 @@ def load_events(path: str | Path) -> pd.DataFrame:
 
 
 def load_matches(path: str | Path) -> pd.DataFrame:
-    matches = pd.read_csv(path)
+    path = Path(path)
+    matches = pd.read_parquet(path) if path.suffix.lower() == ".parquet" else pd.read_csv(path)
     matches["match_date"] = pd.to_datetime(matches["match_date"], errors="coerce")
     return matches
 
 
 def load_lineups(path: str | Path) -> pd.DataFrame:
-    return pd.read_csv(path)
+    path = Path(path)
+    return pd.read_parquet(path) if path.suffix.lower() == ".parquet" else pd.read_csv(path)
 
 
 def match_events(events: pd.DataFrame, match_id: str) -> pd.DataFrame:

@@ -1,8 +1,12 @@
 [data]
-directory = "data/demo"
+mode = "demo"
+demo_directory = "data/demo"
+historical_directory = "data/historical"
 events_file = "events.csv"
 matches_file = "matches.csv"
 lineups_file = "lineups.csv"
+training_seasons = ["2021/22", "2022/23", "2023/24", "2024/25", "2025/26"]
+evaluation_season = "2025/26"
 
 [model]
 random_state = 42

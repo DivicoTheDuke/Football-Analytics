@@ -7,6 +7,8 @@ import plotly.graph_objects as go
 import streamlit as st
 
 from football_analytics.metrics import player_summary, team_match_summary, xg_momentum
+from football_analytics.config import load_settings
+from football_analytics.forecasting import attacking_side_profile, forecast_fixture, scorer_probabilities, season_projection, team_style_profiles
 from football_analytics.networks import passing_network
 from football_analytics.scouting import percentile_profile, player_similarity, cluster_players
 from football_analytics.service import datasets, enriched_events, models
@@ -14,7 +16,10 @@ from football_analytics.xt import xt_grid_frame
 
 st.set_page_config(page_title="Football Analytics Platform", layout="wide")
 st.title("Football Analytics Platform")
-st.caption("Decision-support workflows for analysis, coaching and recruitment · synthetic portfolio data")
+settings = load_settings()
+mode_label = "SYNTHETIC DEMO DATA — NOT A REAL SPORTING FORECAST" if settings.is_demo else "HISTORICAL PROVIDER DATA — VERIFY LICENCE AND DATA LINEAGE"
+st.caption(f"Decision-support workflows for analysis, coaching and recruitment · {mode_label}")
+st.warning("Forecast probabilities are model outputs with uncertainty. They support analyst review and must not be presented as facts.")
 
 matches, raw_events, lineups = datasets()
 events, shots = enriched_events()
@@ -22,7 +27,7 @@ xg_artifact, xt_model = models()
 
 page = st.sidebar.radio(
     "Workflow",
-    ["Match Centre", "Shot & xG Lab", "Possession & Threat", "Passing Network", "Player Recruitment", "Model Governance"],
+    ["Season Forecast", "Fixture Forecast", "Team Identity", "Match Centre", "Shot & xG Lab", "Possession & Threat", "Passing Network", "Player Recruitment", "Model Governance"],
 )
 
 match_labels = {
@@ -34,7 +39,51 @@ match_events = events.loc[events["match_id"] == selected_match].copy()
 match_shots = shots.loc[shots["match_id"] == selected_match].copy()
 teams = list(match_events["team"].dropna().unique())
 
-if page == "Match Centre":
+if page == "Season Forecast":
+    st.header("Next-Season Projection")
+    st.caption("Recency-weighted xG strengths and a Poisson fixture model. In demo mode every input performance is synthetic.")
+    projection = season_projection(matches, shots)
+    st.dataframe(projection.round(2), use_container_width=True, hide_index=True)
+    st.plotly_chart(px.bar(projection.head(10), x="team", y="points", title="Projected expected points"), use_container_width=True)
+
+elif page == "Fixture Forecast":
+    st.header("Fixture and Goalscorer Forecast")
+    all_teams = sorted(set(matches["home_team"]) | set(matches["away_team"]))
+    c1, c2 = st.columns(2)
+    home_team = c1.selectbox("Home team", all_teams)
+    away_options = [team for team in all_teams if team != home_team]
+    away_team = c2.selectbox("Away team", away_options)
+    prediction = forecast_fixture(matches, shots, home_team, away_team)
+    a, b, c, d = st.columns(4)
+    a.metric("Home win", f"{prediction.home_win:.1%}")
+    b.metric("Draw", f"{prediction.draw:.1%}")
+    c.metric("Away win", f"{prediction.away_win:.1%}")
+    d.metric("Most likely score", prediction.most_likely_score)
+    st.write(f"Expected goals: **{home_team} {prediction.home_xg:.2f} – {prediction.away_xg:.2f} {away_team}**")
+    left, right = st.columns(2)
+    with left:
+        st.subheader(f"Likely scorers: {home_team}")
+        st.dataframe(scorer_probabilities(events, shots, home_team, prediction.home_xg).head(10).round(3), use_container_width=True, hide_index=True)
+    with right:
+        st.subheader(f"Likely scorers: {away_team}")
+        st.dataframe(scorer_probabilities(events, shots, away_team, prediction.away_xg).head(10).round(3), use_container_width=True, hide_index=True)
+
+elif page == "Team Identity":
+    st.header("Team Identity and Attack-Side Tendencies")
+    side = attacking_side_profile(events)
+    styles = team_style_profiles(events)
+    identity = styles.merge(side, on="team", how="left")
+    selected_team = st.selectbox("Team", sorted(identity["team"]))
+    row = identity.loc[identity["team"] == selected_team].iloc[0]
+    st.subheader(f"{selected_team}: {row['style_label']}")
+    a, b, c = st.columns(3)
+    a.metric("Left-side share", f"{row['left_share']:.1%}")
+    b.metric("Central share", f"{row['centre_share']:.1%}")
+    c.metric("Right-side share", f"{row['right_share']:.1%}")
+    st.plotly_chart(px.bar(pd.DataFrame({"channel": ["Left", "Centre", "Right"], "share": [row['left_share'], row['centre_share'], row['right_share']]}), x="channel", y="share", title="Attacking action distribution"), use_container_width=True)
+    st.dataframe(identity.round(3), use_container_width=True, hide_index=True)
+
+elif page == "Match Centre":
     st.header("Executive Match Centre")
     summary = team_match_summary(match_events, match_shots)
     c1, c2 = st.columns(2)

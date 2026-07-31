@@ -1,168 +1,99 @@
-# Football Analytics Platform
+# Football Analytics
 
-A production-shaped portfolio project for football intelligence teams. It turns event data into decision-support products for analysts, coaches and recruitment staff through an interactive dashboard, a REST API, reproducible machine-learning pipelines and documented model governance.
+A production-oriented **portfolio and demonstration project** for football event analytics, model governance and analyst-facing decision support. It combines Python, pandas, NumPy, scikit-learn, Plotly, Streamlit, FastAPI, pytest, Docker and GitHub Actions.
 
-> **Important:** the bundled dataset is synthetic. The architecture and analytics are realistic, but outputs are not suitable for sporting decisions until the system is connected to licensed club data and validated with domain experts.
+> **Honest scope:** this repository is not deployed at a professional club. The bundled matches, lineups, events, goals, roles, xG values and performance measures are synthetic. Current club and player names are sourced from the official Fantasy Premier League bootstrap endpoint and cached locally. FPL does not provide the historical event data required for sporting model validation.
 
-## What the platform demonstrates
+## New forecasting workflows
 
-- End-to-end delivery from domain requirements to deployed user-facing products
-- Data ingestion, validation, cleaning and feature engineering
-- Expected goals modelling with match-aware train/test separation
-- Model diagnostics including ROC AUC, PR AUC, Brier score, log loss and calibration
-- Expected threat modelling from passes and carries
-- Team performance metrics such as field tilt, PPDA, progression and shot quality
-- Player profiling and similarity search for recruitment workflows
-- Passing networks and possession-chain analysis
-- Interactive Streamlit dashboard for non-technical users
-- FastAPI endpoints for integration with internal tools
-- Automated tests, Docker support and GitHub Actions CI
-- Model cards, data governance, product requirements, experiment design and deployment documentation
+The dashboard and API now include:
 
-## Product views
+- next-season expected-points projection;
+- fixture home/draw/away probabilities and most likely score;
+- expected-goals forecast for each team;
+- player goalscorer probabilities based on historical shot and xG shares;
+- team style labels derived from passing, progression and territorial features;
+- left, central and right attacking-channel tendencies;
+- existing xG, xT, shot maps, momentum, passing networks, PPDA, field tilt, box entries, player profiles, clustering and similarity search.
 
-The Streamlit application contains six analyst workflows:
+Forecasts are probabilistic decision-support outputs, not facts. In demo mode they illustrate the software workflow only and are **not real Premier League predictions**.
 
-1. **Match Centre** – score, xG, possession, field tilt, PPDA and momentum
-2. **Shot & xG Lab** – shot maps, shot quality and model predictions
-3. **Possession & Threat** – expected threat by zone, player and action
-4. **Passing Network** – team structure, central players and connection volume
-5. **Player Recruitment** – profiles, percentile views and similarity search
-6. **Model Governance** – evaluation metrics, calibration and limitations
+## Recommended environment
 
-## Technology stack
-
-Python, pandas, NumPy, scikit-learn, SciPy, NetworkX, Plotly, Streamlit, FastAPI, Pydantic, pytest, Docker and GitHub Actions.
-
-## Repository structure
-
-```text
-Football-Analytics/
-├── app.py                         # Streamlit analyst product
-├── api.py                         # FastAPI integration service
-├── config/app.toml                # Runtime configuration
-├── data/demo/                     # Synthetic demo data
-├── docs/                          # Architecture, methods and governance
-├── notebooks/                     # Reproducible walkthrough
-├── src/football_analytics/
-│   ├── cli.py                     # Command-line workflows
-│   ├── data.py                    # Ingestion and filtering
-│   ├── demo.py                    # Synthetic event generator
-│   ├── features.py                # Football feature engineering
-│   ├── metrics.py                 # Team and player metrics
-│   ├── providers/                 # External data-provider adapters
-│   ├── networks.py                # Passing-network analysis
-│   ├── quality.py                 # Data-quality controls
-│   ├── reporting.py               # Self-contained HTML reports
-│   ├── scouting.py                # Player similarity
-│   ├── service.py                 # Cached application services
-│   ├── xg.py                      # Expected-goals model
-│   └── xt.py                      # Expected-threat model
-├── tests/                         # Automated tests
-├── Dockerfile
-├── docker-compose.yml
-├── Makefile
-└── pyproject.toml
-```
-
-## Quick start
-
-### 1. Create an environment
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-```
-
-Windows PowerShell:
+Python **3.12** is the supported target. Python 3.14 is intentionally excluded because binary Data Science dependencies may not yet provide compatible wheels.
 
 ```powershell
-.venv\Scripts\Activate.ps1
+py -3.12 -m venv .venv
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install -e ".[dev]"
+python -m pytest
 ```
 
-### 2. Install
+## Run the platform
 
-```bash
-pip install -e ".[dev]"
+```powershell
+python -m streamlit run app.py
+python -m uvicorn api:app --reload
 ```
 
-### 3. Generate or refresh demo data
+CLI examples:
 
-```bash
-football-analytics generate-demo --matches 28 --seed 42
-```
-
-### 4. Validate data
-
-```bash
+```powershell
 football-analytics validate-data
-```
-
-### 5. Train and evaluate xG
-
-```bash
 football-analytics train-xg
-```
-
-### 6. Run the dashboard
-
-```bash
-streamlit run app.py
-```
-
-### 7. Run the API
-
-```bash
-uvicorn api:app --reload
-```
-
-Interactive API documentation is then available at `/docs`.
-
-### 8. Generate a match report
-
-```bash
+football-analytics project-season --output reports\season_projection.csv
 football-analytics build-report --match-id M0001
 ```
 
-### 9. Run tests
+## Demo mode and historical mode
 
-```bash
-pytest
+`config/app.toml` controls the data mode.
+
+```toml
+[data]
+mode = "demo"
+demo_directory = "data/demo"
+historical_directory = "data/historical"
+training_seasons = ["2021/22", "2022/23", "2023/24", "2024/25", "2025/26"]
+evaluation_season = "2025/26"
 ```
 
-## Docker
+For real five-season training, place legally usable, provider-normalised `events`, `matches` and `lineups` files in `data/historical`. CSV, JSON and Parquet events are supported; Parquet is recommended. Switch `mode` to `historical`, train the model, review the dataset manifest and only then start the application.
 
-```bash
-docker compose up --build
+Expected evaluation design:
+
+- development/training: 2021/22–2024/25;
+- untouched temporal test: 2025/26;
+- optional final refit on all five seasons only after evaluation;
+- published metrics must remain the holdout metrics, not in-sample results.
+
+## Architecture
+
+```text
+Provider data -> validation/normalisation -> curated dataset
+             -> temporal xG evaluation -> versioned model artefacts
+             -> xT/team-strength/style features
+             -> Streamlit dashboard + FastAPI + reports
 ```
 
-The dashboard runs on port `8501` and the API on port `8000`.
+The application loads an existing `models/xg_model.joblib` when available. Otherwise demo mode trains a temporary model so the portfolio remains runnable. Historical mode should use an explicitly trained and reviewed artefact.
 
-## Working with real data
+## API highlights
 
-The internal event model is provider-neutral. To connect real data, create an adapter that maps provider fields to the schema documented in [`data/README.md`](data/README.md). The project includes a tested StatsBomb-style adapter and integration guidance, but no proprietary or copyrighted dataset is bundled.
+- `GET /health`
+- `GET /matches`
+- `GET /matches/{match_id}/summary`
+- `GET /forecasts/season`
+- `GET /forecasts/fixture?home_team=...&away_team=...`
+- `GET /teams/{team}/identity`
+- `GET /players/{player}/profile`
+- `GET /players/{player}/similar`
+- `POST /models/xg/predict`
 
-Before a club uses the outputs operationally, the following are mandatory:
+## Limitations
 
-- Validate event definitions with analysts and coaching staff
-- Add provider-specific quality checks
-- Re-train and calibrate models on representative competition data
-- Perform temporal and competition-based out-of-sample testing
-- Define access controls and retention policies
-- Establish model monitoring, versioning and sign-off
-- Review the user interface with the actual workflow owners
+Squad availability, transfers, injuries, promoted teams, manager changes, set-piece roles, expected minutes, schedule strength and provider-specific definitions materially affect a new-season forecast. The current transparent baseline does not pretend to know unavailable inputs. These should be added as versioned features only when a licensed and reproducible source exists.
 
-## Portfolio case study
-
-This repository is intended to show how a research idea becomes a reliable internal product:
-
-- Requirements are framed around analyst and coaching workflows
-- Data is validated before analysis
-- Models are evaluated and their limitations are visible
-- Metrics are exposed through both a UI and an API
-- Reusable code, tests and documentation support maintainability
-- The design separates research code from production-facing services
-
-## Author
-
-Mischa Herzog
+See `docs/METHODOLOGY.md`, `docs/MODEL_CARD.md`, `docs/DATA_GOVERNANCE.md`, `docs/ARCHITECTURE.md` and `docs/PROVIDER_INTEGRATION.md`.

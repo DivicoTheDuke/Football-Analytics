@@ -1,31 +1,37 @@
 # Methodology
 
-## Expected goals
+## Forecasting objective
 
-The xG baseline predicts the probability of a shot becoming a goal. Features include distance, visible goal angle, body part, play pattern, pressure, first-time status and whether the shot was assisted.
+The forecast layer turns historical event evidence into transparent, analyst-reviewable priors. It is not a betting model and does not claim deterministic knowledge of future matches.
 
-Evaluation uses a group-aware split by match. Reported metrics include ROC AUC, average precision, Brier score, log loss, accuracy, precision, recall and F1. Calibration is shown separately because a model can rank shots well while still producing unreliable probabilities.
+## Fixture model
 
-## Expected threat
+1. The xG model assigns a probability to each shot.
+2. Match xG is aggregated by team.
+3. Seasonal observations receive exponential recency weights.
+4. Team attack strength is weighted xG for divided by the league mean.
+5. Team defence strength is weighted xG against divided by the league mean.
+6. Home and away expected goals combine the two teams' strengths with modest home/away multipliers.
+7. Independent Poisson score distributions produce home-win, draw and away-win probabilities.
 
-The pitch is divided into zones. For every zone, the model estimates:
+This is intentionally interpretable. Stronger alternatives should be compared against it rather than replacing it without a baseline.
 
-- probability of shooting
-- probability of moving the ball
-- probability of scoring after a shot
-- transition probability into every destination zone
+## New-season projection
 
-Values are calculated iteratively until convergence. A completed pass or carry receives the difference between destination and origin xT.
+Every ordered home/away pairing is simulated analytically. Expected points are the sum of `3 × win probability + draw probability`. The table is a model expectation, not a predicted final table.
 
-## Team metrics
+## Goalscorer probability
 
-- **Field tilt:** share of completed final-third passes between both teams
-- **PPDA:** opponent completed passes in deeper areas divided by defensive actions higher up the pitch
-- **Progressive action:** completed pass or carry that reduces distance to goal materially or enters the final third
-- **Box entry:** completed action entering the penalty area
+A player's expected-goal share combines 70% historical xG share and 30% shot share. Player expected goals are converted to probability of at least one goal using `1 - exp(-lambda)`. A production model also needs expected minutes, selection probability, penalties, set pieces, injuries and transfer status.
 
-Definitions differ across clubs and providers. They must be agreed with analysts before operational use.
+## Attack-side tendency
 
-## Player similarity
+Attacking-third passes, carries and shots are grouped into right, central and left pitch channels. The output describes event-location tendency, not tactical intent. Provider coordinate orientation must be normalised before use.
 
-Player vectors are built from passing, progression, chance creation, threat, shooting and defensive metrics. Features are standardised and cosine distance is used to retrieve similar profiles. Real recruitment work must additionally control for minutes, role, age, league strength, physical qualities and video evidence.
+## Team style
+
+Style labels are deterministic summaries of pass completion, forward pass distance, progressive-action rate, final-third rate and actions under pressure. They are communication aids, not objective tactical identities, and should be checked with video.
+
+## Evaluation
+
+Historical mode uses a temporal season holdout when the configured evaluation season is present. Grouped match splitting remains a safe fallback for demo and test fixtures. Metrics that are undefined for a single-class test sample are stored as null rather than fabricated.

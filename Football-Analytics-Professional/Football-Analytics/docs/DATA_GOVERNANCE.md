@@ -1,20 +1,9 @@
-# Data governance
+# Data Governance
 
-A professional deployment needs controls beyond analytics code.
+Raw provider data must remain immutable and outside public version control unless redistribution is explicitly permitted. Curated datasets must record source, provider version, ingestion date, competition, season, schema version and whether records are synthetic.
 
-## Minimum controls
+Real and synthetic performance records must not be silently mixed. Use separate directories and `data.mode`. Provider event and match IDs should remain traceable. A generated `models/dataset_manifest.json` records row counts, seasons, competitions and mode used for model training.
 
-- Document provider licence and permitted uses
-- Separate raw, curated and derived data zones
-- Preserve source identifiers and ingestion timestamps
-- Apply least-privilege access and role-based permissions
-- Encrypt data in transit and at rest
-- Define retention and deletion policies
-- Monitor quality by match, competition and provider version
-- Record every model version, training window and feature definition
-- Avoid exposing sensitive medical, biometric or contract data in analyst tools
-- Create an incident process for incorrect or unavailable data
+Minimum controls include unique event IDs, valid coordinates, valid timestamps, complete match relationships, consistent shot/goal flags, expected season coverage and no overlap between temporal train and test sets.
 
-## Quality dimensions
-
-Completeness, uniqueness, validity, consistency, timeliness, coordinate integrity, identity resolution and provider reconciliation.
+FPL club and player identities may change. The cached bootstrap file records a snapshot, not a historical roster database. Detailed roles are synthetic demo assignments because FPL exposes only GK, DEF, MID and FWD.
