@@ -35,3 +35,11 @@ Style labels are deterministic summaries of pass completion, forward pass distan
 ## Evaluation
 
 Historical mode uses a temporal season holdout when the configured evaluation season is present. Grouped match splitting remains a safe fallback for demo and test fixtures. Metrics that are undefined for a single-class test sample are stored as null rather than fabricated.
+
+## Fixture probability model
+
+Fixture forecasts use venue-specific expected-goal baselines. Team home attack, home defence, away attack and away defence rates are estimated separately. Older matches receive exponentially lower weight with a twelve-month half-life. Estimates are shrunk toward the corresponding league venue average, reducing unstable forecasts when a team has only a small number of observed matches.
+
+Expected home and away goals parameterize independent Poisson distributions. The displayed home-win, draw and away-win probabilities are calculated from a normalized score matrix covering 0–12 goals for each team. Normalization retains a valid 100% outcome distribution despite the finite score grid. The model also reports both-teams-to-score and over-2.5-goals probabilities.
+
+These are model estimates, not certainties. In demo mode the underlying performances are synthetic and the results are demonstrations rather than real sporting forecasts.

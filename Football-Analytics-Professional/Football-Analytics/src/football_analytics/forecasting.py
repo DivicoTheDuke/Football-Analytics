@@ -16,40 +16,67 @@ def _season_order(values: pd.Series) -> dict[str, int]:
     return {season: index for index, season in enumerate(seasons, start=1)}
 
 
-def team_form_table(matches: pd.DataFrame, shots: pd.DataFrame) -> pd.DataFrame:
-    """Build recency-weighted attack and defence strengths from match-level xG."""
+def _weighted_match_rows(matches: pd.DataFrame, shots: pd.DataFrame) -> pd.DataFrame:
+    """Return one row per team and match with venue-aware xG and recency weights."""
     shot_totals = shots.groupby(["match_id", "team"], as_index=False)["xg"].sum()
-    home = matches[["match_id", "season", "match_date", "home_team", "away_team"]].merge(
+    base = matches[["match_id", "season", "match_date", "home_team", "away_team"]].copy()
+    base["match_date"] = pd.to_datetime(base["match_date"], errors="coerce")
+
+    home = base.merge(
         shot_totals.rename(columns={"team": "home_team", "xg": "xg_for"}),
         on=["match_id", "home_team"], how="left",
-    )
-    away_xg = shot_totals.rename(columns={"team": "away_team", "xg": "xg_against"})
-    home = home.merge(away_xg[["match_id", "away_team", "xg_against"]], on=["match_id", "away_team"], how="left")
-    home_rows = home.rename(columns={"home_team": "team", "away_team": "opponent"})
-
-    away = matches[["match_id", "season", "match_date", "home_team", "away_team"]].merge(
-        shot_totals.rename(columns={"team": "away_team", "xg": "xg_for"}),
+    ).merge(
+        shot_totals.rename(columns={"team": "away_team", "xg": "xg_against"})[["match_id", "away_team", "xg_against"]],
         on=["match_id", "away_team"], how="left",
     )
-    home_xg = shot_totals.rename(columns={"team": "home_team", "xg": "xg_against"})
-    away = away.merge(home_xg[["match_id", "home_team", "xg_against"]], on=["match_id", "home_team"], how="left")
-    away_rows = away.rename(columns={"away_team": "team", "home_team": "opponent"})
+    home = home.rename(columns={"home_team": "team", "away_team": "opponent"})
+    home["venue"] = "home"
+
+    away = base.merge(
+        shot_totals.rename(columns={"team": "away_team", "xg": "xg_for"}),
+        on=["match_id", "away_team"], how="left",
+    ).merge(
+        shot_totals.rename(columns={"team": "home_team", "xg": "xg_against"})[["match_id", "home_team", "xg_against"]],
+        on=["match_id", "home_team"], how="left",
+    )
+    away = away.rename(columns={"away_team": "team", "home_team": "opponent"})
+    away["venue"] = "away"
 
     long = pd.concat([
-        home_rows[["match_id", "season", "match_date", "team", "opponent", "xg_for", "xg_against"]],
-        away_rows[["match_id", "season", "match_date", "team", "opponent", "xg_for", "xg_against"]],
+        home[["match_id", "season", "match_date", "team", "opponent", "venue", "xg_for", "xg_against"]],
+        away[["match_id", "season", "match_date", "team", "opponent", "venue", "xg_for", "xg_against"]],
     ], ignore_index=True)
     long[["xg_for", "xg_against"]] = long[["xg_for", "xg_against"]].fillna(0.0)
-    order = _season_order(long["season"])
-    long["weight"] = long["season"].map(order).astype(float)
-    long["weight"] = np.exp((long["weight"] - long["weight"].max()) * 0.35)
 
+    latest = long["match_date"].max()
+    if pd.isna(latest):
+        order = _season_order(long["season"])
+        long["weight"] = long["season"].map(order).astype(float)
+        long["weight"] = np.exp((long["weight"] - long["weight"].max()) * 0.35)
+    else:
+        age_days = (latest - long["match_date"]).dt.days.fillna(0).clip(lower=0)
+        # Twelve-month half-life: recent matches matter more without discarding older seasons.
+        long["weight"] = np.exp(-np.log(2.0) * age_days / 365.25)
+    return long
+
+
+def _shrunk_weighted_mean(values: pd.Series, weights: pd.Series, prior: float, prior_matches: float = 8.0) -> float:
+    sample_weight = float(weights.sum())
+    observed = float(np.average(values, weights=weights)) if sample_weight > 0 else prior
+    return (observed * sample_weight + prior * prior_matches) / (sample_weight + prior_matches)
+
+
+def team_form_table(matches: pd.DataFrame, shots: pd.DataFrame) -> pd.DataFrame:
+    """Build recency-weighted, sample-size-adjusted attack and defence strengths."""
+    long = _weighted_match_rows(matches, shots)
+    if long.empty:
+        return pd.DataFrame(columns=["team", "matches", "weighted_xg_for", "weighted_xg_against", "attack_strength", "defence_strength"])
+
+    league_xg = float(np.average(long["xg_for"], weights=long["weight"]))
     rows = []
-    league_xg = np.average(long["xg_for"], weights=long["weight"]) if len(long) else 1.3
     for team, group in long.groupby("team"):
-        weight = group["weight"].to_numpy()
-        xgf = float(np.average(group["xg_for"], weights=weight))
-        xga = float(np.average(group["xg_against"], weights=weight))
+        xgf = _shrunk_weighted_mean(group["xg_for"], group["weight"], league_xg)
+        xga = _shrunk_weighted_mean(group["xg_against"], group["weight"], league_xg)
         rows.append({
             "team": team,
             "matches": int(len(group)),
@@ -59,7 +86,6 @@ def team_form_table(matches: pd.DataFrame, shots: pd.DataFrame) -> pd.DataFrame:
             "defence_strength": xga / max(league_xg, 0.1),
         })
     return pd.DataFrame(rows).sort_values("attack_strength", ascending=False).reset_index(drop=True)
-
 
 def attacking_side_profile(events: pd.DataFrame) -> pd.DataFrame:
     """Estimate which flank a team uses in the attacking two-thirds."""
@@ -142,21 +168,63 @@ class FixtureForecast:
     draw: float
     away_win: float
     most_likely_score: str
+    both_teams_to_score: float
+    over_2_5: float
+
+
+def _score_matrix(home_xg: float, away_xg: float, max_goals: int = 12) -> np.ndarray:
+    """Create a normalized score probability matrix.
+
+    Normalization is essential because a finite score grid otherwise drops the
+    probability mass of outcomes above the configured goal limit.
+    """
+    matrix = np.array([
+        [_poisson_probability(i, home_xg) * _poisson_probability(j, away_xg) for j in range(max_goals + 1)]
+        for i in range(max_goals + 1)
+    ], dtype=float)
+    total = float(matrix.sum())
+    if total <= 0:
+        raise ValueError("Score probability matrix has no probability mass")
+    return matrix / total
 
 
 def forecast_fixture(matches: pd.DataFrame, shots: pd.DataFrame, home_team: str, away_team: str) -> FixtureForecast:
-    strengths = team_form_table(matches, shots).set_index("team")
-    league_rate = float(shots.groupby(["match_id", "team"])["xg"].sum().mean())
-    home = strengths.loc[home_team]
-    away = strengths.loc[away_team]
-    home_xg = float(np.clip(league_rate * home["attack_strength"] * away["defence_strength"] * 1.08, 0.15, 4.5))
-    away_xg = float(np.clip(league_rate * away["attack_strength"] * home["defence_strength"] * 0.94, 0.15, 4.5))
-    matrix = np.array([[_poisson_probability(i, home_xg) * _poisson_probability(j, away_xg) for j in range(8)] for i in range(8)])
+    """Forecast a fixture using venue-aware, recency-weighted and shrunk xG rates."""
+    if home_team == away_team:
+        raise ValueError("Home and away team must be different")
+
+    long = _weighted_match_rows(matches, shots)
+    known_teams = set(long["team"])
+    if home_team not in known_teams or away_team not in known_teams:
+        raise KeyError("Both teams must exist in the historical match data")
+
+    home_rows = long.loc[long["venue"] == "home"]
+    away_rows = long.loc[long["venue"] == "away"]
+    league_home_xg = float(np.average(home_rows["xg_for"], weights=home_rows["weight"]))
+    league_away_xg = float(np.average(away_rows["xg_for"], weights=away_rows["weight"]))
+
+    home_team_rows = home_rows.loc[home_rows["team"] == home_team]
+    away_team_rows = away_rows.loc[away_rows["team"] == away_team]
+
+    home_attack = _shrunk_weighted_mean(home_team_rows["xg_for"], home_team_rows["weight"], league_home_xg) / max(league_home_xg, 0.1)
+    home_defence = _shrunk_weighted_mean(home_team_rows["xg_against"], home_team_rows["weight"], league_away_xg) / max(league_away_xg, 0.1)
+    away_attack = _shrunk_weighted_mean(away_team_rows["xg_for"], away_team_rows["weight"], league_away_xg) / max(league_away_xg, 0.1)
+    away_defence = _shrunk_weighted_mean(away_team_rows["xg_against"], away_team_rows["weight"], league_home_xg) / max(league_home_xg, 0.1)
+
+    home_xg = float(np.clip(league_home_xg * home_attack * away_defence, 0.20, 3.75))
+    away_xg = float(np.clip(league_away_xg * away_attack * home_defence, 0.20, 3.75))
+    matrix = _score_matrix(home_xg, away_xg)
+
     home_win = float(np.tril(matrix, -1).sum())
     draw = float(np.trace(matrix))
     away_win = float(np.triu(matrix, 1).sum())
     i, j = np.unravel_index(np.argmax(matrix), matrix.shape)
-    return FixtureForecast(home_team, away_team, home_xg, away_xg, home_win, draw, away_win, f"{i}-{j}")
+    both_teams_to_score = float(matrix[1:, 1:].sum())
+    over_2_5 = float(sum(matrix[i, j] for i in range(matrix.shape[0]) for j in range(matrix.shape[1]) if i + j >= 3))
+    return FixtureForecast(
+        home_team, away_team, home_xg, away_xg, home_win, draw, away_win, f"{i}-{j}",
+        both_teams_to_score, over_2_5,
+    )
 
 
 def season_projection(matches: pd.DataFrame, shots: pd.DataFrame) -> pd.DataFrame:

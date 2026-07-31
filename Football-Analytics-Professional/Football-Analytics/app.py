@@ -60,6 +60,10 @@ elif page == "Fixture Forecast":
     c.metric("Away win", f"{prediction.away_win:.1%}")
     d.metric("Most likely score", prediction.most_likely_score)
     st.write(f"Expected goals: **{home_team} {prediction.home_xg:.2f} – {prediction.away_xg:.2f} {away_team}**")
+    e, f = st.columns(2)
+    e.metric("Both teams to score", f"{prediction.both_teams_to_score:.1%}")
+    f.metric("Over 2.5 goals", f"{prediction.over_2_5:.1%}")
+    st.caption("Probabilities are recalculated from venue-specific, recency-weighted xG rates with sample-size shrinkage. The complete score distribution is normalized to exactly 100%.")
     left, right = st.columns(2)
     with left:
         st.subheader(f"Likely scorers: {home_team}")

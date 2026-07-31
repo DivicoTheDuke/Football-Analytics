@@ -14,7 +14,9 @@ def test_fixture_probabilities_sum_close_to_one(demo_data):
     home, away = matches.iloc[0][["home_team", "away_team"]]
     result = forecast_fixture(matches, shots, home, away)
     assert result.home_xg > 0 and result.away_xg > 0
-    assert result.home_win + result.draw + result.away_win == pytest.approx(1.0, abs=0.02)
+    assert result.home_win + result.draw + result.away_win == pytest.approx(1.0, abs=1e-10)
+    assert 0.0 <= result.both_teams_to_score <= 1.0
+    assert 0.0 <= result.over_2_5 <= 1.0
 
 
 def test_team_identity_outputs(demo_data):
@@ -31,3 +33,13 @@ def test_season_and_scorer_projection(demo_data):
     team = table.iloc[0]["team"]
     scorers = scorer_probabilities(events, shots, team, 1.5)
     assert scorers["score_probability"].between(0, 1).all()
+
+
+def test_home_and_away_order_changes_fixture_rates(demo_data):
+    matches, events, _ = demo_data; shots = _shots(events)
+    home, away = matches.iloc[0][["home_team", "away_team"]]
+    first = forecast_fixture(matches, shots, home, away)
+    reverse = forecast_fixture(matches, shots, away, home)
+    assert first.home_team == reverse.away_team
+    assert first.home_win + first.draw + first.away_win == pytest.approx(1.0, abs=1e-10)
+    assert reverse.home_win + reverse.draw + reverse.away_win == pytest.approx(1.0, abs=1e-10)

@@ -1,0 +1,127 @@
+Metadata-Version: 2.4
+Name: football-analytics
+Version: 2.0.0
+Summary: Production-shaped football analytics platform for event data, xG, xT and scouting workflows
+Author: Mischa Herzog
+License: MIT
+Requires-Python: <3.14,>=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy<3,>=1.26
+Requires-Dist: pandas<3,>=2.2
+Requires-Dist: scikit-learn<2,>=1.5
+Requires-Dist: scipy<2,>=1.13
+Requires-Dist: networkx<4,>=3.3
+Requires-Dist: plotly<7,>=5.24
+Requires-Dist: streamlit<2,>=1.39
+Requires-Dist: fastapi<1,>=0.115
+Requires-Dist: uvicorn[standard]<1,>=0.30
+Requires-Dist: pydantic<3,>=2.9
+Requires-Dist: joblib<2,>=1.4
+Requires-Dist: pyarrow<23,>=17
+Provides-Extra: dev
+Requires-Dist: pytest<10,>=8.3; extra == "dev"
+Requires-Dist: pytest-cov<8,>=5; extra == "dev"
+Requires-Dist: httpx<1,>=0.27; extra == "dev"
+Requires-Dist: ruff<1,>=0.8; extra == "dev"
+Dynamic: license-file
+
+# Football Analytics
+
+A production-oriented **portfolio and demonstration project** for football event analytics, model governance and analyst-facing decision support. It combines Python, pandas, NumPy, scikit-learn, Plotly, Streamlit, FastAPI, pytest, Docker and GitHub Actions.
+
+> **Honest scope:** this repository is not deployed at a professional club. The bundled matches, lineups, events, goals, roles, xG values and performance measures are synthetic. Current club and player names are sourced from the official Fantasy Premier League bootstrap endpoint and cached locally. FPL does not provide the historical event data required for sporting model validation.
+
+## New forecasting workflows
+
+The dashboard and API now include:
+
+- next-season expected-points projection;
+- fixture home/draw/away probabilities and most likely score;
+- expected-goals forecast for each team;
+- player goalscorer probabilities based on historical shot and xG shares;
+- team style labels derived from passing, progression and territorial features;
+- left, central and right attacking-channel tendencies;
+- existing xG, xT, shot maps, momentum, passing networks, PPDA, field tilt, box entries, player profiles, clustering and similarity search.
+
+Forecasts are probabilistic decision-support outputs, not facts. In demo mode they illustrate the software workflow only and are **not real Premier League predictions**.
+
+## Recommended environment
+
+Python **3.12** is the supported target. Python 3.14 is intentionally excluded because binary Data Science dependencies may not yet provide compatible wheels.
+
+```powershell
+py -3.12 -m venv .venv
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install -e ".[dev]"
+python -m pytest
+```
+
+## Run the platform
+
+```powershell
+python -m streamlit run app.py
+python -m uvicorn api:app --reload
+```
+
+CLI examples:
+
+```powershell
+football-analytics validate-data
+football-analytics train-xg
+football-analytics project-season --output reports\season_projection.csv
+football-analytics build-report --match-id M0001
+```
+
+## Demo mode and historical mode
+
+`config/app.toml` controls the data mode.
+
+```toml
+[data]
+mode = "demo"
+demo_directory = "data/demo"
+historical_directory = "data/historical"
+training_seasons = ["2021/22", "2022/23", "2023/24", "2024/25", "2025/26"]
+evaluation_season = "2025/26"
+```
+
+For real five-season training, place legally usable, provider-normalised `events`, `matches` and `lineups` files in `data/historical`. CSV, JSON and Parquet events are supported; Parquet is recommended. Switch `mode` to `historical`, train the model, review the dataset manifest and only then start the application.
+
+Expected evaluation design:
+
+- development/training: 2021/22–2024/25;
+- untouched temporal test: 2025/26;
+- optional final refit on all five seasons only after evaluation;
+- published metrics must remain the holdout metrics, not in-sample results.
+
+## Architecture
+
+```text
+Provider data -> validation/normalisation -> curated dataset
+             -> temporal xG evaluation -> versioned model artefacts
+             -> xT/team-strength/style features
+             -> Streamlit dashboard + FastAPI + reports
+```
+
+The application loads an existing `models/xg_model.joblib` when available. Otherwise demo mode trains a temporary model so the portfolio remains runnable. Historical mode should use an explicitly trained and reviewed artefact.
+
+## API highlights
+
+- `GET /health`
+- `GET /matches`
+- `GET /matches/{match_id}/summary`
+- `GET /forecasts/season`
+- `GET /forecasts/fixture?home_team=...&away_team=...`
+- `GET /teams/{team}/identity`
+- `GET /players/{player}/profile`
+- `GET /players/{player}/similar`
+- `POST /models/xg/predict`
+
+## Limitations
+
+Squad availability, transfers, injuries, promoted teams, manager changes, set-piece roles, expected minutes, schedule strength and provider-specific definitions materially affect a new-season forecast. The current transparent baseline does not pretend to know unavailable inputs. These should be added as versioned features only when a licensed and reproducible source exists.
+
+See `docs/METHODOLOGY.md`, `docs/MODEL_CARD.md`, `docs/DATA_GOVERNANCE.md`, `docs/ARCHITECTURE.md` and `docs/PROVIDER_INTEGRATION.md`.
