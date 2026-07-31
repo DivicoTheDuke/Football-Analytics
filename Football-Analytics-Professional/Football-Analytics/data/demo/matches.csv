@@ -1,0 +1,39 @@
+match_id,competition,season,match_date,home_team,away_team,home_goals,away_goals,synthetic_data
+M0001,Premier League,2026/27,2026-08-26,Brentford,Arsenal,1,0,True
+M0002,Premier League,2026/27,2026-08-31,Newcastle,Sunderland,0,0,True
+M0003,Premier League,2026/27,2026-09-05,Spurs,Hull City,0,0,True
+M0004,Premier League,2026/27,2026-09-10,Man City,Hull City,0,0,True
+M0005,Premier League,2026/27,2026-09-15,Arsenal,Crystal Palace,0,1,True
+M0006,Premier League,2026/27,2026-09-20,Man Utd,Chelsea,1,0,True
+M0007,Premier League,2026/27,2026-09-25,Ipswich Town,Sunderland,0,0,True
+M0008,Premier League,2026/27,2026-09-30,Man City,Nott'm Forest,0,0,True
+M0009,Premier League,2026/27,2026-10-05,Aston Villa,Nott'm Forest,0,1,True
+M0010,Premier League,2026/27,2026-10-10,Coventry City,Everton,1,0,True
+M0011,Premier League,2026/27,2026-10-15,Spurs,Fulham,1,0,True
+M0012,Premier League,2026/27,2026-10-20,Bournemouth,Brighton,1,0,True
+M0013,Premier League,2026/27,2026-10-25,Everton,Brentford,1,1,True
+M0014,Premier League,2026/27,2026-10-30,Sunderland,Newcastle,0,1,True
+M0015,Premier League,2026/27,2026-11-04,Man City,Liverpool,0,1,True
+M0016,Premier League,2026/27,2026-11-09,Brentford,Spurs,1,0,True
+M0017,Premier League,2026/27,2026-11-14,Coventry City,Crystal Palace,0,2,True
+M0018,Premier League,2026/27,2026-11-19,Fulham,Hull City,0,0,True
+M0019,Premier League,2026/27,2026-11-24,Hull City,Coventry City,1,1,True
+M0020,Premier League,2026/27,2026-11-29,Arsenal,Spurs,0,0,True
+M0021,Premier League,2026/27,2026-12-04,Brighton,Sunderland,1,0,True
+M0022,Premier League,2026/27,2026-12-09,Ipswich Town,Chelsea,0,2,True
+M0023,Premier League,2026/27,2026-12-14,Crystal Palace,Ipswich Town,0,0,True
+M0024,Premier League,2026/27,2026-12-19,Arsenal,Hull City,0,0,True
+M0025,Premier League,2026/27,2026-12-24,Nott'm Forest,Fulham,0,1,True
+M0026,Premier League,2026/27,2026-12-29,Brentford,Nott'm Forest,0,0,True
+M0027,Premier League,2026/27,2027-01-03,Hull City,Newcastle,0,0,True
+M0028,Premier League,2026/27,2027-01-08,Everton,Leeds,0,0,True
+M0029,Premier League,2026/27,2027-01-13,Leeds,Hull City,1,0,True
+M0030,Premier League,2026/27,2027-01-18,Everton,Spurs,0,0,True
+M0031,Premier League,2026/27,2027-01-23,Bournemouth,Everton,1,0,True
+M0032,Premier League,2026/27,2027-01-28,Coventry City,Aston Villa,1,0,True
+M0033,Premier League,2026/27,2027-02-02,Ipswich Town,Man City,0,0,True
+M0034,Premier League,2026/27,2027-02-07,Leeds,Man City,0,0,True
+M0035,Premier League,2026/27,2027-02-12,Leeds,Nott'm Forest,1,1,True
+M0036,Premier League,2026/27,2027-02-17,Man Utd,Chelsea,1,1,True
+M0037,Premier League,2026/27,2027-02-22,Brentford,Everton,0,0,True
+M0038,Premier League,2026/27,2027-02-27,Man City,Ipswich Town,1,0,True

@@ -1,0 +1,2123 @@
+match_id,team,player,position,fpl_position,starter,minutes
+M0001,Brentford,Caoimhín Kelleher,GK,GK,True,90
+M0001,Brentford,Hákon Rafn Valdimarsson,GK,GK,False,0
+M0001,Brentford,Nathan Collins,RB,DEF,False,0
+M0001,Brentford,Sepp van den Berg,CB,DEF,False,0
+M0001,Brentford,Kristoffer Ajer,CB,DEF,True,90
+M0001,Brentford,Michael Kayode,LB,DEF,False,0
+M0001,Brentford,Rico Henry,CB,DEF,True,90
+M0001,Brentford,Aaron Hickey,RB,DEF,False,0
+M0001,Brentford,Ethan Pinnock,LB,DEF,True,90
+M0001,Brentford,Kim Ji-soo,RB,DEF,True,90
+M0001,Brentford,Jannik Schuster,CB,DEF,False,0
+M0001,Brentford,Keane Lewis-Potter,DM,MID,False,0
+M0001,Brentford,Kevin Schade,CM,MID,False,0
+M0001,Brentford,Dango Ouattara,AM,MID,True,90
+M0001,Brentford,Mikkel Damsgaard,RW,MID,False,0
+M0001,Brentford,Mathias Jensen,LW,MID,False,0
+M0001,Brentford,Vitaly Janelt,CM,MID,True,90
+M0001,Brentford,Antoni Milambo,AM,MID,False,0
+M0001,Brentford,Fábio Freitas Gouveia Carvalho,DM,MID,True,90
+M0001,Brentford,Jordan Henderson,DM,MID,False,0
+M0001,Brentford,Yehor Yarmoliuk,CM,MID,True,90
+M0001,Brentford,Josh Dasilva,AM,MID,True,90
+M0001,Brentford,Jaidon Anthony,RW,MID,False,0
+M0001,Brentford,Igor Thiago Nascimento Rodrigues,ST,FWD,False,0
+M0001,Brentford,Kaye Furo,RW,FWD,False,0
+M0001,Brentford,Callum Wilson,LW,FWD,True,90
+M0001,Arsenal,David Raya Martín,GK,GK,True,90
+M0001,Arsenal,Kepa Arrizabalaga Revuelta,GK,GK,False,0
+M0001,Arsenal,Illan Meslier,GK,GK,False,0
+M0001,Arsenal,Gabriel dos Santos Magalhães,RB,DEF,False,0
+M0001,Arsenal,Jurriën Timber,CB,DEF,False,0
+M0001,Arsenal,William Saliba,CB,DEF,True,90
+M0001,Arsenal,Riccardo Calafiori,LB,DEF,True,90
+M0001,Arsenal,Piero Hincapié,CB,DEF,True,90
+M0001,Arsenal,Benjamin White,RB,DEF,True,90
+M0001,Arsenal,Cristhian Mosquera,LB,DEF,False,0
+M0001,Arsenal,Myles Lewis-Skelly,DM,MID,True,90
+M0001,Arsenal,Bukayo Saka,CM,MID,False,0
+M0001,Arsenal,Declan Rice,AM,MID,False,0
+M0001,Arsenal,Eberechi Eze,RW,MID,False,0
+M0001,Arsenal,Martin Ødegaard,LW,MID,True,90
+M0001,Arsenal,Noni Madueke,CM,MID,False,0
+M0001,Arsenal,Mikel Merino Zazón,AM,MID,False,0
+M0001,Arsenal,Gabriel Martinelli Silva,DM,MID,True,90
+M0001,Arsenal,Martín Zubimendi Ibáñez,DM,MID,False,0
+M0001,Arsenal,Max Dowman,CM,MID,False,0
+M0001,Arsenal,Christian Nørgaard,AM,MID,False,0
+M0001,Arsenal,Ethan Nwaneri,RW,MID,True,90
+M0001,Arsenal,Fábio Ferreira Vieira,LW,MID,False,0
+M0001,Arsenal,Reiss Nelson,CM,MID,True,90
+M0001,Arsenal,Christos Tzolis,AM,MID,False,0
+M0001,Arsenal,Viktor Gyökeres,ST,FWD,False,0
+M0001,Arsenal,Kai Havertz,RW,FWD,True,90
+M0001,Arsenal,Gabriel Fernando de Jesus,LW,FWD,False,0
+M0002,Newcastle,Nick Pope,GK,GK,False,0
+M0002,Newcastle,Mark Gillespie,GK,GK,True,90
+M0002,Newcastle,Ewen Jaouen,GK,GK,False,0
+M0002,Newcastle,Malick Thiaw,RB,DEF,True,90
+M0002,Newcastle,Fabian Schär,CB,DEF,False,0
+M0002,Newcastle,Sven Botman,CB,DEF,False,0
+M0002,Newcastle,Dan Burn,LB,DEF,True,90
+M0002,Newcastle,Lewis Hall,CB,DEF,True,90
+M0002,Newcastle,Tino Livramento,RB,DEF,True,90
+M0002,Newcastle,Alex Murphy,LB,DEF,False,0
+M0002,Newcastle,Bruno Guimarães Rodriguez Moura,DM,MID,False,0
+M0002,Newcastle,Harvey Barnes,CM,MID,False,0
+M0002,Newcastle,Anthony Elanga,AM,MID,False,0
+M0002,Newcastle,Jacob Ramsey,RW,MID,False,0
+M0002,Newcastle,Jacob Murphy,LW,MID,True,90
+M0002,Newcastle,Joelinton Cássio Apolinário de Lira,CM,MID,False,0
+M0002,Newcastle,Lewis Miley,AM,MID,True,90
+M0002,Newcastle,Joe Willock,DM,MID,True,90
+M0002,Newcastle,Bazoumana Touré,DM,MID,False,0
+M0002,Newcastle,Sean Steur,CM,MID,True,90
+M0002,Newcastle,Aladji Bamba,AM,MID,True,90
+M0002,Newcastle,Nick Woltemade,ST,FWD,False,0
+M0002,Newcastle,Yoane Wissa,RW,FWD,False,0
+M0002,Newcastle,William Osula,LW,FWD,False,0
+M0002,Newcastle,Sean Neave,ST,FWD,True,90
+M0002,Sunderland,Robin Roefs,GK,GK,True,90
+M0002,Sunderland,Anthony Patterson,GK,GK,False,0
+M0002,Sunderland,Melker Ellborg,GK,GK,False,0
+M0002,Sunderland,Daniel Ballard,RB,DEF,False,0
+M0002,Sunderland,Nordi Mukiele,CB,DEF,True,90
+M0002,Sunderland,Trai Hume,CB,DEF,False,0
+M0002,Sunderland,Omar Alderete,LB,DEF,False,0
+M0002,Sunderland,Reinildo Mandava,CB,DEF,False,0
+M0002,Sunderland,Jenson Seelt,RB,DEF,True,90
+M0002,Sunderland,Leo Fuhr Hjelde,LB,DEF,False,0
+M0002,Sunderland,Luke O'Nien,RB,DEF,True,90
+M0002,Sunderland,Arthur Masuaku,CB,DEF,False,0
+M0002,Sunderland,Thomas Meunier,CB,DEF,True,90
+M0002,Sunderland,Enzo Le Fée,DM,MID,True,90
+M0002,Sunderland,Habib Diarra,CM,MID,True,90
+M0002,Sunderland,Granit Xhaka,AM,MID,False,0
+M0002,Sunderland,Noah Sadiki,RW,MID,False,0
+M0002,Sunderland,Simon Adingra,LW,MID,True,90
+M0002,Sunderland,Romaine Mundle,CM,MID,True,90
+M0002,Sunderland,Chris Rigg,AM,MID,False,0
+M0002,Sunderland,Chemsdine Talbi,DM,MID,False,0
+M0002,Sunderland,Djiamgone Jocelin Ta Bi,DM,MID,False,0
+M0002,Sunderland,Nilson Angulo,CM,MID,True,90
+M0002,Sunderland,Brian Brobbey,ST,FWD,True,90
+M0002,Sunderland,Wilson Isidor,RW,FWD,False,0
+M0003,Spurs,Guglielmo Vicario,GK,GK,False,0
+M0003,Spurs,Brandon Austin,GK,GK,False,0
+M0003,Spurs,Antonín Kinský,GK,GK,True,90
+M0003,Spurs,Martin Dubravka,GK,GK,False,0
+M0003,Spurs,Jan Paul van Hecke,RB,DEF,True,90
+M0003,Spurs,Marcos Senesi Barón,CB,DEF,True,90
+M0003,Spurs,Pedro Porro Sauceda,CB,DEF,False,0
+M0003,Spurs,Cristian Romero,LB,DEF,False,0
+M0003,Spurs,Kevin Danso,CB,DEF,False,0
+M0003,Spurs,Andrew Robertson,RB,DEF,True,90
+M0003,Spurs,Micky van de Ven,LB,DEF,False,0
+M0003,Spurs,Djed Spence,RB,DEF,False,0
+M0003,Spurs,Destiny Udogie,CB,DEF,False,0
+M0003,Spurs,Ashley Phillips,CB,DEF,False,0
+M0003,Spurs,Ben Davies,LB,DEF,True,90
+M0003,Spurs,Jun'ai Byfield,CB,DEF,False,0
+M0003,Spurs,James Rowswell,RB,DEF,False,0
+M0003,Spurs,João Victor de Souza Menezes,LB,DEF,False,0
+M0003,Spurs,Sandro Tonali,DM,MID,False,0
+M0003,Spurs,Mohammed Kudus,CM,MID,True,90
+M0003,Spurs,Xavi Simons,AM,MID,True,90
+M0003,Spurs,Mathys Tel,RW,MID,False,0
+M0003,Spurs,James Maddison,LW,MID,True,90
+M0003,Spurs,Rodrigo Bentancur,CM,MID,True,90
+M0003,Spurs,Wilson Odobert,AM,MID,False,0
+M0003,Spurs,Pape Matar Sarr,DM,MID,False,0
+M0003,Spurs,Conor Gallagher,DM,MID,False,0
+M0003,Spurs,Lucas Bergvall,CM,MID,False,0
+M0003,Spurs,Dejan Kulusevski,AM,MID,False,0
+M0003,Spurs,Archie Gray,RW,MID,False,0
+M0003,Spurs,Mikey Moore,LW,MID,False,0
+M0003,Spurs,Callum Olusesi,CM,MID,False,0
+M0003,Spurs,Mateus Fernandes,AM,MID,True,90
+M0003,Spurs,Dominic Solanke-Mitchell,ST,FWD,False,0
+M0003,Spurs,Richarlison de Andrade,RW,FWD,True,90
+M0003,Spurs,Dane Scarlett,LW,FWD,False,0
+M0003,Hull City,Dillon Phillips,GK,GK,True,90
+M0003,Hull City,Jack Butland,GK,GK,False,0
+M0003,Hull City,Harvey Cartwright,GK,GK,False,0
+M0003,Hull City,Thimothée Lo-Tutala,GK,GK,False,0
+M0003,Hull City,John Egan,RB,DEF,False,0
+M0003,Hull City,Charlie Hughes,CB,DEF,False,0
+M0003,Hull City,Semi Ajayi,CB,DEF,True,90
+M0003,Hull City,Lewie Coyle,LB,DEF,False,0
+M0003,Hull City,Cody Drameh,CB,DEF,False,0
+M0003,Hull City,Ryan Giles,RB,DEF,True,90
+M0003,Hull City,Matty Jacob,LB,DEF,True,90
+M0003,Hull City,Cathal McCarthy,RB,DEF,True,90
+M0003,Hull City,Paddy McNair,CB,DEF,False,0
+M0003,Hull City,Matt Targett,CB,DEF,False,0
+M0003,Hull City,Mohamed Belloumi,DM,MID,False,0
+M0003,Hull City,Liam Millar,CM,MID,False,0
+M0003,Hull City,Kieran Dowell,AM,MID,True,90
+M0003,Hull City,Matt Crooks,RW,MID,False,0
+M0003,Hull City,Regan Slater,LW,MID,True,90
+M0003,Hull City,Eliot Matazo,CM,MID,False,0
+M0003,Hull City,Abdülkadir Ömür,AM,MID,False,0
+M0003,Hull City,Abu Kamara,DM,MID,True,90
+M0003,Hull City,Óscar Zambrano,DM,MID,True,90
+M0003,Hull City,David Akintola,CM,MID,False,0
+M0003,Hull City,Darko Gyabi,AM,MID,False,0
+M0003,Hull City,Hidemasa Morita,RW,MID,True,90
+M0003,Hull City,Oli McBurnie,ST,FWD,True,90
+M0003,Hull City,Enis Destan,RW,FWD,False,0
+M0003,Hull City,Mason Burstow,LW,FWD,False,0
+M0004,Man City,Gianluigi Donnarumma,GK,GK,False,0
+M0004,Man City,James Trafford,GK,GK,False,0
+M0004,Man City,Marcus Bettinelli,GK,GK,True,90
+M0004,Man City,Nico O'Reilly,RB,DEF,False,0
+M0004,Man City,Marc Guéhi,CB,DEF,True,90
+M0004,Man City,Matheus Nunes,CB,DEF,True,90
+M0004,Man City,Rúben dos Santos Gato Alves Dias,LB,DEF,False,0
+M0004,Man City,Joško Gvardiol,CB,DEF,True,90
+M0004,Man City,Rayan Aït-Nouri,RB,DEF,False,0
+M0004,Man City,Abdukodir Khusanov,LB,DEF,False,0
+M0004,Man City,Max Alleyne,RB,DEF,True,90
+M0004,Man City,Rico Lewis,CB,DEF,False,0
+M0004,Man City,Vitor de Oliveira Nunes dos Reis,CB,DEF,False,0
+M0004,Man City,Jack Grealish,DM,MID,True,90
+M0004,Man City,Antoine Semenyo,CM,MID,True,90
+M0004,Man City,Phil Foden,AM,MID,False,0
+M0004,Man City,Rayan Cherki,RW,MID,False,0
+M0004,Man City,Jérémy Doku,LW,MID,True,90
+M0004,Man City,Rodrigo 'Rodri' Hernandez Cascante,CM,MID,True,90
+M0004,Man City,Sávio Moreira de Oliveira,AM,MID,False,0
+M0004,Man City,Tijjani Reijnders,DM,MID,False,0
+M0004,Man City,Nico González Iglesias,DM,MID,True,90
+M0004,Man City,Mateo Kovačić,CM,MID,False,0
+M0004,Man City,Claudio Echeverri,AM,MID,False,0
+M0004,Man City,Kalvin Phillips,RW,MID,False,0
+M0004,Man City,Divine Mukasa,LW,MID,False,0
+M0004,Man City,Jeremy Monga,CM,MID,False,0
+M0004,Man City,Elliot Anderson,AM,MID,False,0
+M0004,Man City,Omar Marmoush,ST,FWD,True,90
+M0004,Man City,Erling Haaland,RW,FWD,False,0
+M0004,Hull City,Dillon Phillips,GK,GK,False,0
+M0004,Hull City,Jack Butland,GK,GK,False,0
+M0004,Hull City,Harvey Cartwright,GK,GK,False,0
+M0004,Hull City,Thimothée Lo-Tutala,GK,GK,True,90
+M0004,Hull City,John Egan,RB,DEF,False,0
+M0004,Hull City,Charlie Hughes,CB,DEF,True,90
+M0004,Hull City,Semi Ajayi,CB,DEF,True,90
+M0004,Hull City,Lewie Coyle,LB,DEF,False,0
+M0004,Hull City,Cody Drameh,CB,DEF,False,0
+M0004,Hull City,Ryan Giles,RB,DEF,True,90
+M0004,Hull City,Matty Jacob,LB,DEF,False,0
+M0004,Hull City,Cathal McCarthy,RB,DEF,False,0
+M0004,Hull City,Paddy McNair,CB,DEF,False,0
+M0004,Hull City,Matt Targett,CB,DEF,True,90
+M0004,Hull City,Mohamed Belloumi,DM,MID,False,0
+M0004,Hull City,Liam Millar,CM,MID,True,90
+M0004,Hull City,Kieran Dowell,AM,MID,False,0
+M0004,Hull City,Matt Crooks,RW,MID,False,0
+M0004,Hull City,Regan Slater,LW,MID,False,0
+M0004,Hull City,Eliot Matazo,CM,MID,False,0
+M0004,Hull City,Abdülkadir Ömür,AM,MID,False,0
+M0004,Hull City,Abu Kamara,DM,MID,True,90
+M0004,Hull City,Óscar Zambrano,DM,MID,True,90
+M0004,Hull City,David Akintola,CM,MID,True,90
+M0004,Hull City,Darko Gyabi,AM,MID,True,90
+M0004,Hull City,Hidemasa Morita,RW,MID,False,0
+M0004,Hull City,Oli McBurnie,ST,FWD,False,0
+M0004,Hull City,Enis Destan,RW,FWD,True,90
+M0004,Hull City,Mason Burstow,LW,FWD,False,0
+M0005,Arsenal,David Raya Martín,GK,GK,True,90
+M0005,Arsenal,Kepa Arrizabalaga Revuelta,GK,GK,False,0
+M0005,Arsenal,Illan Meslier,GK,GK,False,0
+M0005,Arsenal,Gabriel dos Santos Magalhães,RB,DEF,True,90
+M0005,Arsenal,Jurriën Timber,CB,DEF,False,0
+M0005,Arsenal,William Saliba,CB,DEF,False,0
+M0005,Arsenal,Riccardo Calafiori,LB,DEF,True,90
+M0005,Arsenal,Piero Hincapié,CB,DEF,False,0
+M0005,Arsenal,Benjamin White,RB,DEF,True,90
+M0005,Arsenal,Cristhian Mosquera,LB,DEF,True,90
+M0005,Arsenal,Myles Lewis-Skelly,DM,MID,False,0
+M0005,Arsenal,Bukayo Saka,CM,MID,True,90
+M0005,Arsenal,Declan Rice,AM,MID,False,0
+M0005,Arsenal,Eberechi Eze,RW,MID,True,90
+M0005,Arsenal,Martin Ødegaard,LW,MID,True,90
+M0005,Arsenal,Noni Madueke,CM,MID,False,0
+M0005,Arsenal,Mikel Merino Zazón,AM,MID,False,0
+M0005,Arsenal,Gabriel Martinelli Silva,DM,MID,False,0
+M0005,Arsenal,Martín Zubimendi Ibáñez,DM,MID,False,0
+M0005,Arsenal,Max Dowman,CM,MID,False,0
+M0005,Arsenal,Christian Nørgaard,AM,MID,False,0
+M0005,Arsenal,Ethan Nwaneri,RW,MID,False,0
+M0005,Arsenal,Fábio Ferreira Vieira,LW,MID,True,90
+M0005,Arsenal,Reiss Nelson,CM,MID,True,90
+M0005,Arsenal,Christos Tzolis,AM,MID,False,0
+M0005,Arsenal,Viktor Gyökeres,ST,FWD,True,90
+M0005,Arsenal,Kai Havertz,RW,FWD,False,0
+M0005,Arsenal,Gabriel Fernando de Jesus,LW,FWD,False,0
+M0005,Crystal Palace,Dean Henderson,GK,GK,True,90
+M0005,Crystal Palace,Walter Benítez,GK,GK,False,0
+M0005,Crystal Palace,Remi Matthews,GK,GK,False,0
+M0005,Crystal Palace,Maxence Lacroix,RB,DEF,False,0
+M0005,Crystal Palace,Daniel Muñoz Mejía,CB,DEF,False,0
+M0005,Crystal Palace,Chris Richards,CB,DEF,False,0
+M0005,Crystal Palace,Jaydee Canvot,LB,DEF,True,90
+M0005,Crystal Palace,Tyrick Mitchell,CB,DEF,True,90
+M0005,Crystal Palace,Borna Sosa,RB,DEF,False,0
+M0005,Crystal Palace,Chadi Riad Dnanou,LB,DEF,False,0
+M0005,Crystal Palace,Oscar Mingueza,RB,DEF,True,90
+M0005,Crystal Palace,Rio Cardines,CB,DEF,True,90
+M0005,Crystal Palace,Ismaïla Sarr,DM,MID,False,0
+M0005,Crystal Palace,Brennan Johnson,CM,MID,True,90
+M0005,Crystal Palace,Adam Wharton,AM,MID,False,0
+M0005,Crystal Palace,Yéremy Pino Santos,RW,MID,True,90
+M0005,Crystal Palace,Will Hughes,LW,MID,True,90
+M0005,Crystal Palace,Jefferson Lerma Solís,CM,MID,False,0
+M0005,Crystal Palace,Daichi Kamada,AM,MID,False,0
+M0005,Crystal Palace,Justin Devenny,DM,MID,False,0
+M0005,Crystal Palace,Romain Esse,DM,MID,True,90
+M0005,Crystal Palace,Matheus França de Oliveira,CM,MID,True,90
+M0005,Crystal Palace,Cheick Doucouré,AM,MID,False,0
+M0005,Crystal Palace,Jesurun Rak-Sakyi,RW,MID,False,0
+M0005,Crystal Palace,Joél Drakes-Thomas,LW,MID,False,0
+M0005,Crystal Palace,Jørgen Strand Larsen,ST,FWD,True,90
+M0005,Crystal Palace,Jean-Philippe Mateta,RW,FWD,False,0
+M0005,Crystal Palace,Eddie Nketiah,LW,FWD,False,0
+M0005,Crystal Palace,Christantus Uche,ST,FWD,False,0
+M0006,Man Utd,Karl Darlow,GK,GK,False,0
+M0006,Man Utd,Senne Lammens,GK,GK,True,90
+M0006,Man Utd,Altay Bayındır,GK,GK,False,0
+M0006,Man Utd,Tom Heaton,GK,GK,False,0
+M0006,Man Utd,Matthijs de Ligt,RB,DEF,True,90
+M0006,Man Utd,Diogo Dalot Teixeira,CB,DEF,False,0
+M0006,Man Utd,Harry Maguire,CB,DEF,False,0
+M0006,Man Utd,Lisandro Martínez,LB,DEF,False,0
+M0006,Man Utd,Leny Yoro,CB,DEF,False,0
+M0006,Man Utd,Ayden Heaven,RB,DEF,True,90
+M0006,Man Utd,Noussair Mazraoui,LB,DEF,False,0
+M0006,Man Utd,Luke Shaw,RB,DEF,False,0
+M0006,Man Utd,Harry Amass,CB,DEF,True,90
+M0006,Man Utd,Tyler Fredricson,CB,DEF,True,90
+M0006,Man Utd,Youri Tielemans,DM,MID,False,0
+M0006,Man Utd,Andrey Nascimento dos Santos,CM,MID,False,0
+M0006,Man Utd,Patrick Dorgu,AM,MID,False,0
+M0006,Man Utd,Bruno Borges Fernandes,RW,MID,True,90
+M0006,Man Utd,Bryan Mbeumo,LW,MID,True,90
+M0006,Man Utd,Matheus Santos Carneiro da Cunha,CM,MID,False,0
+M0006,Man Utd,Marcus Rashford,AM,MID,True,90
+M0006,Man Utd,Mason Mount,DM,MID,False,0
+M0006,Man Utd,Amad Diallo,DM,MID,True,90
+M0006,Man Utd,Kobbie Mainoo,CM,MID,False,0
+M0006,Man Utd,Manuel Ugarte Ribeiro,AM,MID,True,90
+M0006,Man Utd,Jack Fletcher,RW,MID,False,0
+M0006,Man Utd,Shea Lacey,LW,MID,False,0
+M0006,Man Utd,Toby Collyer,CM,MID,False,0
+M0006,Man Utd,Bendito Mantato,AM,MID,False,0
+M0006,Man Utd,Tyler Fletcher,DM,MID,False,0
+M0006,Man Utd,Benjamin Sesko,ST,FWD,False,0
+M0006,Man Utd,Joshua Zirkzee,RW,FWD,False,0
+M0006,Man Utd,Chido Obi,LW,FWD,True,90
+M0006,Chelsea,Robert Lynch Sánchez,GK,GK,True,90
+M0006,Chelsea,Filip Jörgensen,GK,GK,False,0
+M0006,Chelsea,Mike Penders,GK,GK,False,0
+M0006,Chelsea,Reece James,RB,DEF,True,90
+M0006,Chelsea,Trevoh Chalobah,CB,DEF,False,0
+M0006,Chelsea,Malo Gusto,CB,DEF,False,0
+M0006,Chelsea,Wesley Fofana,LB,DEF,True,90
+M0006,Chelsea,Benoît Badiashile Mukinayi,CB,DEF,True,90
+M0006,Chelsea,Tosin Adarabioyo,RB,DEF,False,0
+M0006,Chelsea,Jorrel Hato,LB,DEF,False,0
+M0006,Chelsea,Levi Samuels Colwill,RB,DEF,False,0
+M0006,Chelsea,Mamadou Sarr,CB,DEF,False,0
+M0006,Chelsea,Josh Acheampong,CB,DEF,False,0
+M0006,Chelsea,Marco Palestra,LB,DEF,False,0
+M0006,Chelsea,Axel Disasi,CB,DEF,False,0
+M0006,Chelsea,Aaron Anselmino,RB,DEF,True,90
+M0006,Chelsea,Morgan Rogers,DM,MID,False,0
+M0006,Chelsea,Cole Palmer,CM,MID,True,90
+M0006,Chelsea,Enzo Fernández,AM,MID,True,90
+M0006,Chelsea,Pedro Lomba Neto,RW,MID,False,0
+M0006,Chelsea,Estêvão Almeida de Oliveira Gonçalves,LW,MID,True,90
+M0006,Chelsea,Jamie Bynoe-Gittens,CM,MID,False,0
+M0006,Chelsea,Moisés Caicedo Corozo,AM,MID,True,90
+M0006,Chelsea,Roméo Lavia,DM,MID,True,90
+M0006,Chelsea,Dário Luís Essugo,DM,MID,False,0
+M0006,Chelsea,Geovany Quenda,CM,MID,False,0
+M0006,Chelsea,João Pedro Junqueira de Jesus,ST,FWD,False,0
+M0006,Chelsea,Nicolas Jackson,RW,FWD,False,0
+M0006,Chelsea,Liam Delap,LW,FWD,False,0
+M0006,Chelsea,Marc Guiu Paz,ST,FWD,True,90
+M0006,Chelsea,Shumaira Mheuka,ST,FWD,False,0
+M0006,Chelsea,Emmanuel Emegha,RW,FWD,False,0
+M0007,Ipswich Town,Christian Walton,GK,GK,False,0
+M0007,Ipswich Town,Alex Palmer,GK,GK,False,0
+M0007,Ipswich Town,David Button,GK,GK,False,0
+M0007,Ipswich Town,Kayne van Oevelen,GK,GK,False,0
+M0007,Ipswich Town,Kjell Scherpen,GK,GK,True,90
+M0007,Ipswich Town,Issa Diop,RB,DEF,True,90
+M0007,Ipswich Town,Cédric Kipré,CB,DEF,False,0
+M0007,Ipswich Town,Dara O'Shea,CB,DEF,True,90
+M0007,Ipswich Town,Leif Davis,LB,DEF,False,0
+M0007,Ipswich Town,Jacob Greaves,CB,DEF,False,0
+M0007,Ipswich Town,Ben Johnson,RB,DEF,True,90
+M0007,Ipswich Town,Darnell Furlong,LB,DEF,True,90
+M0007,Ipswich Town,Marcelino Núñez,DM,MID,False,0
+M0007,Ipswich Town,Azor Matusiwa,CM,MID,True,90
+M0007,Ipswich Town,Wes Burns,AM,MID,False,0
+M0007,Ipswich Town,Jack Taylor,RW,MID,False,0
+M0007,Ipswich Town,Jack Clarke,LW,MID,False,0
+M0007,Ipswich Town,Chiedozie Ogbene,CM,MID,True,90
+M0007,Ipswich Town,Abdul Fatawu,AM,MID,True,90
+M0007,Ipswich Town,Jaden Philogene,DM,MID,True,90
+M0007,Ipswich Town,Sam Szmodics,DM,MID,True,90
+M0007,Ipswich Town,Kasey McAteer,CM,MID,False,0
+M0007,Ipswich Town,Anis Mehmeti,AM,MID,False,0
+M0007,Ipswich Town,Daizen Maeda,RW,MID,False,0
+M0007,Ipswich Town,Emersonn Correia da Silva,ST,FWD,False,0
+M0007,Ipswich Town,George Hirst,RW,FWD,False,0
+M0007,Ipswich Town,Chuba Akpom,LW,FWD,False,0
+M0007,Ipswich Town,Sindre Walle Egeli,ST,FWD,True,90
+M0007,Ipswich Town,Ali Al-Hamadi,ST,FWD,False,0
+M0007,Sunderland,Robin Roefs,GK,GK,True,90
+M0007,Sunderland,Anthony Patterson,GK,GK,False,0
+M0007,Sunderland,Melker Ellborg,GK,GK,False,0
+M0007,Sunderland,Daniel Ballard,RB,DEF,False,0
+M0007,Sunderland,Nordi Mukiele,CB,DEF,True,90
+M0007,Sunderland,Trai Hume,CB,DEF,False,0
+M0007,Sunderland,Omar Alderete,LB,DEF,False,0
+M0007,Sunderland,Reinildo Mandava,CB,DEF,True,90
+M0007,Sunderland,Jenson Seelt,RB,DEF,False,0
+M0007,Sunderland,Leo Fuhr Hjelde,LB,DEF,True,90
+M0007,Sunderland,Luke O'Nien,RB,DEF,True,90
+M0007,Sunderland,Arthur Masuaku,CB,DEF,False,0
+M0007,Sunderland,Thomas Meunier,CB,DEF,False,0
+M0007,Sunderland,Enzo Le Fée,DM,MID,True,90
+M0007,Sunderland,Habib Diarra,CM,MID,False,0
+M0007,Sunderland,Granit Xhaka,AM,MID,False,0
+M0007,Sunderland,Noah Sadiki,RW,MID,False,0
+M0007,Sunderland,Simon Adingra,LW,MID,True,90
+M0007,Sunderland,Romaine Mundle,CM,MID,True,90
+M0007,Sunderland,Chris Rigg,AM,MID,True,90
+M0007,Sunderland,Chemsdine Talbi,DM,MID,True,90
+M0007,Sunderland,Djiamgone Jocelin Ta Bi,DM,MID,False,0
+M0007,Sunderland,Nilson Angulo,CM,MID,False,0
+M0007,Sunderland,Brian Brobbey,ST,FWD,False,0
+M0007,Sunderland,Wilson Isidor,RW,FWD,True,90
+M0008,Man City,Gianluigi Donnarumma,GK,GK,True,90
+M0008,Man City,James Trafford,GK,GK,False,0
+M0008,Man City,Marcus Bettinelli,GK,GK,False,0
+M0008,Man City,Nico O'Reilly,RB,DEF,True,90
+M0008,Man City,Marc Guéhi,CB,DEF,False,0
+M0008,Man City,Matheus Nunes,CB,DEF,True,90
+M0008,Man City,Rúben dos Santos Gato Alves Dias,LB,DEF,True,90
+M0008,Man City,Joško Gvardiol,CB,DEF,False,0
+M0008,Man City,Rayan Aït-Nouri,RB,DEF,False,0
+M0008,Man City,Abdukodir Khusanov,LB,DEF,False,0
+M0008,Man City,Max Alleyne,RB,DEF,True,90
+M0008,Man City,Rico Lewis,CB,DEF,False,0
+M0008,Man City,Vitor de Oliveira Nunes dos Reis,CB,DEF,False,0
+M0008,Man City,Jack Grealish,DM,MID,False,0
+M0008,Man City,Antoine Semenyo,CM,MID,True,90
+M0008,Man City,Phil Foden,AM,MID,False,0
+M0008,Man City,Rayan Cherki,RW,MID,False,0
+M0008,Man City,Jérémy Doku,LW,MID,False,0
+M0008,Man City,Rodrigo 'Rodri' Hernandez Cascante,CM,MID,False,0
+M0008,Man City,Sávio Moreira de Oliveira,AM,MID,False,0
+M0008,Man City,Tijjani Reijnders,DM,MID,False,0
+M0008,Man City,Nico González Iglesias,DM,MID,False,0
+M0008,Man City,Mateo Kovačić,CM,MID,False,0
+M0008,Man City,Claudio Echeverri,AM,MID,True,90
+M0008,Man City,Kalvin Phillips,RW,MID,True,90
+M0008,Man City,Divine Mukasa,LW,MID,False,0
+M0008,Man City,Jeremy Monga,CM,MID,True,90
+M0008,Man City,Elliot Anderson,AM,MID,True,90
+M0008,Man City,Omar Marmoush,ST,FWD,False,0
+M0008,Man City,Erling Haaland,RW,FWD,True,90
+M0008,Nott'm Forest,Matz Sels,GK,GK,True,90
+M0008,Nott'm Forest,John Victor Maciel Furtado,GK,GK,False,0
+M0008,Nott'm Forest,Neco Williams,RB,DEF,True,90
+M0008,Nott'm Forest,Felipe Rodrigues da Silva,CB,DEF,False,0
+M0008,Nott'm Forest,Nikola Milenković,CB,DEF,True,90
+M0008,Nott'm Forest,Murillo Costa dos Santos,LB,DEF,False,0
+M0008,Nott'm Forest,Ola Aina,CB,DEF,False,0
+M0008,Nott'm Forest,Jair Paula da Cunha Filho,RB,DEF,True,90
+M0008,Nott'm Forest,Nicolò Savona,LB,DEF,False,0
+M0008,Nott'm Forest,Omar Richards,RB,DEF,False,0
+M0008,Nott'm Forest,Zach Abbott,CB,DEF,False,0
+M0008,Nott'm Forest,Luca Netz,CB,DEF,True,90
+M0008,Nott'm Forest,Tyler Bindon,LB,DEF,False,0
+M0008,Nott'm Forest,Morgan Gibbs-White,DM,MID,True,90
+M0008,Nott'm Forest,Callum Hudson-Odoi,CM,MID,True,90
+M0008,Nott'm Forest,Dan Ndoye,AM,MID,True,90
+M0008,Nott'm Forest,Omari Hutchinson,RW,MID,False,0
+M0008,Nott'm Forest,Dilane Bakwa,LW,MID,False,0
+M0008,Nott'm Forest,James McAtee,CM,MID,False,0
+M0008,Nott'm Forest,Nicolás Domínguez,AM,MID,True,90
+M0008,Nott'm Forest,Ibrahim Sangaré,DM,MID,False,0
+M0008,Nott'm Forest,Ryan Yates,DM,MID,True,90
+M0008,Nott'm Forest,Xaver Schlager,CM,MID,False,0
+M0008,Nott'm Forest,Chris Wood,ST,FWD,True,90
+M0008,Nott'm Forest,Igor Jesus Maciel da Cruz,RW,FWD,False,0
+M0008,Nott'm Forest,Taiwo Awoniyi,LW,FWD,False,0
+M0008,Nott'm Forest,Arnaud Kalimuendo,ST,FWD,False,0
+M0009,Aston Villa,Emiliano Martínez Romero,GK,GK,True,90
+M0009,Aston Villa,Marco Bizot,GK,GK,False,0
+M0009,Aston Villa,Lucas Digne,RB,DEF,False,0
+M0009,Aston Villa,Ezri Konsa Ngoyo,CB,DEF,False,0
+M0009,Aston Villa,Matty Cash,CB,DEF,True,90
+M0009,Aston Villa,Tyrone Mings,LB,DEF,True,90
+M0009,Aston Villa,Pau Torres,CB,DEF,False,0
+M0009,Aston Villa,Ian Maatsen,RB,DEF,True,90
+M0009,Aston Villa,Victor Lindelöf,LB,DEF,False,0
+M0009,Aston Villa,Andrés García,RB,DEF,False,0
+M0009,Aston Villa,Kosta Nedeljkovic,CB,DEF,True,90
+M0009,Aston Villa,Lamare Bogarde,DM,MID,True,90
+M0009,Aston Villa,Emiliano Buendía Stati,CM,MID,False,0
+M0009,Aston Villa,Evann Guessand,AM,MID,False,0
+M0009,Aston Villa,Leon Bailey,RW,MID,False,0
+M0009,Aston Villa,John McGinn,LW,MID,False,0
+M0009,Aston Villa,Ross Barkley,CM,MID,False,0
+M0009,Aston Villa,Boubacar Kamara,AM,MID,True,90
+M0009,Aston Villa,Amadou Onana,DM,MID,False,0
+M0009,Aston Villa,Samuel Iling-Junior,DM,MID,False,0
+M0009,Aston Villa,Bradley Burrowes,CM,MID,False,0
+M0009,Aston Villa,George Hemmings,AM,MID,True,90
+M0009,Aston Villa,Alysson Edward Franco da Rocha dos Santos,RW,MID,False,0
+M0009,Aston Villa,Johan Manzambi,LW,MID,True,90
+M0009,Aston Villa,Joao Gomes,CM,MID,False,0
+M0009,Aston Villa,Alejandro Garnacho Ferreyra,AM,MID,True,90
+M0009,Aston Villa,Ollie Watkins,ST,FWD,False,0
+M0009,Aston Villa,Tammy Abraham,RW,FWD,True,90
+M0009,Nott'm Forest,Matz Sels,GK,GK,True,90
+M0009,Nott'm Forest,John Victor Maciel Furtado,GK,GK,False,0
+M0009,Nott'm Forest,Neco Williams,RB,DEF,False,0
+M0009,Nott'm Forest,Felipe Rodrigues da Silva,CB,DEF,True,90
+M0009,Nott'm Forest,Nikola Milenković,CB,DEF,False,0
+M0009,Nott'm Forest,Murillo Costa dos Santos,LB,DEF,False,0
+M0009,Nott'm Forest,Ola Aina,CB,DEF,True,90
+M0009,Nott'm Forest,Jair Paula da Cunha Filho,RB,DEF,False,0
+M0009,Nott'm Forest,Nicolò Savona,LB,DEF,True,90
+M0009,Nott'm Forest,Omar Richards,RB,DEF,False,0
+M0009,Nott'm Forest,Zach Abbott,CB,DEF,True,90
+M0009,Nott'm Forest,Luca Netz,CB,DEF,False,0
+M0009,Nott'm Forest,Tyler Bindon,LB,DEF,False,0
+M0009,Nott'm Forest,Morgan Gibbs-White,DM,MID,False,0
+M0009,Nott'm Forest,Callum Hudson-Odoi,CM,MID,True,90
+M0009,Nott'm Forest,Dan Ndoye,AM,MID,False,0
+M0009,Nott'm Forest,Omari Hutchinson,RW,MID,True,90
+M0009,Nott'm Forest,Dilane Bakwa,LW,MID,True,90
+M0009,Nott'm Forest,James McAtee,CM,MID,False,0
+M0009,Nott'm Forest,Nicolás Domínguez,AM,MID,True,90
+M0009,Nott'm Forest,Ibrahim Sangaré,DM,MID,False,0
+M0009,Nott'm Forest,Ryan Yates,DM,MID,False,0
+M0009,Nott'm Forest,Xaver Schlager,CM,MID,True,90
+M0009,Nott'm Forest,Chris Wood,ST,FWD,False,0
+M0009,Nott'm Forest,Igor Jesus Maciel da Cruz,RW,FWD,False,0
+M0009,Nott'm Forest,Taiwo Awoniyi,LW,FWD,False,0
+M0009,Nott'm Forest,Arnaud Kalimuendo,ST,FWD,True,90
+M0010,Coventry City,Oliver Dovin,GK,GK,False,0
+M0010,Coventry City,Ben Wilson,GK,GK,True,90
+M0010,Coventry City,Bobby Thomas,RB,DEF,True,90
+M0010,Coventry City,Liam Kitching,CB,DEF,True,90
+M0010,Coventry City,Milan van Ewijk,CB,DEF,False,0
+M0010,Coventry City,Jay Dasilva,LB,DEF,False,0
+M0010,Coventry City,Kaine Kesler-Hayden,CB,DEF,False,0
+M0010,Coventry City,Jake Bidwell,RB,DEF,True,90
+M0010,Coventry City,Joel Latibeaudiere,LB,DEF,False,0
+M0010,Coventry City,Luke Woolfenden,RB,DEF,True,90
+M0010,Coventry City,Miguel Brau,CB,DEF,False,0
+M0010,Coventry City,Aurèle Amenda,CB,DEF,False,0
+M0010,Coventry City,Frank Onyeka,DM,MID,False,0
+M0010,Coventry City,Jack Rudoni,CM,MID,True,90
+M0010,Coventry City,Matt Grimes,AM,MID,False,0
+M0010,Coventry City,Tatsuhiro Sakamoto,RW,MID,True,90
+M0010,Coventry City,Ephron Mason-Clark,LW,MID,False,0
+M0010,Coventry City,Josh Eccles,CM,MID,True,90
+M0010,Coventry City,Victor Torp,AM,MID,False,0
+M0010,Coventry City,George Shepherd,DM,MID,False,0
+M0010,Coventry City,Loum Tchaouna,DM,MID,False,0
+M0010,Coventry City,Raphael Borges Rodrigues,CM,MID,True,90
+M0010,Coventry City,Kaine Andrews,AM,MID,True,90
+M0010,Coventry City,Haji Wright,ST,FWD,False,0
+M0010,Coventry City,Brandon Thomas-Asante,RW,FWD,False,0
+M0010,Coventry City,Ellis Simms,LW,FWD,True,90
+M0010,Coventry City,Jahnoah Markelo,ST,FWD,False,0
+M0010,Coventry City,Norman Bassette,ST,FWD,False,0
+M0010,Everton,Jordan Pickford,GK,GK,False,0
+M0010,Everton,Mark Travers,GK,GK,False,0
+M0010,Everton,Tom King,GK,GK,True,90
+M0010,Everton,James Tarkowski,RB,DEF,True,90
+M0010,Everton,Jarrad Branthwaite,CB,DEF,False,0
+M0010,Everton,Michael Keane,CB,DEF,True,90
+M0010,Everton,Jake O'Brien,LB,DEF,False,0
+M0010,Everton,Vitalii Mykolenko,CB,DEF,False,0
+M0010,Everton,Nathan Patterson,RB,DEF,True,90
+M0010,Everton,Adam Aznou,LB,DEF,True,90
+M0010,Everton,Kiernan Dewsbury-Hall,DM,MID,False,0
+M0010,Everton,Iliman Ndiaye,CM,MID,True,90
+M0010,Everton,James Garner,AM,MID,True,90
+M0010,Everton,Tim Iroegbunam,RW,MID,False,0
+M0010,Everton,Dwight McNeil,LW,MID,False,0
+M0010,Everton,Tyrique George,CM,MID,True,90
+M0010,Everton,Carlos Alcaraz Durán,AM,MID,True,90
+M0010,Everton,Harrison Armstrong,DM,MID,False,0
+M0010,Everton,Tyler Dibling,DM,MID,False,0
+M0010,Everton,Merlin Röhl,CM,MID,True,90
+M0010,Everton,Hayden Hackney,AM,MID,False,0
+M0010,Everton,Norberto Bercique Gomes Betuncal,ST,FWD,False,0
+M0010,Everton,Thierno Barry,RW,FWD,True,90
+M0011,Spurs,Guglielmo Vicario,GK,GK,False,0
+M0011,Spurs,Brandon Austin,GK,GK,False,0
+M0011,Spurs,Antonín Kinský,GK,GK,False,0
+M0011,Spurs,Martin Dubravka,GK,GK,True,90
+M0011,Spurs,Jan Paul van Hecke,RB,DEF,False,0
+M0011,Spurs,Marcos Senesi Barón,CB,DEF,False,0
+M0011,Spurs,Pedro Porro Sauceda,CB,DEF,False,0
+M0011,Spurs,Cristian Romero,LB,DEF,True,90
+M0011,Spurs,Kevin Danso,CB,DEF,False,0
+M0011,Spurs,Andrew Robertson,RB,DEF,False,0
+M0011,Spurs,Micky van de Ven,LB,DEF,False,0
+M0011,Spurs,Djed Spence,RB,DEF,False,0
+M0011,Spurs,Destiny Udogie,CB,DEF,True,90
+M0011,Spurs,Ashley Phillips,CB,DEF,False,0
+M0011,Spurs,Ben Davies,LB,DEF,False,0
+M0011,Spurs,Jun'ai Byfield,CB,DEF,False,0
+M0011,Spurs,James Rowswell,RB,DEF,True,90
+M0011,Spurs,João Victor de Souza Menezes,LB,DEF,True,90
+M0011,Spurs,Sandro Tonali,DM,MID,False,0
+M0011,Spurs,Mohammed Kudus,CM,MID,False,0
+M0011,Spurs,Xavi Simons,AM,MID,True,90
+M0011,Spurs,Mathys Tel,RW,MID,True,90
+M0011,Spurs,James Maddison,LW,MID,True,90
+M0011,Spurs,Rodrigo Bentancur,CM,MID,False,0
+M0011,Spurs,Wilson Odobert,AM,MID,True,90
+M0011,Spurs,Pape Matar Sarr,DM,MID,False,0
+M0011,Spurs,Conor Gallagher,DM,MID,False,0
+M0011,Spurs,Lucas Bergvall,CM,MID,True,90
+M0011,Spurs,Dejan Kulusevski,AM,MID,False,0
+M0011,Spurs,Archie Gray,RW,MID,False,0
+M0011,Spurs,Mikey Moore,LW,MID,False,0
+M0011,Spurs,Callum Olusesi,CM,MID,False,0
+M0011,Spurs,Mateus Fernandes,AM,MID,False,0
+M0011,Spurs,Dominic Solanke-Mitchell,ST,FWD,False,0
+M0011,Spurs,Richarlison de Andrade,RW,FWD,False,0
+M0011,Spurs,Dane Scarlett,LW,FWD,True,90
+M0011,Fulham,Bernd Leno,GK,GK,True,90
+M0011,Fulham,Benjamin Lecomte,GK,GK,False,0
+M0011,Fulham,Alfie McNally,GK,GK,False,0
+M0011,Fulham,Joachim Andersen,RB,DEF,False,0
+M0011,Fulham,Antonee Robinson,CB,DEF,False,0
+M0011,Fulham,Jorge Cuenca Barreno,CB,DEF,True,90
+M0011,Fulham,Kenny Tete,LB,DEF,True,90
+M0011,Fulham,Calvin Bassey,CB,DEF,True,90
+M0011,Fulham,Timothy Castagne,RB,DEF,True,90
+M0011,Fulham,Ryan Sessegnon,LB,DEF,False,0
+M0011,Fulham,Alex Iwobi,DM,MID,False,0
+M0011,Fulham,Emile Smith Rowe,CM,MID,True,90
+M0011,Fulham,Kevin Santos Lopes de Macedo,AM,MID,True,90
+M0011,Fulham,Oscar Bobb,RW,MID,False,0
+M0011,Fulham,Sander Berge,LW,MID,False,0
+M0011,Fulham,Tom Cairney,CM,MID,True,90
+M0011,Fulham,Saša Lukić,AM,MID,False,0
+M0011,Fulham,Josh King,DM,MID,True,90
+M0011,Fulham,Harrison Reed,DM,MID,True,90
+M0011,Fulham,Rodrigo Muniz Carvalho,ST,FWD,True,90
+M0011,Fulham,Jonah Kusi-Asare,RW,FWD,False,0
+M0012,Bournemouth,Đorđe Petrović,GK,GK,True,90
+M0012,Bournemouth,Fraser Forster,GK,GK,False,0
+M0012,Bournemouth,Will Dennis,GK,GK,False,0
+M0012,Bournemouth,James Hill,RB,DEF,True,90
+M0012,Bournemouth,Adrien Truffert,CB,DEF,True,90
+M0012,Bournemouth,Bafodé Diakité,CB,DEF,False,0
+M0012,Bournemouth,Veljko Milosavljevic,LB,DEF,False,0
+M0012,Bournemouth,Adam Smith,CB,DEF,False,0
+M0012,Bournemouth,Julián Araujo Zúñiga,RB,DEF,True,90
+M0012,Bournemouth,Julio Soler Barreto,LB,DEF,True,90
+M0012,Bournemouth,Rayan Vitor Simplício Rocha,DM,MID,False,0
+M0012,Bournemouth,Marcus Tavernier,CM,MID,False,0
+M0012,Bournemouth,Alex Scott,AM,MID,False,0
+M0012,Bournemouth,Justin Kluivert,RW,MID,False,0
+M0012,Bournemouth,Lewis Cook,LW,MID,False,0
+M0012,Bournemouth,Ben Gannon-Doak,CM,MID,True,90
+M0012,Bournemouth,Tyler Adams,AM,MID,True,90
+M0012,Bournemouth,David Brooks,DM,MID,True,90
+M0012,Bournemouth,Ryan Christie,DM,MID,True,90
+M0012,Bournemouth,Alex Tóth,CM,MID,False,0
+M0012,Bournemouth,Amine Adli,AM,MID,False,0
+M0012,Bournemouth,Junior Kroupi,RW,MID,True,90
+M0012,Bournemouth,Francisco Evanilson de Lima Barbosa,ST,FWD,False,0
+M0012,Bournemouth,Enes Ünal,RW,FWD,False,0
+M0012,Bournemouth,Álvaro Rodríguez,LW,FWD,True,90
+M0012,Brighton,Bart Verbruggen,GK,GK,True,90
+M0012,Brighton,Carl Rushworth,GK,GK,False,0
+M0012,Brighton,Jason Steele,GK,GK,False,0
+M0012,Brighton,Ferdi Kadıoğlu,RB,DEF,True,90
+M0012,Brighton,Olivier Boscagli,CB,DEF,True,90
+M0012,Brighton,Maxim De Cuyper,CB,DEF,True,90
+M0012,Brighton,Lewis Dunk,LB,DEF,False,0
+M0012,Brighton,Diego Coppola,CB,DEF,False,0
+M0012,Brighton,Igor Julio dos Santos de Paulo,RB,DEF,False,0
+M0012,Brighton,João Pedro Loureiro da Costa,LB,DEF,False,0
+M0012,Brighton,Michael Svoboda,RB,DEF,False,0
+M0012,Brighton,Mats Wieffer,CB,DEF,False,0
+M0012,Brighton,Pascal Struijk,CB,DEF,False,0
+M0012,Brighton,Luka Vušković,LB,DEF,True,90
+M0012,Brighton,Mitoma Kaoru,DM,MID,False,0
+M0012,Brighton,Yankuba Minteh,CM,MID,False,0
+M0012,Brighton,Jack Hinshelwood,AM,MID,True,90
+M0012,Brighton,Pascal Groß,RW,MID,False,0
+M0012,Brighton,Matt O'Riley,LW,MID,False,0
+M0012,Brighton,Diego Gómez Amarilla,CM,MID,False,0
+M0012,Brighton,Facundo Buonanotte,AM,MID,True,90
+M0012,Brighton,Yasin Ayari,DM,MID,False,0
+M0012,Brighton,Carlos Baleba,DM,MID,True,90
+M0012,Brighton,Harry Howell,CM,MID,True,90
+M0012,Brighton,Tom Watson,AM,MID,False,0
+M0012,Brighton,Nehemiah Oriola,RW,MID,False,0
+M0012,Brighton,Zadok Yohanna,LW,MID,True,90
+M0012,Brighton,Georginio Rutter,ST,FWD,False,0
+M0012,Brighton,Danny Welbeck,RW,FWD,False,0
+M0012,Brighton,Stefanos Tzimas,LW,FWD,False,0
+M0012,Brighton,Charalampos Kostoulas,ST,FWD,True,90
+M0012,Brighton,Evan Ferguson,ST,FWD,False,0
+M0013,Everton,Jordan Pickford,GK,GK,False,0
+M0013,Everton,Mark Travers,GK,GK,True,90
+M0013,Everton,Tom King,GK,GK,False,0
+M0013,Everton,James Tarkowski,RB,DEF,True,90
+M0013,Everton,Jarrad Branthwaite,CB,DEF,True,90
+M0013,Everton,Michael Keane,CB,DEF,False,0
+M0013,Everton,Jake O'Brien,LB,DEF,True,90
+M0013,Everton,Vitalii Mykolenko,CB,DEF,False,0
+M0013,Everton,Nathan Patterson,RB,DEF,False,0
+M0013,Everton,Adam Aznou,LB,DEF,True,90
+M0013,Everton,Kiernan Dewsbury-Hall,DM,MID,False,0
+M0013,Everton,Iliman Ndiaye,CM,MID,True,90
+M0013,Everton,James Garner,AM,MID,True,90
+M0013,Everton,Tim Iroegbunam,RW,MID,False,0
+M0013,Everton,Dwight McNeil,LW,MID,False,0
+M0013,Everton,Tyrique George,CM,MID,False,0
+M0013,Everton,Carlos Alcaraz Durán,AM,MID,True,90
+M0013,Everton,Harrison Armstrong,DM,MID,True,90
+M0013,Everton,Tyler Dibling,DM,MID,True,90
+M0013,Everton,Merlin Röhl,CM,MID,False,0
+M0013,Everton,Hayden Hackney,AM,MID,False,0
+M0013,Everton,Norberto Bercique Gomes Betuncal,ST,FWD,True,90
+M0013,Everton,Thierno Barry,RW,FWD,False,0
+M0013,Brentford,Caoimhín Kelleher,GK,GK,False,0
+M0013,Brentford,Hákon Rafn Valdimarsson,GK,GK,True,90
+M0013,Brentford,Nathan Collins,RB,DEF,False,0
+M0013,Brentford,Sepp van den Berg,CB,DEF,False,0
+M0013,Brentford,Kristoffer Ajer,CB,DEF,False,0
+M0013,Brentford,Michael Kayode,LB,DEF,True,90
+M0013,Brentford,Rico Henry,CB,DEF,False,0
+M0013,Brentford,Aaron Hickey,RB,DEF,False,0
+M0013,Brentford,Ethan Pinnock,LB,DEF,True,90
+M0013,Brentford,Kim Ji-soo,RB,DEF,True,90
+M0013,Brentford,Jannik Schuster,CB,DEF,True,90
+M0013,Brentford,Keane Lewis-Potter,DM,MID,True,90
+M0013,Brentford,Kevin Schade,CM,MID,False,0
+M0013,Brentford,Dango Ouattara,AM,MID,True,90
+M0013,Brentford,Mikkel Damsgaard,RW,MID,False,0
+M0013,Brentford,Mathias Jensen,LW,MID,True,90
+M0013,Brentford,Vitaly Janelt,CM,MID,False,0
+M0013,Brentford,Antoni Milambo,AM,MID,True,90
+M0013,Brentford,Fábio Freitas Gouveia Carvalho,DM,MID,False,0
+M0013,Brentford,Jordan Henderson,DM,MID,True,90
+M0013,Brentford,Yehor Yarmoliuk,CM,MID,False,0
+M0013,Brentford,Josh Dasilva,AM,MID,False,0
+M0013,Brentford,Jaidon Anthony,RW,MID,False,0
+M0013,Brentford,Igor Thiago Nascimento Rodrigues,ST,FWD,False,0
+M0013,Brentford,Kaye Furo,RW,FWD,False,0
+M0013,Brentford,Callum Wilson,LW,FWD,True,90
+M0014,Sunderland,Robin Roefs,GK,GK,False,0
+M0014,Sunderland,Anthony Patterson,GK,GK,False,0
+M0014,Sunderland,Melker Ellborg,GK,GK,True,90
+M0014,Sunderland,Daniel Ballard,RB,DEF,False,0
+M0014,Sunderland,Nordi Mukiele,CB,DEF,False,0
+M0014,Sunderland,Trai Hume,CB,DEF,True,90
+M0014,Sunderland,Omar Alderete,LB,DEF,False,0
+M0014,Sunderland,Reinildo Mandava,CB,DEF,True,90
+M0014,Sunderland,Jenson Seelt,RB,DEF,False,0
+M0014,Sunderland,Leo Fuhr Hjelde,LB,DEF,False,0
+M0014,Sunderland,Luke O'Nien,RB,DEF,False,0
+M0014,Sunderland,Arthur Masuaku,CB,DEF,True,90
+M0014,Sunderland,Thomas Meunier,CB,DEF,True,90
+M0014,Sunderland,Enzo Le Fée,DM,MID,True,90
+M0014,Sunderland,Habib Diarra,CM,MID,False,0
+M0014,Sunderland,Granit Xhaka,AM,MID,True,90
+M0014,Sunderland,Noah Sadiki,RW,MID,False,0
+M0014,Sunderland,Simon Adingra,LW,MID,False,0
+M0014,Sunderland,Romaine Mundle,CM,MID,False,0
+M0014,Sunderland,Chris Rigg,AM,MID,False,0
+M0014,Sunderland,Chemsdine Talbi,DM,MID,True,90
+M0014,Sunderland,Djiamgone Jocelin Ta Bi,DM,MID,True,90
+M0014,Sunderland,Nilson Angulo,CM,MID,True,90
+M0014,Sunderland,Brian Brobbey,ST,FWD,True,90
+M0014,Sunderland,Wilson Isidor,RW,FWD,False,0
+M0014,Newcastle,Nick Pope,GK,GK,True,90
+M0014,Newcastle,Mark Gillespie,GK,GK,False,0
+M0014,Newcastle,Ewen Jaouen,GK,GK,False,0
+M0014,Newcastle,Malick Thiaw,RB,DEF,False,0
+M0014,Newcastle,Fabian Schär,CB,DEF,True,90
+M0014,Newcastle,Sven Botman,CB,DEF,True,90
+M0014,Newcastle,Dan Burn,LB,DEF,False,0
+M0014,Newcastle,Lewis Hall,CB,DEF,True,90
+M0014,Newcastle,Tino Livramento,RB,DEF,True,90
+M0014,Newcastle,Alex Murphy,LB,DEF,False,0
+M0014,Newcastle,Bruno Guimarães Rodriguez Moura,DM,MID,False,0
+M0014,Newcastle,Harvey Barnes,CM,MID,False,0
+M0014,Newcastle,Anthony Elanga,AM,MID,True,90
+M0014,Newcastle,Jacob Ramsey,RW,MID,True,90
+M0014,Newcastle,Jacob Murphy,LW,MID,False,0
+M0014,Newcastle,Joelinton Cássio Apolinário de Lira,CM,MID,True,90
+M0014,Newcastle,Lewis Miley,AM,MID,True,90
+M0014,Newcastle,Joe Willock,DM,MID,False,0
+M0014,Newcastle,Bazoumana Touré,DM,MID,True,90
+M0014,Newcastle,Sean Steur,CM,MID,False,0
+M0014,Newcastle,Aladji Bamba,AM,MID,False,0
+M0014,Newcastle,Nick Woltemade,ST,FWD,False,0
+M0014,Newcastle,Yoane Wissa,RW,FWD,True,90
+M0014,Newcastle,William Osula,LW,FWD,False,0
+M0014,Newcastle,Sean Neave,ST,FWD,False,0
+M0015,Man City,Gianluigi Donnarumma,GK,GK,False,0
+M0015,Man City,James Trafford,GK,GK,True,90
+M0015,Man City,Marcus Bettinelli,GK,GK,False,0
+M0015,Man City,Nico O'Reilly,RB,DEF,False,0
+M0015,Man City,Marc Guéhi,CB,DEF,True,90
+M0015,Man City,Matheus Nunes,CB,DEF,False,0
+M0015,Man City,Rúben dos Santos Gato Alves Dias,LB,DEF,False,0
+M0015,Man City,Joško Gvardiol,CB,DEF,True,90
+M0015,Man City,Rayan Aït-Nouri,RB,DEF,True,90
+M0015,Man City,Abdukodir Khusanov,LB,DEF,False,0
+M0015,Man City,Max Alleyne,RB,DEF,True,90
+M0015,Man City,Rico Lewis,CB,DEF,False,0
+M0015,Man City,Vitor de Oliveira Nunes dos Reis,CB,DEF,False,0
+M0015,Man City,Jack Grealish,DM,MID,False,0
+M0015,Man City,Antoine Semenyo,CM,MID,False,0
+M0015,Man City,Phil Foden,AM,MID,True,90
+M0015,Man City,Rayan Cherki,RW,MID,False,0
+M0015,Man City,Jérémy Doku,LW,MID,True,90
+M0015,Man City,Rodrigo 'Rodri' Hernandez Cascante,CM,MID,True,90
+M0015,Man City,Sávio Moreira de Oliveira,AM,MID,False,0
+M0015,Man City,Tijjani Reijnders,DM,MID,True,90
+M0015,Man City,Nico González Iglesias,DM,MID,True,90
+M0015,Man City,Mateo Kovačić,CM,MID,False,0
+M0015,Man City,Claudio Echeverri,AM,MID,False,0
+M0015,Man City,Kalvin Phillips,RW,MID,False,0
+M0015,Man City,Divine Mukasa,LW,MID,False,0
+M0015,Man City,Jeremy Monga,CM,MID,False,0
+M0015,Man City,Elliot Anderson,AM,MID,False,0
+M0015,Man City,Omar Marmoush,ST,FWD,False,0
+M0015,Man City,Erling Haaland,RW,FWD,True,90
+M0015,Liverpool,Alisson Becker,GK,GK,False,0
+M0015,Liverpool,Giorgi Mamardashvili,GK,GK,False,0
+M0015,Liverpool,Freddie Woodman,GK,GK,True,90
+M0015,Liverpool,Armin Pecsi,GK,GK,False,0
+M0015,Liverpool,Vitezslav Jaros,GK,GK,False,0
+M0015,Liverpool,Harvey Davies,GK,GK,False,0
+M0015,Liverpool,Virgil van Dijk,RB,DEF,True,90
+M0015,Liverpool,Jeremie Frimpong,CB,DEF,False,0
+M0015,Liverpool,Milos Kerkez,CB,DEF,False,0
+M0015,Liverpool,Joe Gomez,LB,DEF,False,0
+M0015,Liverpool,Conor Bradley,CB,DEF,True,90
+M0015,Liverpool,Wellity Lucky,RB,DEF,False,0
+M0015,Liverpool,Jeremy Jacquet,LB,DEF,False,0
+M0015,Liverpool,Giovanni Leoni,RB,DEF,True,90
+M0015,Liverpool,Kostas Tsimikas,CB,DEF,False,0
+M0015,Liverpool,Calvin Ramsay,CB,DEF,True,90
+M0015,Liverpool,Florian Wirtz,DM,MID,False,0
+M0015,Liverpool,Cody Gakpo,CM,MID,False,0
+M0015,Liverpool,Dominik Szoboszlai,AM,MID,False,0
+M0015,Liverpool,Rio Ngumoha,RW,MID,False,0
+M0015,Liverpool,Federico Chiesa,LW,MID,True,90
+M0015,Liverpool,Ryan Gravenberch,CM,MID,True,90
+M0015,Liverpool,Alexis Mac Allister,AM,MID,False,0
+M0015,Liverpool,Curtis Jones,DM,MID,False,0
+M0015,Liverpool,Endo Wataru,DM,MID,True,90
+M0015,Liverpool,Trey Nyoni,CM,MID,False,0
+M0015,Liverpool,Stefan Bajčetić Maquieira,AM,MID,False,0
+M0015,Liverpool,Victor Munoz,RW,MID,False,0
+M0015,Liverpool,James McConnell,LW,MID,True,90
+M0015,Liverpool,Lewis Koumas,CM,MID,False,0
+M0015,Liverpool,Harvey Elliott,AM,MID,True,90
+M0015,Liverpool,Alexander Isak,ST,FWD,True,90
+M0015,Liverpool,Hugo Ekitiké,RW,FWD,False,0
+M0015,Liverpool,Jayden Danns,LW,FWD,False,0
+M0016,Brentford,Caoimhín Kelleher,GK,GK,True,90
+M0016,Brentford,Hákon Rafn Valdimarsson,GK,GK,False,0
+M0016,Brentford,Nathan Collins,RB,DEF,True,90
+M0016,Brentford,Sepp van den Berg,CB,DEF,True,90
+M0016,Brentford,Kristoffer Ajer,CB,DEF,False,0
+M0016,Brentford,Michael Kayode,LB,DEF,False,0
+M0016,Brentford,Rico Henry,CB,DEF,False,0
+M0016,Brentford,Aaron Hickey,RB,DEF,True,90
+M0016,Brentford,Ethan Pinnock,LB,DEF,False,0
+M0016,Brentford,Kim Ji-soo,RB,DEF,True,90
+M0016,Brentford,Jannik Schuster,CB,DEF,False,0
+M0016,Brentford,Keane Lewis-Potter,DM,MID,False,0
+M0016,Brentford,Kevin Schade,CM,MID,False,0
+M0016,Brentford,Dango Ouattara,AM,MID,True,90
+M0016,Brentford,Mikkel Damsgaard,RW,MID,True,90
+M0016,Brentford,Mathias Jensen,LW,MID,False,0
+M0016,Brentford,Vitaly Janelt,CM,MID,False,0
+M0016,Brentford,Antoni Milambo,AM,MID,False,0
+M0016,Brentford,Fábio Freitas Gouveia Carvalho,DM,MID,True,90
+M0016,Brentford,Jordan Henderson,DM,MID,False,0
+M0016,Brentford,Yehor Yarmoliuk,CM,MID,True,90
+M0016,Brentford,Josh Dasilva,AM,MID,True,90
+M0016,Brentford,Jaidon Anthony,RW,MID,False,0
+M0016,Brentford,Igor Thiago Nascimento Rodrigues,ST,FWD,False,0
+M0016,Brentford,Kaye Furo,RW,FWD,False,0
+M0016,Brentford,Callum Wilson,LW,FWD,True,90
+M0016,Spurs,Guglielmo Vicario,GK,GK,False,0
+M0016,Spurs,Brandon Austin,GK,GK,True,90
+M0016,Spurs,Antonín Kinský,GK,GK,False,0
+M0016,Spurs,Martin Dubravka,GK,GK,False,0
+M0016,Spurs,Jan Paul van Hecke,RB,DEF,False,0
+M0016,Spurs,Marcos Senesi Barón,CB,DEF,True,90
+M0016,Spurs,Pedro Porro Sauceda,CB,DEF,False,0
+M0016,Spurs,Cristian Romero,LB,DEF,False,0
+M0016,Spurs,Kevin Danso,CB,DEF,False,0
+M0016,Spurs,Andrew Robertson,RB,DEF,True,90
+M0016,Spurs,Micky van de Ven,LB,DEF,False,0
+M0016,Spurs,Djed Spence,RB,DEF,False,0
+M0016,Spurs,Destiny Udogie,CB,DEF,True,90
+M0016,Spurs,Ashley Phillips,CB,DEF,False,0
+M0016,Spurs,Ben Davies,LB,DEF,False,0
+M0016,Spurs,Jun'ai Byfield,CB,DEF,False,0
+M0016,Spurs,James Rowswell,RB,DEF,False,0
+M0016,Spurs,João Victor de Souza Menezes,LB,DEF,True,90
+M0016,Spurs,Sandro Tonali,DM,MID,False,0
+M0016,Spurs,Mohammed Kudus,CM,MID,False,0
+M0016,Spurs,Xavi Simons,AM,MID,False,0
+M0016,Spurs,Mathys Tel,RW,MID,False,0
+M0016,Spurs,James Maddison,LW,MID,False,0
+M0016,Spurs,Rodrigo Bentancur,CM,MID,True,90
+M0016,Spurs,Wilson Odobert,AM,MID,True,90
+M0016,Spurs,Pape Matar Sarr,DM,MID,True,90
+M0016,Spurs,Conor Gallagher,DM,MID,False,0
+M0016,Spurs,Lucas Bergvall,CM,MID,True,90
+M0016,Spurs,Dejan Kulusevski,AM,MID,False,0
+M0016,Spurs,Archie Gray,RW,MID,True,90
+M0016,Spurs,Mikey Moore,LW,MID,False,0
+M0016,Spurs,Callum Olusesi,CM,MID,False,0
+M0016,Spurs,Mateus Fernandes,AM,MID,False,0
+M0016,Spurs,Dominic Solanke-Mitchell,ST,FWD,False,0
+M0016,Spurs,Richarlison de Andrade,RW,FWD,True,90
+M0016,Spurs,Dane Scarlett,LW,FWD,False,0
+M0017,Coventry City,Oliver Dovin,GK,GK,True,90
+M0017,Coventry City,Ben Wilson,GK,GK,False,0
+M0017,Coventry City,Bobby Thomas,RB,DEF,False,0
+M0017,Coventry City,Liam Kitching,CB,DEF,True,90
+M0017,Coventry City,Milan van Ewijk,CB,DEF,True,90
+M0017,Coventry City,Jay Dasilva,LB,DEF,True,90
+M0017,Coventry City,Kaine Kesler-Hayden,CB,DEF,False,0
+M0017,Coventry City,Jake Bidwell,RB,DEF,False,0
+M0017,Coventry City,Joel Latibeaudiere,LB,DEF,False,0
+M0017,Coventry City,Luke Woolfenden,RB,DEF,False,0
+M0017,Coventry City,Miguel Brau,CB,DEF,False,0
+M0017,Coventry City,Aurèle Amenda,CB,DEF,True,90
+M0017,Coventry City,Frank Onyeka,DM,MID,True,90
+M0017,Coventry City,Jack Rudoni,CM,MID,True,90
+M0017,Coventry City,Matt Grimes,AM,MID,False,0
+M0017,Coventry City,Tatsuhiro Sakamoto,RW,MID,True,90
+M0017,Coventry City,Ephron Mason-Clark,LW,MID,True,90
+M0017,Coventry City,Josh Eccles,CM,MID,False,0
+M0017,Coventry City,Victor Torp,AM,MID,False,0
+M0017,Coventry City,George Shepherd,DM,MID,True,90
+M0017,Coventry City,Loum Tchaouna,DM,MID,False,0
+M0017,Coventry City,Raphael Borges Rodrigues,CM,MID,False,0
+M0017,Coventry City,Kaine Andrews,AM,MID,False,0
+M0017,Coventry City,Haji Wright,ST,FWD,False,0
+M0017,Coventry City,Brandon Thomas-Asante,RW,FWD,True,90
+M0017,Coventry City,Ellis Simms,LW,FWD,False,0
+M0017,Coventry City,Jahnoah Markelo,ST,FWD,False,0
+M0017,Coventry City,Norman Bassette,ST,FWD,False,0
+M0017,Crystal Palace,Dean Henderson,GK,GK,False,0
+M0017,Crystal Palace,Walter Benítez,GK,GK,True,90
+M0017,Crystal Palace,Remi Matthews,GK,GK,False,0
+M0017,Crystal Palace,Maxence Lacroix,RB,DEF,False,0
+M0017,Crystal Palace,Daniel Muñoz Mejía,CB,DEF,False,0
+M0017,Crystal Palace,Chris Richards,CB,DEF,False,0
+M0017,Crystal Palace,Jaydee Canvot,LB,DEF,True,90
+M0017,Crystal Palace,Tyrick Mitchell,CB,DEF,False,0
+M0017,Crystal Palace,Borna Sosa,RB,DEF,False,0
+M0017,Crystal Palace,Chadi Riad Dnanou,LB,DEF,True,90
+M0017,Crystal Palace,Oscar Mingueza,RB,DEF,True,90
+M0017,Crystal Palace,Rio Cardines,CB,DEF,True,90
+M0017,Crystal Palace,Ismaïla Sarr,DM,MID,False,0
+M0017,Crystal Palace,Brennan Johnson,CM,MID,False,0
+M0017,Crystal Palace,Adam Wharton,AM,MID,False,0
+M0017,Crystal Palace,Yéremy Pino Santos,RW,MID,True,90
+M0017,Crystal Palace,Will Hughes,LW,MID,False,0
+M0017,Crystal Palace,Jefferson Lerma Solís,CM,MID,False,0
+M0017,Crystal Palace,Daichi Kamada,AM,MID,True,90
+M0017,Crystal Palace,Justin Devenny,DM,MID,False,0
+M0017,Crystal Palace,Romain Esse,DM,MID,False,0
+M0017,Crystal Palace,Matheus França de Oliveira,CM,MID,True,90
+M0017,Crystal Palace,Cheick Doucouré,AM,MID,True,90
+M0017,Crystal Palace,Jesurun Rak-Sakyi,RW,MID,False,0
+M0017,Crystal Palace,Joél Drakes-Thomas,LW,MID,True,90
+M0017,Crystal Palace,Jørgen Strand Larsen,ST,FWD,True,90
+M0017,Crystal Palace,Jean-Philippe Mateta,RW,FWD,False,0
+M0017,Crystal Palace,Eddie Nketiah,LW,FWD,False,0
+M0017,Crystal Palace,Christantus Uche,ST,FWD,False,0
+M0018,Fulham,Bernd Leno,GK,GK,False,0
+M0018,Fulham,Benjamin Lecomte,GK,GK,True,90
+M0018,Fulham,Alfie McNally,GK,GK,False,0
+M0018,Fulham,Joachim Andersen,RB,DEF,True,90
+M0018,Fulham,Antonee Robinson,CB,DEF,True,90
+M0018,Fulham,Jorge Cuenca Barreno,CB,DEF,False,0
+M0018,Fulham,Kenny Tete,LB,DEF,False,0
+M0018,Fulham,Calvin Bassey,CB,DEF,True,90
+M0018,Fulham,Timothy Castagne,RB,DEF,False,0
+M0018,Fulham,Ryan Sessegnon,LB,DEF,True,90
+M0018,Fulham,Alex Iwobi,DM,MID,False,0
+M0018,Fulham,Emile Smith Rowe,CM,MID,True,90
+M0018,Fulham,Kevin Santos Lopes de Macedo,AM,MID,False,0
+M0018,Fulham,Oscar Bobb,RW,MID,True,90
+M0018,Fulham,Sander Berge,LW,MID,True,90
+M0018,Fulham,Tom Cairney,CM,MID,False,0
+M0018,Fulham,Saša Lukić,AM,MID,True,90
+M0018,Fulham,Josh King,DM,MID,False,0
+M0018,Fulham,Harrison Reed,DM,MID,True,90
+M0018,Fulham,Rodrigo Muniz Carvalho,ST,FWD,True,90
+M0018,Fulham,Jonah Kusi-Asare,RW,FWD,False,0
+M0018,Hull City,Dillon Phillips,GK,GK,False,0
+M0018,Hull City,Jack Butland,GK,GK,False,0
+M0018,Hull City,Harvey Cartwright,GK,GK,False,0
+M0018,Hull City,Thimothée Lo-Tutala,GK,GK,True,90
+M0018,Hull City,John Egan,RB,DEF,True,90
+M0018,Hull City,Charlie Hughes,CB,DEF,True,90
+M0018,Hull City,Semi Ajayi,CB,DEF,True,90
+M0018,Hull City,Lewie Coyle,LB,DEF,False,0
+M0018,Hull City,Cody Drameh,CB,DEF,False,0
+M0018,Hull City,Ryan Giles,RB,DEF,False,0
+M0018,Hull City,Matty Jacob,LB,DEF,False,0
+M0018,Hull City,Cathal McCarthy,RB,DEF,False,0
+M0018,Hull City,Paddy McNair,CB,DEF,True,90
+M0018,Hull City,Matt Targett,CB,DEF,False,0
+M0018,Hull City,Mohamed Belloumi,DM,MID,False,0
+M0018,Hull City,Liam Millar,CM,MID,True,90
+M0018,Hull City,Kieran Dowell,AM,MID,True,90
+M0018,Hull City,Matt Crooks,RW,MID,True,90
+M0018,Hull City,Regan Slater,LW,MID,True,90
+M0018,Hull City,Eliot Matazo,CM,MID,False,0
+M0018,Hull City,Abdülkadir Ömür,AM,MID,False,0
+M0018,Hull City,Abu Kamara,DM,MID,False,0
+M0018,Hull City,Óscar Zambrano,DM,MID,False,0
+M0018,Hull City,David Akintola,CM,MID,False,0
+M0018,Hull City,Darko Gyabi,AM,MID,False,0
+M0018,Hull City,Hidemasa Morita,RW,MID,True,90
+M0018,Hull City,Oli McBurnie,ST,FWD,False,0
+M0018,Hull City,Enis Destan,RW,FWD,False,0
+M0018,Hull City,Mason Burstow,LW,FWD,True,90
+M0019,Hull City,Dillon Phillips,GK,GK,False,0
+M0019,Hull City,Jack Butland,GK,GK,False,0
+M0019,Hull City,Harvey Cartwright,GK,GK,False,0
+M0019,Hull City,Thimothée Lo-Tutala,GK,GK,True,90
+M0019,Hull City,John Egan,RB,DEF,False,0
+M0019,Hull City,Charlie Hughes,CB,DEF,False,0
+M0019,Hull City,Semi Ajayi,CB,DEF,False,0
+M0019,Hull City,Lewie Coyle,LB,DEF,False,0
+M0019,Hull City,Cody Drameh,CB,DEF,True,90
+M0019,Hull City,Ryan Giles,RB,DEF,True,90
+M0019,Hull City,Matty Jacob,LB,DEF,True,90
+M0019,Hull City,Cathal McCarthy,RB,DEF,True,90
+M0019,Hull City,Paddy McNair,CB,DEF,False,0
+M0019,Hull City,Matt Targett,CB,DEF,False,0
+M0019,Hull City,Mohamed Belloumi,DM,MID,True,90
+M0019,Hull City,Liam Millar,CM,MID,False,0
+M0019,Hull City,Kieran Dowell,AM,MID,True,90
+M0019,Hull City,Matt Crooks,RW,MID,False,0
+M0019,Hull City,Regan Slater,LW,MID,True,90
+M0019,Hull City,Eliot Matazo,CM,MID,False,0
+M0019,Hull City,Abdülkadir Ömür,AM,MID,False,0
+M0019,Hull City,Abu Kamara,DM,MID,False,0
+M0019,Hull City,Óscar Zambrano,DM,MID,True,90
+M0019,Hull City,David Akintola,CM,MID,True,90
+M0019,Hull City,Darko Gyabi,AM,MID,False,0
+M0019,Hull City,Hidemasa Morita,RW,MID,False,0
+M0019,Hull City,Oli McBurnie,ST,FWD,False,0
+M0019,Hull City,Enis Destan,RW,FWD,False,0
+M0019,Hull City,Mason Burstow,LW,FWD,True,90
+M0019,Coventry City,Oliver Dovin,GK,GK,False,0
+M0019,Coventry City,Ben Wilson,GK,GK,True,90
+M0019,Coventry City,Bobby Thomas,RB,DEF,False,0
+M0019,Coventry City,Liam Kitching,CB,DEF,False,0
+M0019,Coventry City,Milan van Ewijk,CB,DEF,True,90
+M0019,Coventry City,Jay Dasilva,LB,DEF,False,0
+M0019,Coventry City,Kaine Kesler-Hayden,CB,DEF,True,90
+M0019,Coventry City,Jake Bidwell,RB,DEF,False,0
+M0019,Coventry City,Joel Latibeaudiere,LB,DEF,True,90
+M0019,Coventry City,Luke Woolfenden,RB,DEF,True,90
+M0019,Coventry City,Miguel Brau,CB,DEF,False,0
+M0019,Coventry City,Aurèle Amenda,CB,DEF,False,0
+M0019,Coventry City,Frank Onyeka,DM,MID,False,0
+M0019,Coventry City,Jack Rudoni,CM,MID,False,0
+M0019,Coventry City,Matt Grimes,AM,MID,False,0
+M0019,Coventry City,Tatsuhiro Sakamoto,RW,MID,True,90
+M0019,Coventry City,Ephron Mason-Clark,LW,MID,True,90
+M0019,Coventry City,Josh Eccles,CM,MID,True,90
+M0019,Coventry City,Victor Torp,AM,MID,True,90
+M0019,Coventry City,George Shepherd,DM,MID,False,0
+M0019,Coventry City,Loum Tchaouna,DM,MID,True,90
+M0019,Coventry City,Raphael Borges Rodrigues,CM,MID,False,0
+M0019,Coventry City,Kaine Andrews,AM,MID,False,0
+M0019,Coventry City,Haji Wright,ST,FWD,False,0
+M0019,Coventry City,Brandon Thomas-Asante,RW,FWD,True,90
+M0019,Coventry City,Ellis Simms,LW,FWD,False,0
+M0019,Coventry City,Jahnoah Markelo,ST,FWD,False,0
+M0019,Coventry City,Norman Bassette,ST,FWD,False,0
+M0020,Arsenal,David Raya Martín,GK,GK,False,0
+M0020,Arsenal,Kepa Arrizabalaga Revuelta,GK,GK,True,90
+M0020,Arsenal,Illan Meslier,GK,GK,False,0
+M0020,Arsenal,Gabriel dos Santos Magalhães,RB,DEF,False,0
+M0020,Arsenal,Jurriën Timber,CB,DEF,True,90
+M0020,Arsenal,William Saliba,CB,DEF,False,0
+M0020,Arsenal,Riccardo Calafiori,LB,DEF,True,90
+M0020,Arsenal,Piero Hincapié,CB,DEF,False,0
+M0020,Arsenal,Benjamin White,RB,DEF,True,90
+M0020,Arsenal,Cristhian Mosquera,LB,DEF,True,90
+M0020,Arsenal,Myles Lewis-Skelly,DM,MID,False,0
+M0020,Arsenal,Bukayo Saka,CM,MID,False,0
+M0020,Arsenal,Declan Rice,AM,MID,False,0
+M0020,Arsenal,Eberechi Eze,RW,MID,False,0
+M0020,Arsenal,Martin Ødegaard,LW,MID,False,0
+M0020,Arsenal,Noni Madueke,CM,MID,True,90
+M0020,Arsenal,Mikel Merino Zazón,AM,MID,False,0
+M0020,Arsenal,Gabriel Martinelli Silva,DM,MID,True,90
+M0020,Arsenal,Martín Zubimendi Ibáñez,DM,MID,True,90
+M0020,Arsenal,Max Dowman,CM,MID,False,0
+M0020,Arsenal,Christian Nørgaard,AM,MID,False,0
+M0020,Arsenal,Ethan Nwaneri,RW,MID,True,90
+M0020,Arsenal,Fábio Ferreira Vieira,LW,MID,True,90
+M0020,Arsenal,Reiss Nelson,CM,MID,False,0
+M0020,Arsenal,Christos Tzolis,AM,MID,False,0
+M0020,Arsenal,Viktor Gyökeres,ST,FWD,False,0
+M0020,Arsenal,Kai Havertz,RW,FWD,True,90
+M0020,Arsenal,Gabriel Fernando de Jesus,LW,FWD,False,0
+M0020,Spurs,Guglielmo Vicario,GK,GK,False,0
+M0020,Spurs,Brandon Austin,GK,GK,True,90
+M0020,Spurs,Antonín Kinský,GK,GK,False,0
+M0020,Spurs,Martin Dubravka,GK,GK,False,0
+M0020,Spurs,Jan Paul van Hecke,RB,DEF,True,90
+M0020,Spurs,Marcos Senesi Barón,CB,DEF,False,0
+M0020,Spurs,Pedro Porro Sauceda,CB,DEF,False,0
+M0020,Spurs,Cristian Romero,LB,DEF,True,90
+M0020,Spurs,Kevin Danso,CB,DEF,False,0
+M0020,Spurs,Andrew Robertson,RB,DEF,False,0
+M0020,Spurs,Micky van de Ven,LB,DEF,True,90
+M0020,Spurs,Djed Spence,RB,DEF,False,0
+M0020,Spurs,Destiny Udogie,CB,DEF,False,0
+M0020,Spurs,Ashley Phillips,CB,DEF,False,0
+M0020,Spurs,Ben Davies,LB,DEF,True,90
+M0020,Spurs,Jun'ai Byfield,CB,DEF,False,0
+M0020,Spurs,James Rowswell,RB,DEF,False,0
+M0020,Spurs,João Victor de Souza Menezes,LB,DEF,False,0
+M0020,Spurs,Sandro Tonali,DM,MID,False,0
+M0020,Spurs,Mohammed Kudus,CM,MID,False,0
+M0020,Spurs,Xavi Simons,AM,MID,False,0
+M0020,Spurs,Mathys Tel,RW,MID,False,0
+M0020,Spurs,James Maddison,LW,MID,True,90
+M0020,Spurs,Rodrigo Bentancur,CM,MID,True,90
+M0020,Spurs,Wilson Odobert,AM,MID,False,0
+M0020,Spurs,Pape Matar Sarr,DM,MID,False,0
+M0020,Spurs,Conor Gallagher,DM,MID,True,90
+M0020,Spurs,Lucas Bergvall,CM,MID,False,0
+M0020,Spurs,Dejan Kulusevski,AM,MID,True,90
+M0020,Spurs,Archie Gray,RW,MID,False,0
+M0020,Spurs,Mikey Moore,LW,MID,True,90
+M0020,Spurs,Callum Olusesi,CM,MID,False,0
+M0020,Spurs,Mateus Fernandes,AM,MID,False,0
+M0020,Spurs,Dominic Solanke-Mitchell,ST,FWD,True,90
+M0020,Spurs,Richarlison de Andrade,RW,FWD,False,0
+M0020,Spurs,Dane Scarlett,LW,FWD,False,0
+M0021,Brighton,Bart Verbruggen,GK,GK,False,0
+M0021,Brighton,Carl Rushworth,GK,GK,False,0
+M0021,Brighton,Jason Steele,GK,GK,True,90
+M0021,Brighton,Ferdi Kadıoğlu,RB,DEF,False,0
+M0021,Brighton,Olivier Boscagli,CB,DEF,False,0
+M0021,Brighton,Maxim De Cuyper,CB,DEF,False,0
+M0021,Brighton,Lewis Dunk,LB,DEF,False,0
+M0021,Brighton,Diego Coppola,CB,DEF,False,0
+M0021,Brighton,Igor Julio dos Santos de Paulo,RB,DEF,True,90
+M0021,Brighton,João Pedro Loureiro da Costa,LB,DEF,True,90
+M0021,Brighton,Michael Svoboda,RB,DEF,False,0
+M0021,Brighton,Mats Wieffer,CB,DEF,True,90
+M0021,Brighton,Pascal Struijk,CB,DEF,True,90
+M0021,Brighton,Luka Vušković,LB,DEF,False,0
+M0021,Brighton,Mitoma Kaoru,DM,MID,True,90
+M0021,Brighton,Yankuba Minteh,CM,MID,True,90
+M0021,Brighton,Jack Hinshelwood,AM,MID,False,0
+M0021,Brighton,Pascal Groß,RW,MID,False,0
+M0021,Brighton,Matt O'Riley,LW,MID,False,0
+M0021,Brighton,Diego Gómez Amarilla,CM,MID,True,90
+M0021,Brighton,Facundo Buonanotte,AM,MID,False,0
+M0021,Brighton,Yasin Ayari,DM,MID,False,0
+M0021,Brighton,Carlos Baleba,DM,MID,False,0
+M0021,Brighton,Harry Howell,CM,MID,False,0
+M0021,Brighton,Tom Watson,AM,MID,True,90
+M0021,Brighton,Nehemiah Oriola,RW,MID,True,90
+M0021,Brighton,Zadok Yohanna,LW,MID,False,0
+M0021,Brighton,Georginio Rutter,ST,FWD,False,0
+M0021,Brighton,Danny Welbeck,RW,FWD,False,0
+M0021,Brighton,Stefanos Tzimas,LW,FWD,False,0
+M0021,Brighton,Charalampos Kostoulas,ST,FWD,False,0
+M0021,Brighton,Evan Ferguson,ST,FWD,True,90
+M0021,Sunderland,Robin Roefs,GK,GK,False,0
+M0021,Sunderland,Anthony Patterson,GK,GK,True,90
+M0021,Sunderland,Melker Ellborg,GK,GK,False,0
+M0021,Sunderland,Daniel Ballard,RB,DEF,False,0
+M0021,Sunderland,Nordi Mukiele,CB,DEF,False,0
+M0021,Sunderland,Trai Hume,CB,DEF,False,0
+M0021,Sunderland,Omar Alderete,LB,DEF,True,90
+M0021,Sunderland,Reinildo Mandava,CB,DEF,False,0
+M0021,Sunderland,Jenson Seelt,RB,DEF,True,90
+M0021,Sunderland,Leo Fuhr Hjelde,LB,DEF,True,90
+M0021,Sunderland,Luke O'Nien,RB,DEF,False,0
+M0021,Sunderland,Arthur Masuaku,CB,DEF,False,0
+M0021,Sunderland,Thomas Meunier,CB,DEF,True,90
+M0021,Sunderland,Enzo Le Fée,DM,MID,True,90
+M0021,Sunderland,Habib Diarra,CM,MID,True,90
+M0021,Sunderland,Granit Xhaka,AM,MID,False,0
+M0021,Sunderland,Noah Sadiki,RW,MID,True,90
+M0021,Sunderland,Simon Adingra,LW,MID,False,0
+M0021,Sunderland,Romaine Mundle,CM,MID,True,90
+M0021,Sunderland,Chris Rigg,AM,MID,False,0
+M0021,Sunderland,Chemsdine Talbi,DM,MID,True,90
+M0021,Sunderland,Djiamgone Jocelin Ta Bi,DM,MID,False,0
+M0021,Sunderland,Nilson Angulo,CM,MID,False,0
+M0021,Sunderland,Brian Brobbey,ST,FWD,True,90
+M0021,Sunderland,Wilson Isidor,RW,FWD,False,0
+M0022,Ipswich Town,Christian Walton,GK,GK,True,90
+M0022,Ipswich Town,Alex Palmer,GK,GK,False,0
+M0022,Ipswich Town,David Button,GK,GK,False,0
+M0022,Ipswich Town,Kayne van Oevelen,GK,GK,False,0
+M0022,Ipswich Town,Kjell Scherpen,GK,GK,False,0
+M0022,Ipswich Town,Issa Diop,RB,DEF,False,0
+M0022,Ipswich Town,Cédric Kipré,CB,DEF,True,90
+M0022,Ipswich Town,Dara O'Shea,CB,DEF,True,90
+M0022,Ipswich Town,Leif Davis,LB,DEF,False,0
+M0022,Ipswich Town,Jacob Greaves,CB,DEF,True,90
+M0022,Ipswich Town,Ben Johnson,RB,DEF,True,90
+M0022,Ipswich Town,Darnell Furlong,LB,DEF,False,0
+M0022,Ipswich Town,Marcelino Núñez,DM,MID,False,0
+M0022,Ipswich Town,Azor Matusiwa,CM,MID,False,0
+M0022,Ipswich Town,Wes Burns,AM,MID,False,0
+M0022,Ipswich Town,Jack Taylor,RW,MID,True,90
+M0022,Ipswich Town,Jack Clarke,LW,MID,False,0
+M0022,Ipswich Town,Chiedozie Ogbene,CM,MID,False,0
+M0022,Ipswich Town,Abdul Fatawu,AM,MID,True,90
+M0022,Ipswich Town,Jaden Philogene,DM,MID,False,0
+M0022,Ipswich Town,Sam Szmodics,DM,MID,True,90
+M0022,Ipswich Town,Kasey McAteer,CM,MID,True,90
+M0022,Ipswich Town,Anis Mehmeti,AM,MID,False,0
+M0022,Ipswich Town,Daizen Maeda,RW,MID,True,90
+M0022,Ipswich Town,Emersonn Correia da Silva,ST,FWD,True,90
+M0022,Ipswich Town,George Hirst,RW,FWD,False,0
+M0022,Ipswich Town,Chuba Akpom,LW,FWD,False,0
+M0022,Ipswich Town,Sindre Walle Egeli,ST,FWD,False,0
+M0022,Ipswich Town,Ali Al-Hamadi,ST,FWD,False,0
+M0022,Chelsea,Robert Lynch Sánchez,GK,GK,False,0
+M0022,Chelsea,Filip Jörgensen,GK,GK,True,90
+M0022,Chelsea,Mike Penders,GK,GK,False,0
+M0022,Chelsea,Reece James,RB,DEF,False,0
+M0022,Chelsea,Trevoh Chalobah,CB,DEF,False,0
+M0022,Chelsea,Malo Gusto,CB,DEF,True,90
+M0022,Chelsea,Wesley Fofana,LB,DEF,False,0
+M0022,Chelsea,Benoît Badiashile Mukinayi,CB,DEF,True,90
+M0022,Chelsea,Tosin Adarabioyo,RB,DEF,False,0
+M0022,Chelsea,Jorrel Hato,LB,DEF,True,90
+M0022,Chelsea,Levi Samuels Colwill,RB,DEF,True,90
+M0022,Chelsea,Mamadou Sarr,CB,DEF,False,0
+M0022,Chelsea,Josh Acheampong,CB,DEF,False,0
+M0022,Chelsea,Marco Palestra,LB,DEF,False,0
+M0022,Chelsea,Axel Disasi,CB,DEF,False,0
+M0022,Chelsea,Aaron Anselmino,RB,DEF,False,0
+M0022,Chelsea,Morgan Rogers,DM,MID,True,90
+M0022,Chelsea,Cole Palmer,CM,MID,False,0
+M0022,Chelsea,Enzo Fernández,AM,MID,True,90
+M0022,Chelsea,Pedro Lomba Neto,RW,MID,True,90
+M0022,Chelsea,Estêvão Almeida de Oliveira Gonçalves,LW,MID,True,90
+M0022,Chelsea,Jamie Bynoe-Gittens,CM,MID,False,0
+M0022,Chelsea,Moisés Caicedo Corozo,AM,MID,False,0
+M0022,Chelsea,Roméo Lavia,DM,MID,True,90
+M0022,Chelsea,Dário Luís Essugo,DM,MID,False,0
+M0022,Chelsea,Geovany Quenda,CM,MID,False,0
+M0022,Chelsea,João Pedro Junqueira de Jesus,ST,FWD,False,0
+M0022,Chelsea,Nicolas Jackson,RW,FWD,True,90
+M0022,Chelsea,Liam Delap,LW,FWD,False,0
+M0022,Chelsea,Marc Guiu Paz,ST,FWD,False,0
+M0022,Chelsea,Shumaira Mheuka,ST,FWD,False,0
+M0022,Chelsea,Emmanuel Emegha,RW,FWD,False,0
+M0023,Crystal Palace,Dean Henderson,GK,GK,False,0
+M0023,Crystal Palace,Walter Benítez,GK,GK,False,0
+M0023,Crystal Palace,Remi Matthews,GK,GK,True,90
+M0023,Crystal Palace,Maxence Lacroix,RB,DEF,False,0
+M0023,Crystal Palace,Daniel Muñoz Mejía,CB,DEF,True,90
+M0023,Crystal Palace,Chris Richards,CB,DEF,True,90
+M0023,Crystal Palace,Jaydee Canvot,LB,DEF,False,0
+M0023,Crystal Palace,Tyrick Mitchell,CB,DEF,True,90
+M0023,Crystal Palace,Borna Sosa,RB,DEF,True,90
+M0023,Crystal Palace,Chadi Riad Dnanou,LB,DEF,False,0
+M0023,Crystal Palace,Oscar Mingueza,RB,DEF,False,0
+M0023,Crystal Palace,Rio Cardines,CB,DEF,False,0
+M0023,Crystal Palace,Ismaïla Sarr,DM,MID,False,0
+M0023,Crystal Palace,Brennan Johnson,CM,MID,True,90
+M0023,Crystal Palace,Adam Wharton,AM,MID,False,0
+M0023,Crystal Palace,Yéremy Pino Santos,RW,MID,True,90
+M0023,Crystal Palace,Will Hughes,LW,MID,False,0
+M0023,Crystal Palace,Jefferson Lerma Solís,CM,MID,False,0
+M0023,Crystal Palace,Daichi Kamada,AM,MID,True,90
+M0023,Crystal Palace,Justin Devenny,DM,MID,True,90
+M0023,Crystal Palace,Romain Esse,DM,MID,False,0
+M0023,Crystal Palace,Matheus França de Oliveira,CM,MID,False,0
+M0023,Crystal Palace,Cheick Doucouré,AM,MID,True,90
+M0023,Crystal Palace,Jesurun Rak-Sakyi,RW,MID,False,0
+M0023,Crystal Palace,Joél Drakes-Thomas,LW,MID,False,0
+M0023,Crystal Palace,Jørgen Strand Larsen,ST,FWD,False,0
+M0023,Crystal Palace,Jean-Philippe Mateta,RW,FWD,False,0
+M0023,Crystal Palace,Eddie Nketiah,LW,FWD,False,0
+M0023,Crystal Palace,Christantus Uche,ST,FWD,True,90
+M0023,Ipswich Town,Christian Walton,GK,GK,False,0
+M0023,Ipswich Town,Alex Palmer,GK,GK,False,0
+M0023,Ipswich Town,David Button,GK,GK,False,0
+M0023,Ipswich Town,Kayne van Oevelen,GK,GK,False,0
+M0023,Ipswich Town,Kjell Scherpen,GK,GK,True,90
+M0023,Ipswich Town,Issa Diop,RB,DEF,False,0
+M0023,Ipswich Town,Cédric Kipré,CB,DEF,True,90
+M0023,Ipswich Town,Dara O'Shea,CB,DEF,True,90
+M0023,Ipswich Town,Leif Davis,LB,DEF,True,90
+M0023,Ipswich Town,Jacob Greaves,CB,DEF,False,0
+M0023,Ipswich Town,Ben Johnson,RB,DEF,True,90
+M0023,Ipswich Town,Darnell Furlong,LB,DEF,False,0
+M0023,Ipswich Town,Marcelino Núñez,DM,MID,True,90
+M0023,Ipswich Town,Azor Matusiwa,CM,MID,False,0
+M0023,Ipswich Town,Wes Burns,AM,MID,False,0
+M0023,Ipswich Town,Jack Taylor,RW,MID,False,0
+M0023,Ipswich Town,Jack Clarke,LW,MID,False,0
+M0023,Ipswich Town,Chiedozie Ogbene,CM,MID,False,0
+M0023,Ipswich Town,Abdul Fatawu,AM,MID,True,90
+M0023,Ipswich Town,Jaden Philogene,DM,MID,False,0
+M0023,Ipswich Town,Sam Szmodics,DM,MID,True,90
+M0023,Ipswich Town,Kasey McAteer,CM,MID,False,0
+M0023,Ipswich Town,Anis Mehmeti,AM,MID,True,90
+M0023,Ipswich Town,Daizen Maeda,RW,MID,True,90
+M0023,Ipswich Town,Emersonn Correia da Silva,ST,FWD,False,0
+M0023,Ipswich Town,George Hirst,RW,FWD,False,0
+M0023,Ipswich Town,Chuba Akpom,LW,FWD,False,0
+M0023,Ipswich Town,Sindre Walle Egeli,ST,FWD,True,90
+M0023,Ipswich Town,Ali Al-Hamadi,ST,FWD,False,0
+M0024,Arsenal,David Raya Martín,GK,GK,True,90
+M0024,Arsenal,Kepa Arrizabalaga Revuelta,GK,GK,False,0
+M0024,Arsenal,Illan Meslier,GK,GK,False,0
+M0024,Arsenal,Gabriel dos Santos Magalhães,RB,DEF,True,90
+M0024,Arsenal,Jurriën Timber,CB,DEF,False,0
+M0024,Arsenal,William Saliba,CB,DEF,False,0
+M0024,Arsenal,Riccardo Calafiori,LB,DEF,False,0
+M0024,Arsenal,Piero Hincapié,CB,DEF,True,90
+M0024,Arsenal,Benjamin White,RB,DEF,True,90
+M0024,Arsenal,Cristhian Mosquera,LB,DEF,True,90
+M0024,Arsenal,Myles Lewis-Skelly,DM,MID,False,0
+M0024,Arsenal,Bukayo Saka,CM,MID,True,90
+M0024,Arsenal,Declan Rice,AM,MID,False,0
+M0024,Arsenal,Eberechi Eze,RW,MID,False,0
+M0024,Arsenal,Martin Ødegaard,LW,MID,False,0
+M0024,Arsenal,Noni Madueke,CM,MID,False,0
+M0024,Arsenal,Mikel Merino Zazón,AM,MID,False,0
+M0024,Arsenal,Gabriel Martinelli Silva,DM,MID,False,0
+M0024,Arsenal,Martín Zubimendi Ibáñez,DM,MID,False,0
+M0024,Arsenal,Max Dowman,CM,MID,True,90
+M0024,Arsenal,Christian Nørgaard,AM,MID,False,0
+M0024,Arsenal,Ethan Nwaneri,RW,MID,False,0
+M0024,Arsenal,Fábio Ferreira Vieira,LW,MID,True,90
+M0024,Arsenal,Reiss Nelson,CM,MID,True,90
+M0024,Arsenal,Christos Tzolis,AM,MID,True,90
+M0024,Arsenal,Viktor Gyökeres,ST,FWD,False,0
+M0024,Arsenal,Kai Havertz,RW,FWD,True,90
+M0024,Arsenal,Gabriel Fernando de Jesus,LW,FWD,False,0
+M0024,Hull City,Dillon Phillips,GK,GK,True,90
+M0024,Hull City,Jack Butland,GK,GK,False,0
+M0024,Hull City,Harvey Cartwright,GK,GK,False,0
+M0024,Hull City,Thimothée Lo-Tutala,GK,GK,False,0
+M0024,Hull City,John Egan,RB,DEF,False,0
+M0024,Hull City,Charlie Hughes,CB,DEF,False,0
+M0024,Hull City,Semi Ajayi,CB,DEF,True,90
+M0024,Hull City,Lewie Coyle,LB,DEF,True,90
+M0024,Hull City,Cody Drameh,CB,DEF,False,0
+M0024,Hull City,Ryan Giles,RB,DEF,False,0
+M0024,Hull City,Matty Jacob,LB,DEF,True,90
+M0024,Hull City,Cathal McCarthy,RB,DEF,False,0
+M0024,Hull City,Paddy McNair,CB,DEF,False,0
+M0024,Hull City,Matt Targett,CB,DEF,True,90
+M0024,Hull City,Mohamed Belloumi,DM,MID,True,90
+M0024,Hull City,Liam Millar,CM,MID,True,90
+M0024,Hull City,Kieran Dowell,AM,MID,False,0
+M0024,Hull City,Matt Crooks,RW,MID,False,0
+M0024,Hull City,Regan Slater,LW,MID,True,90
+M0024,Hull City,Eliot Matazo,CM,MID,False,0
+M0024,Hull City,Abdülkadir Ömür,AM,MID,True,90
+M0024,Hull City,Abu Kamara,DM,MID,True,90
+M0024,Hull City,Óscar Zambrano,DM,MID,False,0
+M0024,Hull City,David Akintola,CM,MID,False,0
+M0024,Hull City,Darko Gyabi,AM,MID,False,0
+M0024,Hull City,Hidemasa Morita,RW,MID,False,0
+M0024,Hull City,Oli McBurnie,ST,FWD,False,0
+M0024,Hull City,Enis Destan,RW,FWD,True,90
+M0024,Hull City,Mason Burstow,LW,FWD,False,0
+M0025,Nott'm Forest,Matz Sels,GK,GK,True,90
+M0025,Nott'm Forest,John Victor Maciel Furtado,GK,GK,False,0
+M0025,Nott'm Forest,Neco Williams,RB,DEF,False,0
+M0025,Nott'm Forest,Felipe Rodrigues da Silva,CB,DEF,False,0
+M0025,Nott'm Forest,Nikola Milenković,CB,DEF,False,0
+M0025,Nott'm Forest,Murillo Costa dos Santos,LB,DEF,True,90
+M0025,Nott'm Forest,Ola Aina,CB,DEF,False,0
+M0025,Nott'm Forest,Jair Paula da Cunha Filho,RB,DEF,False,0
+M0025,Nott'm Forest,Nicolò Savona,LB,DEF,True,90
+M0025,Nott'm Forest,Omar Richards,RB,DEF,True,90
+M0025,Nott'm Forest,Zach Abbott,CB,DEF,True,90
+M0025,Nott'm Forest,Luca Netz,CB,DEF,False,0
+M0025,Nott'm Forest,Tyler Bindon,LB,DEF,False,0
+M0025,Nott'm Forest,Morgan Gibbs-White,DM,MID,False,0
+M0025,Nott'm Forest,Callum Hudson-Odoi,CM,MID,True,90
+M0025,Nott'm Forest,Dan Ndoye,AM,MID,False,0
+M0025,Nott'm Forest,Omari Hutchinson,RW,MID,False,0
+M0025,Nott'm Forest,Dilane Bakwa,LW,MID,True,90
+M0025,Nott'm Forest,James McAtee,CM,MID,True,90
+M0025,Nott'm Forest,Nicolás Domínguez,AM,MID,False,0
+M0025,Nott'm Forest,Ibrahim Sangaré,DM,MID,False,0
+M0025,Nott'm Forest,Ryan Yates,DM,MID,True,90
+M0025,Nott'm Forest,Xaver Schlager,CM,MID,True,90
+M0025,Nott'm Forest,Chris Wood,ST,FWD,False,0
+M0025,Nott'm Forest,Igor Jesus Maciel da Cruz,RW,FWD,False,0
+M0025,Nott'm Forest,Taiwo Awoniyi,LW,FWD,False,0
+M0025,Nott'm Forest,Arnaud Kalimuendo,ST,FWD,True,90
+M0025,Fulham,Bernd Leno,GK,GK,False,0
+M0025,Fulham,Benjamin Lecomte,GK,GK,False,0
+M0025,Fulham,Alfie McNally,GK,GK,True,90
+M0025,Fulham,Joachim Andersen,RB,DEF,True,90
+M0025,Fulham,Antonee Robinson,CB,DEF,False,0
+M0025,Fulham,Jorge Cuenca Barreno,CB,DEF,False,0
+M0025,Fulham,Kenny Tete,LB,DEF,True,90
+M0025,Fulham,Calvin Bassey,CB,DEF,True,90
+M0025,Fulham,Timothy Castagne,RB,DEF,True,90
+M0025,Fulham,Ryan Sessegnon,LB,DEF,False,0
+M0025,Fulham,Alex Iwobi,DM,MID,True,90
+M0025,Fulham,Emile Smith Rowe,CM,MID,True,90
+M0025,Fulham,Kevin Santos Lopes de Macedo,AM,MID,True,90
+M0025,Fulham,Oscar Bobb,RW,MID,False,0
+M0025,Fulham,Sander Berge,LW,MID,True,90
+M0025,Fulham,Tom Cairney,CM,MID,False,0
+M0025,Fulham,Saša Lukić,AM,MID,False,0
+M0025,Fulham,Josh King,DM,MID,True,90
+M0025,Fulham,Harrison Reed,DM,MID,False,0
+M0025,Fulham,Rodrigo Muniz Carvalho,ST,FWD,True,90
+M0025,Fulham,Jonah Kusi-Asare,RW,FWD,False,0
+M0026,Brentford,Caoimhín Kelleher,GK,GK,True,90
+M0026,Brentford,Hákon Rafn Valdimarsson,GK,GK,False,0
+M0026,Brentford,Nathan Collins,RB,DEF,False,0
+M0026,Brentford,Sepp van den Berg,CB,DEF,False,0
+M0026,Brentford,Kristoffer Ajer,CB,DEF,True,90
+M0026,Brentford,Michael Kayode,LB,DEF,False,0
+M0026,Brentford,Rico Henry,CB,DEF,True,90
+M0026,Brentford,Aaron Hickey,RB,DEF,True,90
+M0026,Brentford,Ethan Pinnock,LB,DEF,False,0
+M0026,Brentford,Kim Ji-soo,RB,DEF,True,90
+M0026,Brentford,Jannik Schuster,CB,DEF,False,0
+M0026,Brentford,Keane Lewis-Potter,DM,MID,True,90
+M0026,Brentford,Kevin Schade,CM,MID,True,90
+M0026,Brentford,Dango Ouattara,AM,MID,False,0
+M0026,Brentford,Mikkel Damsgaard,RW,MID,True,90
+M0026,Brentford,Mathias Jensen,LW,MID,True,90
+M0026,Brentford,Vitaly Janelt,CM,MID,False,0
+M0026,Brentford,Antoni Milambo,AM,MID,False,0
+M0026,Brentford,Fábio Freitas Gouveia Carvalho,DM,MID,False,0
+M0026,Brentford,Jordan Henderson,DM,MID,True,90
+M0026,Brentford,Yehor Yarmoliuk,CM,MID,False,0
+M0026,Brentford,Josh Dasilva,AM,MID,False,0
+M0026,Brentford,Jaidon Anthony,RW,MID,False,0
+M0026,Brentford,Igor Thiago Nascimento Rodrigues,ST,FWD,True,90
+M0026,Brentford,Kaye Furo,RW,FWD,False,0
+M0026,Brentford,Callum Wilson,LW,FWD,False,0
+M0026,Nott'm Forest,Matz Sels,GK,GK,True,90
+M0026,Nott'm Forest,John Victor Maciel Furtado,GK,GK,False,0
+M0026,Nott'm Forest,Neco Williams,RB,DEF,False,0
+M0026,Nott'm Forest,Felipe Rodrigues da Silva,CB,DEF,True,90
+M0026,Nott'm Forest,Nikola Milenković,CB,DEF,True,90
+M0026,Nott'm Forest,Murillo Costa dos Santos,LB,DEF,False,0
+M0026,Nott'm Forest,Ola Aina,CB,DEF,False,0
+M0026,Nott'm Forest,Jair Paula da Cunha Filho,RB,DEF,False,0
+M0026,Nott'm Forest,Nicolò Savona,LB,DEF,False,0
+M0026,Nott'm Forest,Omar Richards,RB,DEF,True,90
+M0026,Nott'm Forest,Zach Abbott,CB,DEF,False,0
+M0026,Nott'm Forest,Luca Netz,CB,DEF,False,0
+M0026,Nott'm Forest,Tyler Bindon,LB,DEF,True,90
+M0026,Nott'm Forest,Morgan Gibbs-White,DM,MID,False,0
+M0026,Nott'm Forest,Callum Hudson-Odoi,CM,MID,False,0
+M0026,Nott'm Forest,Dan Ndoye,AM,MID,True,90
+M0026,Nott'm Forest,Omari Hutchinson,RW,MID,True,90
+M0026,Nott'm Forest,Dilane Bakwa,LW,MID,True,90
+M0026,Nott'm Forest,James McAtee,CM,MID,False,0
+M0026,Nott'm Forest,Nicolás Domínguez,AM,MID,False,0
+M0026,Nott'm Forest,Ibrahim Sangaré,DM,MID,False,0
+M0026,Nott'm Forest,Ryan Yates,DM,MID,True,90
+M0026,Nott'm Forest,Xaver Schlager,CM,MID,True,90
+M0026,Nott'm Forest,Chris Wood,ST,FWD,False,0
+M0026,Nott'm Forest,Igor Jesus Maciel da Cruz,RW,FWD,True,90
+M0026,Nott'm Forest,Taiwo Awoniyi,LW,FWD,False,0
+M0026,Nott'm Forest,Arnaud Kalimuendo,ST,FWD,False,0
+M0027,Hull City,Dillon Phillips,GK,GK,True,90
+M0027,Hull City,Jack Butland,GK,GK,False,0
+M0027,Hull City,Harvey Cartwright,GK,GK,False,0
+M0027,Hull City,Thimothée Lo-Tutala,GK,GK,False,0
+M0027,Hull City,John Egan,RB,DEF,False,0
+M0027,Hull City,Charlie Hughes,CB,DEF,True,90
+M0027,Hull City,Semi Ajayi,CB,DEF,False,0
+M0027,Hull City,Lewie Coyle,LB,DEF,False,0
+M0027,Hull City,Cody Drameh,CB,DEF,True,90
+M0027,Hull City,Ryan Giles,RB,DEF,False,0
+M0027,Hull City,Matty Jacob,LB,DEF,True,90
+M0027,Hull City,Cathal McCarthy,RB,DEF,False,0
+M0027,Hull City,Paddy McNair,CB,DEF,False,0
+M0027,Hull City,Matt Targett,CB,DEF,True,90
+M0027,Hull City,Mohamed Belloumi,DM,MID,True,90
+M0027,Hull City,Liam Millar,CM,MID,False,0
+M0027,Hull City,Kieran Dowell,AM,MID,False,0
+M0027,Hull City,Matt Crooks,RW,MID,True,90
+M0027,Hull City,Regan Slater,LW,MID,True,90
+M0027,Hull City,Eliot Matazo,CM,MID,True,90
+M0027,Hull City,Abdülkadir Ömür,AM,MID,True,90
+M0027,Hull City,Abu Kamara,DM,MID,False,0
+M0027,Hull City,Óscar Zambrano,DM,MID,False,0
+M0027,Hull City,David Akintola,CM,MID,False,0
+M0027,Hull City,Darko Gyabi,AM,MID,False,0
+M0027,Hull City,Hidemasa Morita,RW,MID,False,0
+M0027,Hull City,Oli McBurnie,ST,FWD,False,0
+M0027,Hull City,Enis Destan,RW,FWD,True,90
+M0027,Hull City,Mason Burstow,LW,FWD,False,0
+M0027,Newcastle,Nick Pope,GK,GK,False,0
+M0027,Newcastle,Mark Gillespie,GK,GK,False,0
+M0027,Newcastle,Ewen Jaouen,GK,GK,True,90
+M0027,Newcastle,Malick Thiaw,RB,DEF,True,90
+M0027,Newcastle,Fabian Schär,CB,DEF,True,90
+M0027,Newcastle,Sven Botman,CB,DEF,True,90
+M0027,Newcastle,Dan Burn,LB,DEF,True,90
+M0027,Newcastle,Lewis Hall,CB,DEF,False,0
+M0027,Newcastle,Tino Livramento,RB,DEF,False,0
+M0027,Newcastle,Alex Murphy,LB,DEF,False,0
+M0027,Newcastle,Bruno Guimarães Rodriguez Moura,DM,MID,False,0
+M0027,Newcastle,Harvey Barnes,CM,MID,False,0
+M0027,Newcastle,Anthony Elanga,AM,MID,False,0
+M0027,Newcastle,Jacob Ramsey,RW,MID,False,0
+M0027,Newcastle,Jacob Murphy,LW,MID,True,90
+M0027,Newcastle,Joelinton Cássio Apolinário de Lira,CM,MID,False,0
+M0027,Newcastle,Lewis Miley,AM,MID,False,0
+M0027,Newcastle,Joe Willock,DM,MID,True,90
+M0027,Newcastle,Bazoumana Touré,DM,MID,True,90
+M0027,Newcastle,Sean Steur,CM,MID,True,90
+M0027,Newcastle,Aladji Bamba,AM,MID,True,90
+M0027,Newcastle,Nick Woltemade,ST,FWD,True,90
+M0027,Newcastle,Yoane Wissa,RW,FWD,False,0
+M0027,Newcastle,William Osula,LW,FWD,False,0
+M0027,Newcastle,Sean Neave,ST,FWD,False,0
+M0028,Everton,Jordan Pickford,GK,GK,False,0
+M0028,Everton,Mark Travers,GK,GK,True,90
+M0028,Everton,Tom King,GK,GK,False,0
+M0028,Everton,James Tarkowski,RB,DEF,True,90
+M0028,Everton,Jarrad Branthwaite,CB,DEF,True,90
+M0028,Everton,Michael Keane,CB,DEF,True,90
+M0028,Everton,Jake O'Brien,LB,DEF,False,0
+M0028,Everton,Vitalii Mykolenko,CB,DEF,True,90
+M0028,Everton,Nathan Patterson,RB,DEF,False,0
+M0028,Everton,Adam Aznou,LB,DEF,False,0
+M0028,Everton,Kiernan Dewsbury-Hall,DM,MID,True,90
+M0028,Everton,Iliman Ndiaye,CM,MID,True,90
+M0028,Everton,James Garner,AM,MID,True,90
+M0028,Everton,Tim Iroegbunam,RW,MID,False,0
+M0028,Everton,Dwight McNeil,LW,MID,True,90
+M0028,Everton,Tyrique George,CM,MID,False,0
+M0028,Everton,Carlos Alcaraz Durán,AM,MID,False,0
+M0028,Everton,Harrison Armstrong,DM,MID,False,0
+M0028,Everton,Tyler Dibling,DM,MID,False,0
+M0028,Everton,Merlin Röhl,CM,MID,True,90
+M0028,Everton,Hayden Hackney,AM,MID,False,0
+M0028,Everton,Norberto Bercique Gomes Betuncal,ST,FWD,True,90
+M0028,Everton,Thierno Barry,RW,FWD,False,0
+M0028,Leeds,Lucas Estella Perri,GK,GK,True,90
+M0028,Leeds,Jaka Bijol,RB,DEF,False,0
+M0028,Leeds,Joe Rodon,CB,DEF,False,0
+M0028,Leeds,Jayden Bogle,CB,DEF,True,90
+M0028,Leeds,Gabriel Gudmundsson,LB,DEF,True,90
+M0028,Leeds,James Justin,CB,DEF,True,90
+M0028,Leeds,Sebastiaan Bornauw,RB,DEF,False,0
+M0028,Leeds,Tarik Muharemović,LB,DEF,True,90
+M0028,Leeds,Harry Wilson,DM,MID,False,0
+M0028,Leeds,Anton Stach,CM,MID,False,0
+M0028,Leeds,Noah Okafor,AM,MID,True,90
+M0028,Leeds,Brenden Aaronson,RW,MID,True,90
+M0028,Leeds,Ethan Ampadu,LW,MID,False,0
+M0028,Leeds,Sean Longstaff,CM,MID,False,0
+M0028,Leeds,Joe Gelhardt,AM,MID,False,0
+M0028,Leeds,Wilfried Gnonto,DM,MID,False,0
+M0028,Leeds,Jack Harrison,DM,MID,False,0
+M0028,Leeds,Daniel James,CM,MID,True,90
+M0028,Leeds,Ilia Gruev,AM,MID,True,90
+M0028,Leeds,Tanaka Ao,RW,MID,True,90
+M0028,Leeds,Dominic Calvert-Lewin,ST,FWD,False,0
+M0028,Leeds,Lukas Nmecha,RW,FWD,False,0
+M0028,Leeds,Joël Piroe,LW,FWD,False,0
+M0028,Leeds,Mateo Joseph Fernández-Regatillo,ST,FWD,True,90
+M0029,Leeds,Lucas Estella Perri,GK,GK,True,90
+M0029,Leeds,Jaka Bijol,RB,DEF,True,90
+M0029,Leeds,Joe Rodon,CB,DEF,False,0
+M0029,Leeds,Jayden Bogle,CB,DEF,True,90
+M0029,Leeds,Gabriel Gudmundsson,LB,DEF,False,0
+M0029,Leeds,James Justin,CB,DEF,False,0
+M0029,Leeds,Sebastiaan Bornauw,RB,DEF,True,90
+M0029,Leeds,Tarik Muharemović,LB,DEF,True,90
+M0029,Leeds,Harry Wilson,DM,MID,False,0
+M0029,Leeds,Anton Stach,CM,MID,False,0
+M0029,Leeds,Noah Okafor,AM,MID,False,0
+M0029,Leeds,Brenden Aaronson,RW,MID,True,90
+M0029,Leeds,Ethan Ampadu,LW,MID,True,90
+M0029,Leeds,Sean Longstaff,CM,MID,True,90
+M0029,Leeds,Joe Gelhardt,AM,MID,False,0
+M0029,Leeds,Wilfried Gnonto,DM,MID,False,0
+M0029,Leeds,Jack Harrison,DM,MID,False,0
+M0029,Leeds,Daniel James,CM,MID,False,0
+M0029,Leeds,Ilia Gruev,AM,MID,True,90
+M0029,Leeds,Tanaka Ao,RW,MID,True,90
+M0029,Leeds,Dominic Calvert-Lewin,ST,FWD,False,0
+M0029,Leeds,Lukas Nmecha,RW,FWD,False,0
+M0029,Leeds,Joël Piroe,LW,FWD,True,90
+M0029,Leeds,Mateo Joseph Fernández-Regatillo,ST,FWD,False,0
+M0029,Hull City,Dillon Phillips,GK,GK,True,90
+M0029,Hull City,Jack Butland,GK,GK,False,0
+M0029,Hull City,Harvey Cartwright,GK,GK,False,0
+M0029,Hull City,Thimothée Lo-Tutala,GK,GK,False,0
+M0029,Hull City,John Egan,RB,DEF,True,90
+M0029,Hull City,Charlie Hughes,CB,DEF,False,0
+M0029,Hull City,Semi Ajayi,CB,DEF,False,0
+M0029,Hull City,Lewie Coyle,LB,DEF,False,0
+M0029,Hull City,Cody Drameh,CB,DEF,True,90
+M0029,Hull City,Ryan Giles,RB,DEF,True,90
+M0029,Hull City,Matty Jacob,LB,DEF,False,0
+M0029,Hull City,Cathal McCarthy,RB,DEF,True,90
+M0029,Hull City,Paddy McNair,CB,DEF,False,0
+M0029,Hull City,Matt Targett,CB,DEF,False,0
+M0029,Hull City,Mohamed Belloumi,DM,MID,False,0
+M0029,Hull City,Liam Millar,CM,MID,False,0
+M0029,Hull City,Kieran Dowell,AM,MID,True,90
+M0029,Hull City,Matt Crooks,RW,MID,True,90
+M0029,Hull City,Regan Slater,LW,MID,False,0
+M0029,Hull City,Eliot Matazo,CM,MID,False,0
+M0029,Hull City,Abdülkadir Ömür,AM,MID,False,0
+M0029,Hull City,Abu Kamara,DM,MID,True,90
+M0029,Hull City,Óscar Zambrano,DM,MID,True,90
+M0029,Hull City,David Akintola,CM,MID,False,0
+M0029,Hull City,Darko Gyabi,AM,MID,False,0
+M0029,Hull City,Hidemasa Morita,RW,MID,True,90
+M0029,Hull City,Oli McBurnie,ST,FWD,False,0
+M0029,Hull City,Enis Destan,RW,FWD,False,0
+M0029,Hull City,Mason Burstow,LW,FWD,True,90
+M0030,Everton,Jordan Pickford,GK,GK,True,90
+M0030,Everton,Mark Travers,GK,GK,False,0
+M0030,Everton,Tom King,GK,GK,False,0
+M0030,Everton,James Tarkowski,RB,DEF,True,90
+M0030,Everton,Jarrad Branthwaite,CB,DEF,False,0
+M0030,Everton,Michael Keane,CB,DEF,True,90
+M0030,Everton,Jake O'Brien,LB,DEF,True,90
+M0030,Everton,Vitalii Mykolenko,CB,DEF,False,0
+M0030,Everton,Nathan Patterson,RB,DEF,True,90
+M0030,Everton,Adam Aznou,LB,DEF,False,0
+M0030,Everton,Kiernan Dewsbury-Hall,DM,MID,False,0
+M0030,Everton,Iliman Ndiaye,CM,MID,False,0
+M0030,Everton,James Garner,AM,MID,True,90
+M0030,Everton,Tim Iroegbunam,RW,MID,False,0
+M0030,Everton,Dwight McNeil,LW,MID,False,0
+M0030,Everton,Tyrique George,CM,MID,False,0
+M0030,Everton,Carlos Alcaraz Durán,AM,MID,True,90
+M0030,Everton,Harrison Armstrong,DM,MID,True,90
+M0030,Everton,Tyler Dibling,DM,MID,False,0
+M0030,Everton,Merlin Röhl,CM,MID,True,90
+M0030,Everton,Hayden Hackney,AM,MID,True,90
+M0030,Everton,Norberto Bercique Gomes Betuncal,ST,FWD,False,0
+M0030,Everton,Thierno Barry,RW,FWD,True,90
+M0030,Spurs,Guglielmo Vicario,GK,GK,False,0
+M0030,Spurs,Brandon Austin,GK,GK,False,0
+M0030,Spurs,Antonín Kinský,GK,GK,False,0
+M0030,Spurs,Martin Dubravka,GK,GK,True,90
+M0030,Spurs,Jan Paul van Hecke,RB,DEF,True,90
+M0030,Spurs,Marcos Senesi Barón,CB,DEF,False,0
+M0030,Spurs,Pedro Porro Sauceda,CB,DEF,False,0
+M0030,Spurs,Cristian Romero,LB,DEF,False,0
+M0030,Spurs,Kevin Danso,CB,DEF,True,90
+M0030,Spurs,Andrew Robertson,RB,DEF,False,0
+M0030,Spurs,Micky van de Ven,LB,DEF,False,0
+M0030,Spurs,Djed Spence,RB,DEF,False,0
+M0030,Spurs,Destiny Udogie,CB,DEF,True,90
+M0030,Spurs,Ashley Phillips,CB,DEF,False,0
+M0030,Spurs,Ben Davies,LB,DEF,True,90
+M0030,Spurs,Jun'ai Byfield,CB,DEF,False,0
+M0030,Spurs,James Rowswell,RB,DEF,False,0
+M0030,Spurs,João Victor de Souza Menezes,LB,DEF,False,0
+M0030,Spurs,Sandro Tonali,DM,MID,True,90
+M0030,Spurs,Mohammed Kudus,CM,MID,False,0
+M0030,Spurs,Xavi Simons,AM,MID,True,90
+M0030,Spurs,Mathys Tel,RW,MID,False,0
+M0030,Spurs,James Maddison,LW,MID,False,0
+M0030,Spurs,Rodrigo Bentancur,CM,MID,True,90
+M0030,Spurs,Wilson Odobert,AM,MID,False,0
+M0030,Spurs,Pape Matar Sarr,DM,MID,False,0
+M0030,Spurs,Conor Gallagher,DM,MID,False,0
+M0030,Spurs,Lucas Bergvall,CM,MID,False,0
+M0030,Spurs,Dejan Kulusevski,AM,MID,True,90
+M0030,Spurs,Archie Gray,RW,MID,True,90
+M0030,Spurs,Mikey Moore,LW,MID,False,0
+M0030,Spurs,Callum Olusesi,CM,MID,False,0
+M0030,Spurs,Mateus Fernandes,AM,MID,False,0
+M0030,Spurs,Dominic Solanke-Mitchell,ST,FWD,True,90
+M0030,Spurs,Richarlison de Andrade,RW,FWD,False,0
+M0030,Spurs,Dane Scarlett,LW,FWD,False,0
+M0031,Bournemouth,Đorđe Petrović,GK,GK,False,0
+M0031,Bournemouth,Fraser Forster,GK,GK,False,0
+M0031,Bournemouth,Will Dennis,GK,GK,True,90
+M0031,Bournemouth,James Hill,RB,DEF,True,90
+M0031,Bournemouth,Adrien Truffert,CB,DEF,True,90
+M0031,Bournemouth,Bafodé Diakité,CB,DEF,False,0
+M0031,Bournemouth,Veljko Milosavljevic,LB,DEF,False,0
+M0031,Bournemouth,Adam Smith,CB,DEF,True,90
+M0031,Bournemouth,Julián Araujo Zúñiga,RB,DEF,False,0
+M0031,Bournemouth,Julio Soler Barreto,LB,DEF,True,90
+M0031,Bournemouth,Rayan Vitor Simplício Rocha,DM,MID,False,0
+M0031,Bournemouth,Marcus Tavernier,CM,MID,True,90
+M0031,Bournemouth,Alex Scott,AM,MID,True,90
+M0031,Bournemouth,Justin Kluivert,RW,MID,False,0
+M0031,Bournemouth,Lewis Cook,LW,MID,False,0
+M0031,Bournemouth,Ben Gannon-Doak,CM,MID,True,90
+M0031,Bournemouth,Tyler Adams,AM,MID,False,0
+M0031,Bournemouth,David Brooks,DM,MID,True,90
+M0031,Bournemouth,Ryan Christie,DM,MID,False,0
+M0031,Bournemouth,Alex Tóth,CM,MID,False,0
+M0031,Bournemouth,Amine Adli,AM,MID,True,90
+M0031,Bournemouth,Junior Kroupi,RW,MID,False,0
+M0031,Bournemouth,Francisco Evanilson de Lima Barbosa,ST,FWD,False,0
+M0031,Bournemouth,Enes Ünal,RW,FWD,True,90
+M0031,Bournemouth,Álvaro Rodríguez,LW,FWD,False,0
+M0031,Everton,Jordan Pickford,GK,GK,False,0
+M0031,Everton,Mark Travers,GK,GK,False,0
+M0031,Everton,Tom King,GK,GK,True,90
+M0031,Everton,James Tarkowski,RB,DEF,False,0
+M0031,Everton,Jarrad Branthwaite,CB,DEF,True,90
+M0031,Everton,Michael Keane,CB,DEF,True,90
+M0031,Everton,Jake O'Brien,LB,DEF,True,90
+M0031,Everton,Vitalii Mykolenko,CB,DEF,False,0
+M0031,Everton,Nathan Patterson,RB,DEF,True,90
+M0031,Everton,Adam Aznou,LB,DEF,False,0
+M0031,Everton,Kiernan Dewsbury-Hall,DM,MID,True,90
+M0031,Everton,Iliman Ndiaye,CM,MID,False,0
+M0031,Everton,James Garner,AM,MID,True,90
+M0031,Everton,Tim Iroegbunam,RW,MID,False,0
+M0031,Everton,Dwight McNeil,LW,MID,True,90
+M0031,Everton,Tyrique George,CM,MID,False,0
+M0031,Everton,Carlos Alcaraz Durán,AM,MID,True,90
+M0031,Everton,Harrison Armstrong,DM,MID,False,0
+M0031,Everton,Tyler Dibling,DM,MID,False,0
+M0031,Everton,Merlin Röhl,CM,MID,True,90
+M0031,Everton,Hayden Hackney,AM,MID,False,0
+M0031,Everton,Norberto Bercique Gomes Betuncal,ST,FWD,True,90
+M0031,Everton,Thierno Barry,RW,FWD,False,0
+M0032,Coventry City,Oliver Dovin,GK,GK,True,90
+M0032,Coventry City,Ben Wilson,GK,GK,False,0
+M0032,Coventry City,Bobby Thomas,RB,DEF,False,0
+M0032,Coventry City,Liam Kitching,CB,DEF,False,0
+M0032,Coventry City,Milan van Ewijk,CB,DEF,False,0
+M0032,Coventry City,Jay Dasilva,LB,DEF,False,0
+M0032,Coventry City,Kaine Kesler-Hayden,CB,DEF,True,90
+M0032,Coventry City,Jake Bidwell,RB,DEF,True,90
+M0032,Coventry City,Joel Latibeaudiere,LB,DEF,True,90
+M0032,Coventry City,Luke Woolfenden,RB,DEF,False,0
+M0032,Coventry City,Miguel Brau,CB,DEF,True,90
+M0032,Coventry City,Aurèle Amenda,CB,DEF,False,0
+M0032,Coventry City,Frank Onyeka,DM,MID,False,0
+M0032,Coventry City,Jack Rudoni,CM,MID,True,90
+M0032,Coventry City,Matt Grimes,AM,MID,False,0
+M0032,Coventry City,Tatsuhiro Sakamoto,RW,MID,True,90
+M0032,Coventry City,Ephron Mason-Clark,LW,MID,True,90
+M0032,Coventry City,Josh Eccles,CM,MID,False,0
+M0032,Coventry City,Victor Torp,AM,MID,True,90
+M0032,Coventry City,George Shepherd,DM,MID,True,90
+M0032,Coventry City,Loum Tchaouna,DM,MID,False,0
+M0032,Coventry City,Raphael Borges Rodrigues,CM,MID,False,0
+M0032,Coventry City,Kaine Andrews,AM,MID,False,0
+M0032,Coventry City,Haji Wright,ST,FWD,False,0
+M0032,Coventry City,Brandon Thomas-Asante,RW,FWD,False,0
+M0032,Coventry City,Ellis Simms,LW,FWD,False,0
+M0032,Coventry City,Jahnoah Markelo,ST,FWD,True,90
+M0032,Coventry City,Norman Bassette,ST,FWD,False,0
+M0032,Aston Villa,Emiliano Martínez Romero,GK,GK,True,90
+M0032,Aston Villa,Marco Bizot,GK,GK,False,0
+M0032,Aston Villa,Lucas Digne,RB,DEF,False,0
+M0032,Aston Villa,Ezri Konsa Ngoyo,CB,DEF,True,90
+M0032,Aston Villa,Matty Cash,CB,DEF,False,0
+M0032,Aston Villa,Tyrone Mings,LB,DEF,False,0
+M0032,Aston Villa,Pau Torres,CB,DEF,True,90
+M0032,Aston Villa,Ian Maatsen,RB,DEF,True,90
+M0032,Aston Villa,Victor Lindelöf,LB,DEF,True,90
+M0032,Aston Villa,Andrés García,RB,DEF,False,0
+M0032,Aston Villa,Kosta Nedeljkovic,CB,DEF,False,0
+M0032,Aston Villa,Lamare Bogarde,DM,MID,False,0
+M0032,Aston Villa,Emiliano Buendía Stati,CM,MID,False,0
+M0032,Aston Villa,Evann Guessand,AM,MID,False,0
+M0032,Aston Villa,Leon Bailey,RW,MID,False,0
+M0032,Aston Villa,John McGinn,LW,MID,False,0
+M0032,Aston Villa,Ross Barkley,CM,MID,False,0
+M0032,Aston Villa,Boubacar Kamara,AM,MID,False,0
+M0032,Aston Villa,Amadou Onana,DM,MID,False,0
+M0032,Aston Villa,Samuel Iling-Junior,DM,MID,True,90
+M0032,Aston Villa,Bradley Burrowes,CM,MID,True,90
+M0032,Aston Villa,George Hemmings,AM,MID,False,0
+M0032,Aston Villa,Alysson Edward Franco da Rocha dos Santos,RW,MID,False,0
+M0032,Aston Villa,Johan Manzambi,LW,MID,True,90
+M0032,Aston Villa,Joao Gomes,CM,MID,True,90
+M0032,Aston Villa,Alejandro Garnacho Ferreyra,AM,MID,True,90
+M0032,Aston Villa,Ollie Watkins,ST,FWD,True,90
+M0032,Aston Villa,Tammy Abraham,RW,FWD,False,0
+M0033,Ipswich Town,Christian Walton,GK,GK,False,0
+M0033,Ipswich Town,Alex Palmer,GK,GK,True,90
+M0033,Ipswich Town,David Button,GK,GK,False,0
+M0033,Ipswich Town,Kayne van Oevelen,GK,GK,False,0
+M0033,Ipswich Town,Kjell Scherpen,GK,GK,False,0
+M0033,Ipswich Town,Issa Diop,RB,DEF,True,90
+M0033,Ipswich Town,Cédric Kipré,CB,DEF,True,90
+M0033,Ipswich Town,Dara O'Shea,CB,DEF,True,90
+M0033,Ipswich Town,Leif Davis,LB,DEF,True,90
+M0033,Ipswich Town,Jacob Greaves,CB,DEF,False,0
+M0033,Ipswich Town,Ben Johnson,RB,DEF,False,0
+M0033,Ipswich Town,Darnell Furlong,LB,DEF,False,0
+M0033,Ipswich Town,Marcelino Núñez,DM,MID,True,90
+M0033,Ipswich Town,Azor Matusiwa,CM,MID,True,90
+M0033,Ipswich Town,Wes Burns,AM,MID,False,0
+M0033,Ipswich Town,Jack Taylor,RW,MID,False,0
+M0033,Ipswich Town,Jack Clarke,LW,MID,False,0
+M0033,Ipswich Town,Chiedozie Ogbene,CM,MID,True,90
+M0033,Ipswich Town,Abdul Fatawu,AM,MID,False,0
+M0033,Ipswich Town,Jaden Philogene,DM,MID,True,90
+M0033,Ipswich Town,Sam Szmodics,DM,MID,False,0
+M0033,Ipswich Town,Kasey McAteer,CM,MID,False,0
+M0033,Ipswich Town,Anis Mehmeti,AM,MID,False,0
+M0033,Ipswich Town,Daizen Maeda,RW,MID,True,90
+M0033,Ipswich Town,Emersonn Correia da Silva,ST,FWD,False,0
+M0033,Ipswich Town,George Hirst,RW,FWD,False,0
+M0033,Ipswich Town,Chuba Akpom,LW,FWD,False,0
+M0033,Ipswich Town,Sindre Walle Egeli,ST,FWD,True,90
+M0033,Ipswich Town,Ali Al-Hamadi,ST,FWD,False,0
+M0033,Man City,Gianluigi Donnarumma,GK,GK,True,90
+M0033,Man City,James Trafford,GK,GK,False,0
+M0033,Man City,Marcus Bettinelli,GK,GK,False,0
+M0033,Man City,Nico O'Reilly,RB,DEF,True,90
+M0033,Man City,Marc Guéhi,CB,DEF,False,0
+M0033,Man City,Matheus Nunes,CB,DEF,False,0
+M0033,Man City,Rúben dos Santos Gato Alves Dias,LB,DEF,False,0
+M0033,Man City,Joško Gvardiol,CB,DEF,True,90
+M0033,Man City,Rayan Aït-Nouri,RB,DEF,False,0
+M0033,Man City,Abdukodir Khusanov,LB,DEF,True,90
+M0033,Man City,Max Alleyne,RB,DEF,False,0
+M0033,Man City,Rico Lewis,CB,DEF,False,0
+M0033,Man City,Vitor de Oliveira Nunes dos Reis,CB,DEF,True,90
+M0033,Man City,Jack Grealish,DM,MID,False,0
+M0033,Man City,Antoine Semenyo,CM,MID,False,0
+M0033,Man City,Phil Foden,AM,MID,False,0
+M0033,Man City,Rayan Cherki,RW,MID,False,0
+M0033,Man City,Jérémy Doku,LW,MID,False,0
+M0033,Man City,Rodrigo 'Rodri' Hernandez Cascante,CM,MID,True,90
+M0033,Man City,Sávio Moreira de Oliveira,AM,MID,True,90
+M0033,Man City,Tijjani Reijnders,DM,MID,False,0
+M0033,Man City,Nico González Iglesias,DM,MID,False,0
+M0033,Man City,Mateo Kovačić,CM,MID,True,90
+M0033,Man City,Claudio Echeverri,AM,MID,True,90
+M0033,Man City,Kalvin Phillips,RW,MID,True,90
+M0033,Man City,Divine Mukasa,LW,MID,False,0
+M0033,Man City,Jeremy Monga,CM,MID,False,0
+M0033,Man City,Elliot Anderson,AM,MID,False,0
+M0033,Man City,Omar Marmoush,ST,FWD,True,90
+M0033,Man City,Erling Haaland,RW,FWD,False,0
+M0034,Leeds,Lucas Estella Perri,GK,GK,True,90
+M0034,Leeds,Jaka Bijol,RB,DEF,True,90
+M0034,Leeds,Joe Rodon,CB,DEF,True,90
+M0034,Leeds,Jayden Bogle,CB,DEF,True,90
+M0034,Leeds,Gabriel Gudmundsson,LB,DEF,True,90
+M0034,Leeds,James Justin,CB,DEF,False,0
+M0034,Leeds,Sebastiaan Bornauw,RB,DEF,False,0
+M0034,Leeds,Tarik Muharemović,LB,DEF,False,0
+M0034,Leeds,Harry Wilson,DM,MID,False,0
+M0034,Leeds,Anton Stach,CM,MID,True,90
+M0034,Leeds,Noah Okafor,AM,MID,False,0
+M0034,Leeds,Brenden Aaronson,RW,MID,True,90
+M0034,Leeds,Ethan Ampadu,LW,MID,False,0
+M0034,Leeds,Sean Longstaff,CM,MID,False,0
+M0034,Leeds,Joe Gelhardt,AM,MID,False,0
+M0034,Leeds,Wilfried Gnonto,DM,MID,False,0
+M0034,Leeds,Jack Harrison,DM,MID,False,0
+M0034,Leeds,Daniel James,CM,MID,True,90
+M0034,Leeds,Ilia Gruev,AM,MID,True,90
+M0034,Leeds,Tanaka Ao,RW,MID,True,90
+M0034,Leeds,Dominic Calvert-Lewin,ST,FWD,False,0
+M0034,Leeds,Lukas Nmecha,RW,FWD,False,0
+M0034,Leeds,Joël Piroe,LW,FWD,False,0
+M0034,Leeds,Mateo Joseph Fernández-Regatillo,ST,FWD,True,90
+M0034,Man City,Gianluigi Donnarumma,GK,GK,False,0
+M0034,Man City,James Trafford,GK,GK,False,0
+M0034,Man City,Marcus Bettinelli,GK,GK,True,90
+M0034,Man City,Nico O'Reilly,RB,DEF,False,0
+M0034,Man City,Marc Guéhi,CB,DEF,False,0
+M0034,Man City,Matheus Nunes,CB,DEF,False,0
+M0034,Man City,Rúben dos Santos Gato Alves Dias,LB,DEF,False,0
+M0034,Man City,Joško Gvardiol,CB,DEF,True,90
+M0034,Man City,Rayan Aït-Nouri,RB,DEF,False,0
+M0034,Man City,Abdukodir Khusanov,LB,DEF,False,0
+M0034,Man City,Max Alleyne,RB,DEF,True,90
+M0034,Man City,Rico Lewis,CB,DEF,True,90
+M0034,Man City,Vitor de Oliveira Nunes dos Reis,CB,DEF,True,90
+M0034,Man City,Jack Grealish,DM,MID,False,0
+M0034,Man City,Antoine Semenyo,CM,MID,False,0
+M0034,Man City,Phil Foden,AM,MID,True,90
+M0034,Man City,Rayan Cherki,RW,MID,True,90
+M0034,Man City,Jérémy Doku,LW,MID,True,90
+M0034,Man City,Rodrigo 'Rodri' Hernandez Cascante,CM,MID,False,0
+M0034,Man City,Sávio Moreira de Oliveira,AM,MID,False,0
+M0034,Man City,Tijjani Reijnders,DM,MID,True,90
+M0034,Man City,Nico González Iglesias,DM,MID,False,0
+M0034,Man City,Mateo Kovačić,CM,MID,False,0
+M0034,Man City,Claudio Echeverri,AM,MID,False,0
+M0034,Man City,Kalvin Phillips,RW,MID,False,0
+M0034,Man City,Divine Mukasa,LW,MID,False,0
+M0034,Man City,Jeremy Monga,CM,MID,True,90
+M0034,Man City,Elliot Anderson,AM,MID,False,0
+M0034,Man City,Omar Marmoush,ST,FWD,True,90
+M0034,Man City,Erling Haaland,RW,FWD,False,0
+M0035,Leeds,Lucas Estella Perri,GK,GK,True,90
+M0035,Leeds,Jaka Bijol,RB,DEF,False,0
+M0035,Leeds,Joe Rodon,CB,DEF,True,90
+M0035,Leeds,Jayden Bogle,CB,DEF,True,90
+M0035,Leeds,Gabriel Gudmundsson,LB,DEF,True,90
+M0035,Leeds,James Justin,CB,DEF,True,90
+M0035,Leeds,Sebastiaan Bornauw,RB,DEF,False,0
+M0035,Leeds,Tarik Muharemović,LB,DEF,False,0
+M0035,Leeds,Harry Wilson,DM,MID,False,0
+M0035,Leeds,Anton Stach,CM,MID,False,0
+M0035,Leeds,Noah Okafor,AM,MID,False,0
+M0035,Leeds,Brenden Aaronson,RW,MID,True,90
+M0035,Leeds,Ethan Ampadu,LW,MID,False,0
+M0035,Leeds,Sean Longstaff,CM,MID,True,90
+M0035,Leeds,Joe Gelhardt,AM,MID,False,0
+M0035,Leeds,Wilfried Gnonto,DM,MID,True,90
+M0035,Leeds,Jack Harrison,DM,MID,True,90
+M0035,Leeds,Daniel James,CM,MID,False,0
+M0035,Leeds,Ilia Gruev,AM,MID,False,0
+M0035,Leeds,Tanaka Ao,RW,MID,True,90
+M0035,Leeds,Dominic Calvert-Lewin,ST,FWD,True,90
+M0035,Leeds,Lukas Nmecha,RW,FWD,False,0
+M0035,Leeds,Joël Piroe,LW,FWD,False,0
+M0035,Leeds,Mateo Joseph Fernández-Regatillo,ST,FWD,False,0
+M0035,Nott'm Forest,Matz Sels,GK,GK,False,0
+M0035,Nott'm Forest,John Victor Maciel Furtado,GK,GK,True,90
+M0035,Nott'm Forest,Neco Williams,RB,DEF,False,0
+M0035,Nott'm Forest,Felipe Rodrigues da Silva,CB,DEF,False,0
+M0035,Nott'm Forest,Nikola Milenković,CB,DEF,False,0
+M0035,Nott'm Forest,Murillo Costa dos Santos,LB,DEF,False,0
+M0035,Nott'm Forest,Ola Aina,CB,DEF,True,90
+M0035,Nott'm Forest,Jair Paula da Cunha Filho,RB,DEF,True,90
+M0035,Nott'm Forest,Nicolò Savona,LB,DEF,True,90
+M0035,Nott'm Forest,Omar Richards,RB,DEF,False,0
+M0035,Nott'm Forest,Zach Abbott,CB,DEF,True,90
+M0035,Nott'm Forest,Luca Netz,CB,DEF,False,0
+M0035,Nott'm Forest,Tyler Bindon,LB,DEF,False,0
+M0035,Nott'm Forest,Morgan Gibbs-White,DM,MID,False,0
+M0035,Nott'm Forest,Callum Hudson-Odoi,CM,MID,True,90
+M0035,Nott'm Forest,Dan Ndoye,AM,MID,True,90
+M0035,Nott'm Forest,Omari Hutchinson,RW,MID,True,90
+M0035,Nott'm Forest,Dilane Bakwa,LW,MID,True,90
+M0035,Nott'm Forest,James McAtee,CM,MID,False,0
+M0035,Nott'm Forest,Nicolás Domínguez,AM,MID,True,90
+M0035,Nott'm Forest,Ibrahim Sangaré,DM,MID,False,0
+M0035,Nott'm Forest,Ryan Yates,DM,MID,False,0
+M0035,Nott'm Forest,Xaver Schlager,CM,MID,False,0
+M0035,Nott'm Forest,Chris Wood,ST,FWD,False,0
+M0035,Nott'm Forest,Igor Jesus Maciel da Cruz,RW,FWD,False,0
+M0035,Nott'm Forest,Taiwo Awoniyi,LW,FWD,True,90
+M0035,Nott'm Forest,Arnaud Kalimuendo,ST,FWD,False,0
+M0036,Man Utd,Karl Darlow,GK,GK,False,0
+M0036,Man Utd,Senne Lammens,GK,GK,False,0
+M0036,Man Utd,Altay Bayındır,GK,GK,False,0
+M0036,Man Utd,Tom Heaton,GK,GK,True,90
+M0036,Man Utd,Matthijs de Ligt,RB,DEF,False,0
+M0036,Man Utd,Diogo Dalot Teixeira,CB,DEF,True,90
+M0036,Man Utd,Harry Maguire,CB,DEF,False,0
+M0036,Man Utd,Lisandro Martínez,LB,DEF,False,0
+M0036,Man Utd,Leny Yoro,CB,DEF,True,90
+M0036,Man Utd,Ayden Heaven,RB,DEF,True,90
+M0036,Man Utd,Noussair Mazraoui,LB,DEF,True,90
+M0036,Man Utd,Luke Shaw,RB,DEF,False,0
+M0036,Man Utd,Harry Amass,CB,DEF,False,0
+M0036,Man Utd,Tyler Fredricson,CB,DEF,False,0
+M0036,Man Utd,Youri Tielemans,DM,MID,False,0
+M0036,Man Utd,Andrey Nascimento dos Santos,CM,MID,False,0
+M0036,Man Utd,Patrick Dorgu,AM,MID,True,90
+M0036,Man Utd,Bruno Borges Fernandes,RW,MID,True,90
+M0036,Man Utd,Bryan Mbeumo,LW,MID,False,0
+M0036,Man Utd,Matheus Santos Carneiro da Cunha,CM,MID,False,0
+M0036,Man Utd,Marcus Rashford,AM,MID,False,0
+M0036,Man Utd,Mason Mount,DM,MID,False,0
+M0036,Man Utd,Amad Diallo,DM,MID,True,90
+M0036,Man Utd,Kobbie Mainoo,CM,MID,True,90
+M0036,Man Utd,Manuel Ugarte Ribeiro,AM,MID,False,0
+M0036,Man Utd,Jack Fletcher,RW,MID,False,0
+M0036,Man Utd,Shea Lacey,LW,MID,False,0
+M0036,Man Utd,Toby Collyer,CM,MID,True,90
+M0036,Man Utd,Bendito Mantato,AM,MID,False,0
+M0036,Man Utd,Tyler Fletcher,DM,MID,False,0
+M0036,Man Utd,Benjamin Sesko,ST,FWD,False,0
+M0036,Man Utd,Joshua Zirkzee,RW,FWD,True,90
+M0036,Man Utd,Chido Obi,LW,FWD,False,0
+M0036,Chelsea,Robert Lynch Sánchez,GK,GK,True,90
+M0036,Chelsea,Filip Jörgensen,GK,GK,False,0
+M0036,Chelsea,Mike Penders,GK,GK,False,0
+M0036,Chelsea,Reece James,RB,DEF,True,90
+M0036,Chelsea,Trevoh Chalobah,CB,DEF,False,0
+M0036,Chelsea,Malo Gusto,CB,DEF,True,90
+M0036,Chelsea,Wesley Fofana,LB,DEF,False,0
+M0036,Chelsea,Benoît Badiashile Mukinayi,CB,DEF,True,90
+M0036,Chelsea,Tosin Adarabioyo,RB,DEF,False,0
+M0036,Chelsea,Jorrel Hato,LB,DEF,False,0
+M0036,Chelsea,Levi Samuels Colwill,RB,DEF,False,0
+M0036,Chelsea,Mamadou Sarr,CB,DEF,False,0
+M0036,Chelsea,Josh Acheampong,CB,DEF,False,0
+M0036,Chelsea,Marco Palestra,LB,DEF,True,90
+M0036,Chelsea,Axel Disasi,CB,DEF,False,0
+M0036,Chelsea,Aaron Anselmino,RB,DEF,False,0
+M0036,Chelsea,Morgan Rogers,DM,MID,True,90
+M0036,Chelsea,Cole Palmer,CM,MID,False,0
+M0036,Chelsea,Enzo Fernández,AM,MID,False,0
+M0036,Chelsea,Pedro Lomba Neto,RW,MID,True,90
+M0036,Chelsea,Estêvão Almeida de Oliveira Gonçalves,LW,MID,True,90
+M0036,Chelsea,Jamie Bynoe-Gittens,CM,MID,True,90
+M0036,Chelsea,Moisés Caicedo Corozo,AM,MID,False,0
+M0036,Chelsea,Roméo Lavia,DM,MID,True,90
+M0036,Chelsea,Dário Luís Essugo,DM,MID,False,0
+M0036,Chelsea,Geovany Quenda,CM,MID,False,0
+M0036,Chelsea,João Pedro Junqueira de Jesus,ST,FWD,False,0
+M0036,Chelsea,Nicolas Jackson,RW,FWD,False,0
+M0036,Chelsea,Liam Delap,LW,FWD,False,0
+M0036,Chelsea,Marc Guiu Paz,ST,FWD,False,0
+M0036,Chelsea,Shumaira Mheuka,ST,FWD,False,0
+M0036,Chelsea,Emmanuel Emegha,RW,FWD,True,90
+M0037,Brentford,Caoimhín Kelleher,GK,GK,True,90
+M0037,Brentford,Hákon Rafn Valdimarsson,GK,GK,False,0
+M0037,Brentford,Nathan Collins,RB,DEF,True,90
+M0037,Brentford,Sepp van den Berg,CB,DEF,False,0
+M0037,Brentford,Kristoffer Ajer,CB,DEF,True,90
+M0037,Brentford,Michael Kayode,LB,DEF,True,90
+M0037,Brentford,Rico Henry,CB,DEF,False,0
+M0037,Brentford,Aaron Hickey,RB,DEF,False,0
+M0037,Brentford,Ethan Pinnock,LB,DEF,False,0
+M0037,Brentford,Kim Ji-soo,RB,DEF,False,0
+M0037,Brentford,Jannik Schuster,CB,DEF,True,90
+M0037,Brentford,Keane Lewis-Potter,DM,MID,False,0
+M0037,Brentford,Kevin Schade,CM,MID,True,90
+M0037,Brentford,Dango Ouattara,AM,MID,True,90
+M0037,Brentford,Mikkel Damsgaard,RW,MID,False,0
+M0037,Brentford,Mathias Jensen,LW,MID,False,0
+M0037,Brentford,Vitaly Janelt,CM,MID,False,0
+M0037,Brentford,Antoni Milambo,AM,MID,False,0
+M0037,Brentford,Fábio Freitas Gouveia Carvalho,DM,MID,True,90
+M0037,Brentford,Jordan Henderson,DM,MID,False,0
+M0037,Brentford,Yehor Yarmoliuk,CM,MID,True,90
+M0037,Brentford,Josh Dasilva,AM,MID,False,0
+M0037,Brentford,Jaidon Anthony,RW,MID,True,90
+M0037,Brentford,Igor Thiago Nascimento Rodrigues,ST,FWD,False,0
+M0037,Brentford,Kaye Furo,RW,FWD,True,90
+M0037,Brentford,Callum Wilson,LW,FWD,False,0
+M0037,Everton,Jordan Pickford,GK,GK,True,90
+M0037,Everton,Mark Travers,GK,GK,False,0
+M0037,Everton,Tom King,GK,GK,False,0
+M0037,Everton,James Tarkowski,RB,DEF,True,90
+M0037,Everton,Jarrad Branthwaite,CB,DEF,False,0
+M0037,Everton,Michael Keane,CB,DEF,True,90
+M0037,Everton,Jake O'Brien,LB,DEF,True,90
+M0037,Everton,Vitalii Mykolenko,CB,DEF,False,0
+M0037,Everton,Nathan Patterson,RB,DEF,True,90
+M0037,Everton,Adam Aznou,LB,DEF,False,0
+M0037,Everton,Kiernan Dewsbury-Hall,DM,MID,False,0
+M0037,Everton,Iliman Ndiaye,CM,MID,True,90
+M0037,Everton,James Garner,AM,MID,False,0
+M0037,Everton,Tim Iroegbunam,RW,MID,False,0
+M0037,Everton,Dwight McNeil,LW,MID,False,0
+M0037,Everton,Tyrique George,CM,MID,False,0
+M0037,Everton,Carlos Alcaraz Durán,AM,MID,False,0
+M0037,Everton,Harrison Armstrong,DM,MID,True,90
+M0037,Everton,Tyler Dibling,DM,MID,True,90
+M0037,Everton,Merlin Röhl,CM,MID,True,90
+M0037,Everton,Hayden Hackney,AM,MID,True,90
+M0037,Everton,Norberto Bercique Gomes Betuncal,ST,FWD,True,90
+M0037,Everton,Thierno Barry,RW,FWD,False,0
+M0038,Man City,Gianluigi Donnarumma,GK,GK,False,0
+M0038,Man City,James Trafford,GK,GK,False,0
+M0038,Man City,Marcus Bettinelli,GK,GK,True,90
+M0038,Man City,Nico O'Reilly,RB,DEF,False,0
+M0038,Man City,Marc Guéhi,CB,DEF,False,0
+M0038,Man City,Matheus Nunes,CB,DEF,True,90
+M0038,Man City,Rúben dos Santos Gato Alves Dias,LB,DEF,True,90
+M0038,Man City,Joško Gvardiol,CB,DEF,False,0
+M0038,Man City,Rayan Aït-Nouri,RB,DEF,True,90
+M0038,Man City,Abdukodir Khusanov,LB,DEF,False,0
+M0038,Man City,Max Alleyne,RB,DEF,False,0
+M0038,Man City,Rico Lewis,CB,DEF,True,90
+M0038,Man City,Vitor de Oliveira Nunes dos Reis,CB,DEF,False,0
+M0038,Man City,Jack Grealish,DM,MID,False,0
+M0038,Man City,Antoine Semenyo,CM,MID,False,0
+M0038,Man City,Phil Foden,AM,MID,False,0
+M0038,Man City,Rayan Cherki,RW,MID,False,0
+M0038,Man City,Jérémy Doku,LW,MID,False,0
+M0038,Man City,Rodrigo 'Rodri' Hernandez Cascante,CM,MID,False,0
+M0038,Man City,Sávio Moreira de Oliveira,AM,MID,True,90
+M0038,Man City,Tijjani Reijnders,DM,MID,False,0
+M0038,Man City,Nico González Iglesias,DM,MID,False,0
+M0038,Man City,Mateo Kovačić,CM,MID,False,0
+M0038,Man City,Claudio Echeverri,AM,MID,True,90
+M0038,Man City,Kalvin Phillips,RW,MID,True,90
+M0038,Man City,Divine Mukasa,LW,MID,False,0
+M0038,Man City,Jeremy Monga,CM,MID,True,90
+M0038,Man City,Elliot Anderson,AM,MID,True,90
+M0038,Man City,Omar Marmoush,ST,FWD,False,0
+M0038,Man City,Erling Haaland,RW,FWD,True,90
+M0038,Ipswich Town,Christian Walton,GK,GK,False,0
+M0038,Ipswich Town,Alex Palmer,GK,GK,False,0
+M0038,Ipswich Town,David Button,GK,GK,True,90
+M0038,Ipswich Town,Kayne van Oevelen,GK,GK,False,0
+M0038,Ipswich Town,Kjell Scherpen,GK,GK,False,0
+M0038,Ipswich Town,Issa Diop,RB,DEF,False,0
+M0038,Ipswich Town,Cédric Kipré,CB,DEF,False,0
+M0038,Ipswich Town,Dara O'Shea,CB,DEF,True,90
+M0038,Ipswich Town,Leif Davis,LB,DEF,True,90
+M0038,Ipswich Town,Jacob Greaves,CB,DEF,True,90
+M0038,Ipswich Town,Ben Johnson,RB,DEF,True,90
+M0038,Ipswich Town,Darnell Furlong,LB,DEF,False,0
+M0038,Ipswich Town,Marcelino Núñez,DM,MID,True,90
+M0038,Ipswich Town,Azor Matusiwa,CM,MID,True,90
+M0038,Ipswich Town,Wes Burns,AM,MID,True,90
+M0038,Ipswich Town,Jack Taylor,RW,MID,False,0
+M0038,Ipswich Town,Jack Clarke,LW,MID,True,90
+M0038,Ipswich Town,Chiedozie Ogbene,CM,MID,False,0
+M0038,Ipswich Town,Abdul Fatawu,AM,MID,False,0
+M0038,Ipswich Town,Jaden Philogene,DM,MID,False,0
+M0038,Ipswich Town,Sam Szmodics,DM,MID,True,90
+M0038,Ipswich Town,Kasey McAteer,CM,MID,False,0
+M0038,Ipswich Town,Anis Mehmeti,AM,MID,False,0
+M0038,Ipswich Town,Daizen Maeda,RW,MID,False,0
+M0038,Ipswich Town,Emersonn Correia da Silva,ST,FWD,True,90
+M0038,Ipswich Town,George Hirst,RW,FWD,False,0
+M0038,Ipswich Town,Chuba Akpom,LW,FWD,False,0
+M0038,Ipswich Town,Sindre Walle Egeli,ST,FWD,False,0
+M0038,Ipswich Town,Ali Al-Hamadi,ST,FWD,False,0
