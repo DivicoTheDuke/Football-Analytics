@@ -1,0 +1,11 @@
+numpy>=1.26,<3
+pandas>=2.2,<3
+scikit-learn>=1.5,<2
+scipy>=1.13,<2
+networkx>=3.3,<4
+plotly>=5.24,<7
+streamlit>=1.39,<2
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30,<1
+pydantic>=2.9,<3
+joblib>=1.4,<2

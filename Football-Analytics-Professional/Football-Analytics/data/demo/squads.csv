@@ -1,0 +1,565 @@
+team,player,fpl_position,synthetic_demo_position,source,season
+Arsenal,David Raya Martín,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Arsenal,Kepa Arrizabalaga Revuelta,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Arsenal,Illan Meslier,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Arsenal,Gabriel dos Santos Magalhães,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Arsenal,Jurriën Timber,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Arsenal,William Saliba,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Arsenal,Riccardo Calafiori,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Arsenal,Piero Hincapié,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Arsenal,Benjamin White,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Arsenal,Cristhian Mosquera,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Arsenal,Myles Lewis-Skelly,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Arsenal,Bukayo Saka,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Arsenal,Declan Rice,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Arsenal,Eberechi Eze,MID,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Arsenal,Martin Ødegaard,MID,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Arsenal,Noni Madueke,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Arsenal,Mikel Merino Zazón,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Arsenal,Gabriel Martinelli Silva,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Arsenal,Martín Zubimendi Ibáñez,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Arsenal,Max Dowman,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Arsenal,Christian Nørgaard,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Arsenal,Ethan Nwaneri,MID,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Arsenal,Fábio Ferreira Vieira,MID,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Arsenal,Reiss Nelson,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Arsenal,Christos Tzolis,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Arsenal,Viktor Gyökeres,FWD,ST,Official Fantasy Premier League bootstrap-static API,2026/27
+Arsenal,Kai Havertz,FWD,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Arsenal,Gabriel Fernando de Jesus,FWD,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Aston Villa,Emiliano Martínez Romero,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Aston Villa,Marco Bizot,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Aston Villa,Lucas Digne,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Aston Villa,Ezri Konsa Ngoyo,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Aston Villa,Matty Cash,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Aston Villa,Tyrone Mings,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Aston Villa,Pau Torres,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Aston Villa,Ian Maatsen,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Aston Villa,Victor Lindelöf,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Aston Villa,Andrés García,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Aston Villa,Kosta Nedeljkovic,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Aston Villa,Lamare Bogarde,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Aston Villa,Emiliano Buendía Stati,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Aston Villa,Evann Guessand,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Aston Villa,Leon Bailey,MID,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Aston Villa,John McGinn,MID,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Aston Villa,Ross Barkley,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Aston Villa,Boubacar Kamara,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Aston Villa,Amadou Onana,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Aston Villa,Samuel Iling-Junior,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Aston Villa,Bradley Burrowes,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Aston Villa,George Hemmings,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Aston Villa,Alysson Edward Franco da Rocha dos Santos,MID,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Aston Villa,Johan Manzambi,MID,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Aston Villa,Joao Gomes,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Aston Villa,Alejandro Garnacho Ferreyra,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Aston Villa,Ollie Watkins,FWD,ST,Official Fantasy Premier League bootstrap-static API,2026/27
+Aston Villa,Tammy Abraham,FWD,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Bournemouth,Đorđe Petrović,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Bournemouth,Fraser Forster,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Bournemouth,Will Dennis,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Bournemouth,James Hill,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Bournemouth,Adrien Truffert,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Bournemouth,Bafodé Diakité,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Bournemouth,Veljko Milosavljevic,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Bournemouth,Adam Smith,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Bournemouth,Julián Araujo Zúñiga,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Bournemouth,Julio Soler Barreto,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Bournemouth,Rayan Vitor Simplício Rocha,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Bournemouth,Marcus Tavernier,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Bournemouth,Alex Scott,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Bournemouth,Justin Kluivert,MID,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Bournemouth,Lewis Cook,MID,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Bournemouth,Ben Gannon-Doak,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Bournemouth,Tyler Adams,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Bournemouth,David Brooks,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Bournemouth,Ryan Christie,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Bournemouth,Alex Tóth,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Bournemouth,Amine Adli,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Bournemouth,Junior Kroupi,MID,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Bournemouth,Francisco Evanilson de Lima Barbosa,FWD,ST,Official Fantasy Premier League bootstrap-static API,2026/27
+Bournemouth,Enes Ünal,FWD,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Bournemouth,Álvaro Rodríguez,FWD,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Brentford,Caoimhín Kelleher,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Brentford,Hákon Rafn Valdimarsson,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Brentford,Nathan Collins,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Brentford,Sepp van den Berg,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Brentford,Kristoffer Ajer,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Brentford,Michael Kayode,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Brentford,Rico Henry,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Brentford,Aaron Hickey,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Brentford,Ethan Pinnock,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Brentford,Kim Ji-soo,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Brentford,Jannik Schuster,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Brentford,Keane Lewis-Potter,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Brentford,Kevin Schade,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Brentford,Dango Ouattara,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Brentford,Mikkel Damsgaard,MID,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Brentford,Mathias Jensen,MID,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Brentford,Vitaly Janelt,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Brentford,Antoni Milambo,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Brentford,Fábio Freitas Gouveia Carvalho,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Brentford,Jordan Henderson,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Brentford,Yehor Yarmoliuk,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Brentford,Josh Dasilva,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Brentford,Jaidon Anthony,MID,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Brentford,Igor Thiago Nascimento Rodrigues,FWD,ST,Official Fantasy Premier League bootstrap-static API,2026/27
+Brentford,Kaye Furo,FWD,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Brentford,Callum Wilson,FWD,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Brighton,Bart Verbruggen,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Brighton,Carl Rushworth,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Brighton,Jason Steele,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Brighton,Ferdi Kadıoğlu,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Brighton,Olivier Boscagli,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Brighton,Maxim De Cuyper,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Brighton,Lewis Dunk,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Brighton,Diego Coppola,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Brighton,Igor Julio dos Santos de Paulo,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Brighton,João Pedro Loureiro da Costa,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Brighton,Michael Svoboda,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Brighton,Mats Wieffer,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Brighton,Pascal Struijk,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Brighton,Luka Vušković,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Brighton,Mitoma Kaoru,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Brighton,Yankuba Minteh,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Brighton,Jack Hinshelwood,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Brighton,Pascal Groß,MID,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Brighton,Matt O'Riley,MID,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Brighton,Diego Gómez Amarilla,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Brighton,Facundo Buonanotte,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Brighton,Yasin Ayari,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Brighton,Carlos Baleba,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Brighton,Harry Howell,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Brighton,Tom Watson,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Brighton,Nehemiah Oriola,MID,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Brighton,Zadok Yohanna,MID,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Brighton,Georginio Rutter,FWD,ST,Official Fantasy Premier League bootstrap-static API,2026/27
+Brighton,Danny Welbeck,FWD,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Brighton,Stefanos Tzimas,FWD,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Brighton,Charalampos Kostoulas,FWD,ST,Official Fantasy Premier League bootstrap-static API,2026/27
+Brighton,Evan Ferguson,FWD,ST,Official Fantasy Premier League bootstrap-static API,2026/27
+Chelsea,Robert Lynch Sánchez,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Chelsea,Filip Jörgensen,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Chelsea,Mike Penders,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Chelsea,Reece James,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Chelsea,Trevoh Chalobah,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Chelsea,Malo Gusto,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Chelsea,Wesley Fofana,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Chelsea,Benoît Badiashile Mukinayi,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Chelsea,Tosin Adarabioyo,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Chelsea,Jorrel Hato,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Chelsea,Levi Samuels Colwill,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Chelsea,Mamadou Sarr,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Chelsea,Josh Acheampong,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Chelsea,Marco Palestra,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Chelsea,Axel Disasi,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Chelsea,Aaron Anselmino,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Chelsea,Morgan Rogers,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Chelsea,Cole Palmer,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Chelsea,Enzo Fernández,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Chelsea,Pedro Lomba Neto,MID,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Chelsea,Estêvão Almeida de Oliveira Gonçalves,MID,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Chelsea,Jamie Bynoe-Gittens,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Chelsea,Moisés Caicedo Corozo,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Chelsea,Roméo Lavia,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Chelsea,Dário Luís Essugo,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Chelsea,Geovany Quenda,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Chelsea,João Pedro Junqueira de Jesus,FWD,ST,Official Fantasy Premier League bootstrap-static API,2026/27
+Chelsea,Nicolas Jackson,FWD,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Chelsea,Liam Delap,FWD,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Chelsea,Marc Guiu Paz,FWD,ST,Official Fantasy Premier League bootstrap-static API,2026/27
+Chelsea,Shumaira Mheuka,FWD,ST,Official Fantasy Premier League bootstrap-static API,2026/27
+Chelsea,Emmanuel Emegha,FWD,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Coventry City,Oliver Dovin,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Coventry City,Ben Wilson,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Coventry City,Bobby Thomas,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Coventry City,Liam Kitching,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Coventry City,Milan van Ewijk,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Coventry City,Jay Dasilva,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Coventry City,Kaine Kesler-Hayden,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Coventry City,Jake Bidwell,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Coventry City,Joel Latibeaudiere,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Coventry City,Luke Woolfenden,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Coventry City,Miguel Brau,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Coventry City,Aurèle Amenda,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Coventry City,Frank Onyeka,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Coventry City,Jack Rudoni,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Coventry City,Matt Grimes,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Coventry City,Tatsuhiro Sakamoto,MID,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Coventry City,Ephron Mason-Clark,MID,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Coventry City,Josh Eccles,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Coventry City,Victor Torp,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Coventry City,George Shepherd,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Coventry City,Loum Tchaouna,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Coventry City,Raphael Borges Rodrigues,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Coventry City,Kaine Andrews,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Coventry City,Haji Wright,FWD,ST,Official Fantasy Premier League bootstrap-static API,2026/27
+Coventry City,Brandon Thomas-Asante,FWD,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Coventry City,Ellis Simms,FWD,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Coventry City,Jahnoah Markelo,FWD,ST,Official Fantasy Premier League bootstrap-static API,2026/27
+Coventry City,Norman Bassette,FWD,ST,Official Fantasy Premier League bootstrap-static API,2026/27
+Crystal Palace,Dean Henderson,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Crystal Palace,Walter Benítez,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Crystal Palace,Remi Matthews,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Crystal Palace,Maxence Lacroix,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Crystal Palace,Daniel Muñoz Mejía,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Crystal Palace,Chris Richards,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Crystal Palace,Jaydee Canvot,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Crystal Palace,Tyrick Mitchell,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Crystal Palace,Borna Sosa,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Crystal Palace,Chadi Riad Dnanou,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Crystal Palace,Oscar Mingueza,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Crystal Palace,Rio Cardines,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Crystal Palace,Ismaïla Sarr,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Crystal Palace,Brennan Johnson,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Crystal Palace,Adam Wharton,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Crystal Palace,Yéremy Pino Santos,MID,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Crystal Palace,Will Hughes,MID,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Crystal Palace,Jefferson Lerma Solís,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Crystal Palace,Daichi Kamada,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Crystal Palace,Justin Devenny,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Crystal Palace,Romain Esse,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Crystal Palace,Matheus França de Oliveira,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Crystal Palace,Cheick Doucouré,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Crystal Palace,Jesurun Rak-Sakyi,MID,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Crystal Palace,Joél Drakes-Thomas,MID,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Crystal Palace,Jørgen Strand Larsen,FWD,ST,Official Fantasy Premier League bootstrap-static API,2026/27
+Crystal Palace,Jean-Philippe Mateta,FWD,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Crystal Palace,Eddie Nketiah,FWD,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Crystal Palace,Christantus Uche,FWD,ST,Official Fantasy Premier League bootstrap-static API,2026/27
+Everton,Jordan Pickford,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Everton,Mark Travers,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Everton,Tom King,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Everton,James Tarkowski,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Everton,Jarrad Branthwaite,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Everton,Michael Keane,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Everton,Jake O'Brien,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Everton,Vitalii Mykolenko,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Everton,Nathan Patterson,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Everton,Adam Aznou,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Everton,Kiernan Dewsbury-Hall,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Everton,Iliman Ndiaye,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Everton,James Garner,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Everton,Tim Iroegbunam,MID,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Everton,Dwight McNeil,MID,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Everton,Tyrique George,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Everton,Carlos Alcaraz Durán,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Everton,Harrison Armstrong,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Everton,Tyler Dibling,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Everton,Merlin Röhl,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Everton,Hayden Hackney,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Everton,Norberto Bercique Gomes Betuncal,FWD,ST,Official Fantasy Premier League bootstrap-static API,2026/27
+Everton,Thierno Barry,FWD,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Fulham,Bernd Leno,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Fulham,Benjamin Lecomte,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Fulham,Alfie McNally,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Fulham,Joachim Andersen,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Fulham,Antonee Robinson,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Fulham,Jorge Cuenca Barreno,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Fulham,Kenny Tete,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Fulham,Calvin Bassey,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Fulham,Timothy Castagne,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Fulham,Ryan Sessegnon,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Fulham,Alex Iwobi,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Fulham,Emile Smith Rowe,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Fulham,Kevin Santos Lopes de Macedo,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Fulham,Oscar Bobb,MID,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Fulham,Sander Berge,MID,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Fulham,Tom Cairney,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Fulham,Saša Lukić,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Fulham,Josh King,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Fulham,Harrison Reed,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Fulham,Rodrigo Muniz Carvalho,FWD,ST,Official Fantasy Premier League bootstrap-static API,2026/27
+Fulham,Jonah Kusi-Asare,FWD,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Hull City,Dillon Phillips,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Hull City,Jack Butland,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Hull City,Harvey Cartwright,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Hull City,Thimothée Lo-Tutala,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Hull City,John Egan,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Hull City,Charlie Hughes,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Hull City,Semi Ajayi,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Hull City,Lewie Coyle,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Hull City,Cody Drameh,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Hull City,Ryan Giles,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Hull City,Matty Jacob,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Hull City,Cathal McCarthy,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Hull City,Paddy McNair,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Hull City,Matt Targett,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Hull City,Mohamed Belloumi,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Hull City,Liam Millar,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Hull City,Kieran Dowell,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Hull City,Matt Crooks,MID,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Hull City,Regan Slater,MID,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Hull City,Eliot Matazo,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Hull City,Abdülkadir Ömür,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Hull City,Abu Kamara,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Hull City,Óscar Zambrano,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Hull City,David Akintola,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Hull City,Darko Gyabi,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Hull City,Hidemasa Morita,MID,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Hull City,Oli McBurnie,FWD,ST,Official Fantasy Premier League bootstrap-static API,2026/27
+Hull City,Enis Destan,FWD,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Hull City,Mason Burstow,FWD,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Ipswich Town,Christian Walton,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Ipswich Town,Alex Palmer,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Ipswich Town,David Button,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Ipswich Town,Kayne van Oevelen,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Ipswich Town,Kjell Scherpen,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Ipswich Town,Issa Diop,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Ipswich Town,Cédric Kipré,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Ipswich Town,Dara O'Shea,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Ipswich Town,Leif Davis,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Ipswich Town,Jacob Greaves,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Ipswich Town,Ben Johnson,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Ipswich Town,Darnell Furlong,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Ipswich Town,Marcelino Núñez,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Ipswich Town,Azor Matusiwa,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Ipswich Town,Wes Burns,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Ipswich Town,Jack Taylor,MID,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Ipswich Town,Jack Clarke,MID,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Ipswich Town,Chiedozie Ogbene,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Ipswich Town,Abdul Fatawu,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Ipswich Town,Jaden Philogene,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Ipswich Town,Sam Szmodics,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Ipswich Town,Kasey McAteer,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Ipswich Town,Anis Mehmeti,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Ipswich Town,Daizen Maeda,MID,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Ipswich Town,Emersonn Correia da Silva,FWD,ST,Official Fantasy Premier League bootstrap-static API,2026/27
+Ipswich Town,George Hirst,FWD,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Ipswich Town,Chuba Akpom,FWD,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Ipswich Town,Sindre Walle Egeli,FWD,ST,Official Fantasy Premier League bootstrap-static API,2026/27
+Ipswich Town,Ali Al-Hamadi,FWD,ST,Official Fantasy Premier League bootstrap-static API,2026/27
+Leeds,Lucas Estella Perri,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Leeds,Jaka Bijol,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Leeds,Joe Rodon,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Leeds,Jayden Bogle,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Leeds,Gabriel Gudmundsson,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Leeds,James Justin,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Leeds,Sebastiaan Bornauw,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Leeds,Tarik Muharemović,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Leeds,Harry Wilson,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Leeds,Anton Stach,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Leeds,Noah Okafor,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Leeds,Brenden Aaronson,MID,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Leeds,Ethan Ampadu,MID,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Leeds,Sean Longstaff,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Leeds,Joe Gelhardt,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Leeds,Wilfried Gnonto,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Leeds,Jack Harrison,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Leeds,Daniel James,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Leeds,Ilia Gruev,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Leeds,Tanaka Ao,MID,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Leeds,Dominic Calvert-Lewin,FWD,ST,Official Fantasy Premier League bootstrap-static API,2026/27
+Leeds,Lukas Nmecha,FWD,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Leeds,Joël Piroe,FWD,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Leeds,Mateo Joseph Fernández-Regatillo,FWD,ST,Official Fantasy Premier League bootstrap-static API,2026/27
+Liverpool,Alisson Becker,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Liverpool,Giorgi Mamardashvili,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Liverpool,Freddie Woodman,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Liverpool,Armin Pecsi,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Liverpool,Vitezslav Jaros,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Liverpool,Harvey Davies,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Liverpool,Virgil van Dijk,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Liverpool,Jeremie Frimpong,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Liverpool,Milos Kerkez,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Liverpool,Joe Gomez,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Liverpool,Conor Bradley,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Liverpool,Wellity Lucky,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Liverpool,Jeremy Jacquet,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Liverpool,Giovanni Leoni,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Liverpool,Kostas Tsimikas,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Liverpool,Calvin Ramsay,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Liverpool,Florian Wirtz,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Liverpool,Cody Gakpo,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Liverpool,Dominik Szoboszlai,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Liverpool,Rio Ngumoha,MID,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Liverpool,Federico Chiesa,MID,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Liverpool,Ryan Gravenberch,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Liverpool,Alexis Mac Allister,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Liverpool,Curtis Jones,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Liverpool,Endo Wataru,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Liverpool,Trey Nyoni,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Liverpool,Stefan Bajčetić Maquieira,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Liverpool,Victor Munoz,MID,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Liverpool,James McConnell,MID,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Liverpool,Lewis Koumas,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Liverpool,Harvey Elliott,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Liverpool,Alexander Isak,FWD,ST,Official Fantasy Premier League bootstrap-static API,2026/27
+Liverpool,Hugo Ekitiké,FWD,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Liverpool,Jayden Danns,FWD,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Man City,Gianluigi Donnarumma,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Man City,James Trafford,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Man City,Marcus Bettinelli,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Man City,Nico O'Reilly,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Man City,Marc Guéhi,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Man City,Matheus Nunes,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Man City,Rúben dos Santos Gato Alves Dias,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Man City,Joško Gvardiol,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Man City,Rayan Aït-Nouri,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Man City,Abdukodir Khusanov,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Man City,Max Alleyne,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Man City,Rico Lewis,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Man City,Vitor de Oliveira Nunes dos Reis,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Man City,Jack Grealish,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Man City,Antoine Semenyo,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Man City,Phil Foden,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Man City,Rayan Cherki,MID,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Man City,Jérémy Doku,MID,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Man City,Rodrigo 'Rodri' Hernandez Cascante,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Man City,Sávio Moreira de Oliveira,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Man City,Tijjani Reijnders,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Man City,Nico González Iglesias,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Man City,Mateo Kovačić,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Man City,Claudio Echeverri,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Man City,Kalvin Phillips,MID,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Man City,Divine Mukasa,MID,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Man City,Jeremy Monga,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Man City,Elliot Anderson,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Man City,Omar Marmoush,FWD,ST,Official Fantasy Premier League bootstrap-static API,2026/27
+Man City,Erling Haaland,FWD,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Man Utd,Karl Darlow,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Man Utd,Senne Lammens,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Man Utd,Altay Bayındır,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Man Utd,Tom Heaton,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Man Utd,Matthijs de Ligt,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Man Utd,Diogo Dalot Teixeira,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Man Utd,Harry Maguire,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Man Utd,Lisandro Martínez,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Man Utd,Leny Yoro,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Man Utd,Ayden Heaven,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Man Utd,Noussair Mazraoui,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Man Utd,Luke Shaw,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Man Utd,Harry Amass,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Man Utd,Tyler Fredricson,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Man Utd,Youri Tielemans,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Man Utd,Andrey Nascimento dos Santos,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Man Utd,Patrick Dorgu,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Man Utd,Bruno Borges Fernandes,MID,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Man Utd,Bryan Mbeumo,MID,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Man Utd,Matheus Santos Carneiro da Cunha,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Man Utd,Marcus Rashford,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Man Utd,Mason Mount,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Man Utd,Amad Diallo,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Man Utd,Kobbie Mainoo,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Man Utd,Manuel Ugarte Ribeiro,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Man Utd,Jack Fletcher,MID,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Man Utd,Shea Lacey,MID,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Man Utd,Toby Collyer,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Man Utd,Bendito Mantato,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Man Utd,Tyler Fletcher,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Man Utd,Benjamin Sesko,FWD,ST,Official Fantasy Premier League bootstrap-static API,2026/27
+Man Utd,Joshua Zirkzee,FWD,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Man Utd,Chido Obi,FWD,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Newcastle,Nick Pope,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Newcastle,Mark Gillespie,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Newcastle,Ewen Jaouen,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Newcastle,Malick Thiaw,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Newcastle,Fabian Schär,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Newcastle,Sven Botman,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Newcastle,Dan Burn,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Newcastle,Lewis Hall,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Newcastle,Tino Livramento,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Newcastle,Alex Murphy,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Newcastle,Bruno Guimarães Rodriguez Moura,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Newcastle,Harvey Barnes,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Newcastle,Anthony Elanga,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Newcastle,Jacob Ramsey,MID,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Newcastle,Jacob Murphy,MID,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Newcastle,Joelinton Cássio Apolinário de Lira,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Newcastle,Lewis Miley,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Newcastle,Joe Willock,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Newcastle,Bazoumana Touré,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Newcastle,Sean Steur,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Newcastle,Aladji Bamba,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Newcastle,Nick Woltemade,FWD,ST,Official Fantasy Premier League bootstrap-static API,2026/27
+Newcastle,Yoane Wissa,FWD,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Newcastle,William Osula,FWD,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Newcastle,Sean Neave,FWD,ST,Official Fantasy Premier League bootstrap-static API,2026/27
+Nott'm Forest,Matz Sels,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Nott'm Forest,John Victor Maciel Furtado,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Nott'm Forest,Neco Williams,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Nott'm Forest,Felipe Rodrigues da Silva,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Nott'm Forest,Nikola Milenković,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Nott'm Forest,Murillo Costa dos Santos,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Nott'm Forest,Ola Aina,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Nott'm Forest,Jair Paula da Cunha Filho,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Nott'm Forest,Nicolò Savona,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Nott'm Forest,Omar Richards,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Nott'm Forest,Zach Abbott,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Nott'm Forest,Luca Netz,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Nott'm Forest,Tyler Bindon,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Nott'm Forest,Morgan Gibbs-White,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Nott'm Forest,Callum Hudson-Odoi,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Nott'm Forest,Dan Ndoye,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Nott'm Forest,Omari Hutchinson,MID,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Nott'm Forest,Dilane Bakwa,MID,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Nott'm Forest,James McAtee,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Nott'm Forest,Nicolás Domínguez,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Nott'm Forest,Ibrahim Sangaré,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Nott'm Forest,Ryan Yates,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Nott'm Forest,Xaver Schlager,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Nott'm Forest,Chris Wood,FWD,ST,Official Fantasy Premier League bootstrap-static API,2026/27
+Nott'm Forest,Igor Jesus Maciel da Cruz,FWD,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Nott'm Forest,Taiwo Awoniyi,FWD,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Nott'm Forest,Arnaud Kalimuendo,FWD,ST,Official Fantasy Premier League bootstrap-static API,2026/27
+Spurs,Guglielmo Vicario,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Spurs,Brandon Austin,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Spurs,Antonín Kinský,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Spurs,Martin Dubravka,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Spurs,Jan Paul van Hecke,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Spurs,Marcos Senesi Barón,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Spurs,Pedro Porro Sauceda,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Spurs,Cristian Romero,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Spurs,Kevin Danso,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Spurs,Andrew Robertson,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Spurs,Micky van de Ven,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Spurs,Djed Spence,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Spurs,Destiny Udogie,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Spurs,Ashley Phillips,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Spurs,Ben Davies,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Spurs,Jun'ai Byfield,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Spurs,James Rowswell,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Spurs,João Victor de Souza Menezes,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Spurs,Sandro Tonali,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Spurs,Mohammed Kudus,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Spurs,Xavi Simons,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Spurs,Mathys Tel,MID,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Spurs,James Maddison,MID,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Spurs,Rodrigo Bentancur,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Spurs,Wilson Odobert,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Spurs,Pape Matar Sarr,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Spurs,Conor Gallagher,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Spurs,Lucas Bergvall,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Spurs,Dejan Kulusevski,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Spurs,Archie Gray,MID,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Spurs,Mikey Moore,MID,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Spurs,Callum Olusesi,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Spurs,Mateus Fernandes,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Spurs,Dominic Solanke-Mitchell,FWD,ST,Official Fantasy Premier League bootstrap-static API,2026/27
+Spurs,Richarlison de Andrade,FWD,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Spurs,Dane Scarlett,FWD,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Sunderland,Robin Roefs,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Sunderland,Anthony Patterson,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Sunderland,Melker Ellborg,GK,GK,Official Fantasy Premier League bootstrap-static API,2026/27
+Sunderland,Daniel Ballard,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Sunderland,Nordi Mukiele,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Sunderland,Trai Hume,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Sunderland,Omar Alderete,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Sunderland,Reinildo Mandava,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Sunderland,Jenson Seelt,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Sunderland,Leo Fuhr Hjelde,DEF,LB,Official Fantasy Premier League bootstrap-static API,2026/27
+Sunderland,Luke O'Nien,DEF,RB,Official Fantasy Premier League bootstrap-static API,2026/27
+Sunderland,Arthur Masuaku,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Sunderland,Thomas Meunier,DEF,CB,Official Fantasy Premier League bootstrap-static API,2026/27
+Sunderland,Enzo Le Fée,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Sunderland,Habib Diarra,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Sunderland,Granit Xhaka,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Sunderland,Noah Sadiki,MID,RW,Official Fantasy Premier League bootstrap-static API,2026/27
+Sunderland,Simon Adingra,MID,LW,Official Fantasy Premier League bootstrap-static API,2026/27
+Sunderland,Romaine Mundle,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Sunderland,Chris Rigg,MID,AM,Official Fantasy Premier League bootstrap-static API,2026/27
+Sunderland,Chemsdine Talbi,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Sunderland,Djiamgone Jocelin Ta Bi,MID,DM,Official Fantasy Premier League bootstrap-static API,2026/27
+Sunderland,Nilson Angulo,MID,CM,Official Fantasy Premier League bootstrap-static API,2026/27
+Sunderland,Brian Brobbey,FWD,ST,Official Fantasy Premier League bootstrap-static API,2026/27
+Sunderland,Wilson Isidor,FWD,RW,Official Fantasy Premier League bootstrap-static API,2026/27
