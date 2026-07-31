@@ -16,3 +16,8 @@ y_bins = 12
 
 [dashboard]
 default_match_id = "M0001"
+
+[providers.footystats]
+raw_cache = "data/provider/footystats/premier_league_raw.json"
+matches_cache = "data/provider/footystats/premier_league_matches.csv"
+# League IDs are supplied to the one-time CLI import because FootyStats IDs vary by season.

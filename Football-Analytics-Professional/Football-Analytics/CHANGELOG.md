@@ -19,3 +19,11 @@
 - Normalized the complete finite Poisson score matrix so home/draw/away probabilities sum exactly to 100%.
 - Added both-teams-to-score and over-2.5-goals probabilities.
 - Added regression tests for normalization and reversed home/away fixtures.
+
+## 2.2.0
+
+- Added a guarded, one-time FootyStats Premier League ingestion command.
+- Added raw JSON and normalized local match-history caching.
+- Added match-history forecasts using provider xG when available and goals as a labelled fallback.
+- Added a Streamlit recalculation button that performs no network request.
+- Prevented real goalscorer claims when only aggregate match data is available.

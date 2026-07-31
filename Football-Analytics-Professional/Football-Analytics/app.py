@@ -9,6 +9,12 @@ import streamlit as st
 from football_analytics.metrics import player_summary, team_match_summary, xg_momentum
 from football_analytics.config import load_settings
 from football_analytics.forecasting import attacking_side_profile, forecast_fixture, scorer_probabilities, season_projection, team_style_profiles
+from football_analytics.match_forecasting import (
+    forecast_from_match_history,
+    load_cached_match_history,
+    season_projection_from_match_history,
+    write_cached_forecasts,
+)
 from football_analytics.networks import passing_network
 from football_analytics.scouting import percentile_profile, player_similarity, cluster_players
 from football_analytics.service import datasets, enriched_events, models
@@ -41,36 +47,86 @@ teams = list(match_events["team"].dropna().unique())
 
 if page == "Season Forecast":
     st.header("Next-Season Projection")
-    st.caption("Recency-weighted xG strengths and a Poisson fixture model. In demo mode every input performance is synthetic.")
-    projection = season_projection(matches, shots)
+    provider_cache = settings.footystats_matches_cache
+    if provider_cache.exists():
+        history = load_cached_match_history(provider_cache)
+        seasons = sorted(history["season"].dropna().astype(str).unique())
+        st.success(
+            f"Using cached FootyStats Premier League match history: {len(history):,} matches · "
+            f"seasons {', '.join(seasons)}. No provider request is made by this page."
+        )
+        if st.button("Recalculate from cached FootyStats data", type="primary"):
+            season_path, fixtures_path = write_cached_forecasts(history, settings.report_dir)
+            st.session_state["footystats_projection"] = season_projection_from_match_history(history)
+            st.success(f"Recalculated locally and saved to {season_path} and {fixtures_path}.")
+        projection = st.session_state.get(
+            "footystats_projection", season_projection_from_match_history(history)
+        )
+        st.caption(
+            "The model uses provider xG when sufficiently available; otherwise it transparently uses "
+            "historical goals as the scoring-rate proxy. Recent matches receive more weight."
+        )
+    else:
+        st.warning(
+            "No cached FootyStats file was found. This table uses synthetic demo events and is not a "
+            "real Premier League prediction. Run the guarded one-time import from PowerShell first."
+        )
+        projection = season_projection(matches, shots)
     st.dataframe(projection.round(2), use_container_width=True, hide_index=True)
     st.plotly_chart(px.bar(projection.head(10), x="team", y="points", title="Projected expected points"), use_container_width=True)
 
 elif page == "Fixture Forecast":
-    st.header("Fixture and Goalscorer Forecast")
-    all_teams = sorted(set(matches["home_team"]) | set(matches["away_team"]))
-    c1, c2 = st.columns(2)
-    home_team = c1.selectbox("Home team", all_teams)
-    away_options = [team for team in all_teams if team != home_team]
-    away_team = c2.selectbox("Away team", away_options)
-    prediction = forecast_fixture(matches, shots, home_team, away_team)
+    st.header("Fixture Forecast")
+    provider_cache = settings.footystats_matches_cache
+    if provider_cache.exists():
+        history = load_cached_match_history(provider_cache)
+        latest_season = history.sort_values("match_date")["season"].dropna().astype(str).iloc[-1]
+        latest = history[history["season"].astype(str).eq(latest_season)]
+        all_teams = sorted(set(latest["home_team"]) | set(latest["away_team"]))
+        st.info(
+            f"Fixture probabilities use the locally cached FootyStats history through {latest_season}. "
+            "Changing teams or pressing recalculate does not call the API."
+        )
+        c1, c2 = st.columns(2)
+        home_team = c1.selectbox("Home team", all_teams)
+        away_team = c2.selectbox("Away team", [team for team in all_teams if team != home_team])
+        prediction = forecast_from_match_history(history, home_team, away_team)
+        home_rate, away_rate = prediction.home_rate, prediction.away_rate
+        provider_mode = True
+    else:
+        all_teams = sorted(set(matches["home_team"]) | set(matches["away_team"]))
+        c1, c2 = st.columns(2)
+        home_team = c1.selectbox("Home team", all_teams)
+        away_team = c2.selectbox("Away team", [team for team in all_teams if team != home_team])
+        prediction = forecast_fixture(matches, shots, home_team, away_team)
+        home_rate, away_rate = prediction.home_xg, prediction.away_xg
+        provider_mode = False
+        st.warning("No FootyStats cache found; this fixture uses synthetic demo performances.")
+
     a, b, c, d = st.columns(4)
     a.metric("Home win", f"{prediction.home_win:.1%}")
     b.metric("Draw", f"{prediction.draw:.1%}")
     c.metric("Away win", f"{prediction.away_win:.1%}")
     d.metric("Most likely score", prediction.most_likely_score)
-    st.write(f"Expected goals: **{home_team} {prediction.home_xg:.2f} – {prediction.away_xg:.2f} {away_team}**")
+    st.write(f"Expected scoring rates: **{home_team} {home_rate:.2f} – {away_rate:.2f} {away_team}**")
     e, f = st.columns(2)
     e.metric("Both teams to score", f"{prediction.both_teams_to_score:.1%}")
     f.metric("Over 2.5 goals", f"{prediction.over_2_5:.1%}")
-    st.caption("Probabilities are recalculated from venue-specific, recency-weighted xG rates with sample-size shrinkage. The complete score distribution is normalized to exactly 100%.")
-    left, right = st.columns(2)
-    with left:
-        st.subheader(f"Likely scorers: {home_team}")
-        st.dataframe(scorer_probabilities(events, shots, home_team, prediction.home_xg).head(10).round(3), use_container_width=True, hide_index=True)
-    with right:
-        st.subheader(f"Likely scorers: {away_team}")
-        st.dataframe(scorer_probabilities(events, shots, away_team, prediction.away_xg).head(10).round(3), use_container_width=True, hide_index=True)
+    st.caption("The normalized Poisson score distribution sums to exactly 100% across home win, draw and away win.")
+
+    if provider_mode:
+        st.warning(
+            "FootyStats league-match data does not provide the event-level player shot history used by "
+            "this demo's goalscorer model. Goalscorer probabilities are therefore not shown as real provider forecasts."
+        )
+    else:
+        left, right = st.columns(2)
+        with left:
+            st.subheader(f"Synthetic likely scorers: {home_team}")
+            st.dataframe(scorer_probabilities(events, shots, home_team, home_rate).head(10).round(3), use_container_width=True, hide_index=True)
+        with right:
+            st.subheader(f"Synthetic likely scorers: {away_team}")
+            st.dataframe(scorer_probabilities(events, shots, away_team, away_rate).head(10).round(3), use_container_width=True, hide_index=True)
 
 elif page == "Team Identity":
     st.header("Team Identity and Attack-Side Tendencies")

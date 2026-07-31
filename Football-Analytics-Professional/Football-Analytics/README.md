@@ -97,3 +97,43 @@ The application loads an existing `models/xg_model.joblib` when available. Other
 Squad availability, transfers, injuries, promoted teams, manager changes, set-piece roles, expected minutes, schedule strength and provider-specific definitions materially affect a new-season forecast. The current transparent baseline does not pretend to know unavailable inputs. These should be added as versioned features only when a licensed and reproducible source exists.
 
 See `docs/METHODOLOGY.md`, `docs/MODEL_CARD.md`, `docs/DATA_GOVERNANCE.md`, `docs/ARCHITECTURE.md` and `docs/PROVIDER_INTEGRATION.md`.
+
+## One-time FootyStats Premier League import
+
+FootyStats access is optional. The API key is never stored in the repository.
+A complete league season may require several paginated HTTP requests, but the
+command is guarded so the provider is contacted only during one explicit import
+run. Subsequent dashboard recalculations use the local cache only.
+
+```powershell
+$env:FOOTYSTATS_API_KEY = "YOUR_API_KEY"
+
+football-analytics import-footystats `
+  --league-id PREMIER_LEAGUE_SEASON_ID
+```
+
+Repeat `--league-id` in the same command to import several licensed seasons:
+
+```powershell
+football-analytics import-footystats `
+  --league-id SEASON_ID_1 `
+  --league-id SEASON_ID_2 `
+  --league-id SEASON_ID_3 `
+  --league-id SEASON_ID_4 `
+  --league-id SEASON_ID_5
+```
+
+The command creates local, Git-ignored files:
+
+```text
+data/provider/footystats/premier_league_raw.json
+data/provider/footystats/premier_league_matches.csv
+reports/footystats_season_projection.csv
+reports/footystats_fixture_forecasts.csv
+```
+
+The Streamlit button **Recalculate from cached FootyStats data** never calls the
+provider. It recalculates only from `premier_league_matches.csv`.
+
+The documented `key=example&league_id=1625` data represents EPL 2018/19. It is
+useful for integration testing, not for forecasting the current Premier League.

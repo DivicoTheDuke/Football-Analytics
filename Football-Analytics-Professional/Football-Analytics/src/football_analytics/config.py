@@ -22,6 +22,8 @@ class Settings:
     test_size: float = 0.25
     x_bins: int = 16
     y_bins: int = 12
+    footystats_raw_cache: Path = Path("data/provider/footystats/premier_league_raw.json")
+    footystats_matches_cache: Path = Path("data/provider/footystats/premier_league_matches.csv")
 
     @property
     def data_dir(self) -> Path:
@@ -39,6 +41,8 @@ def load_settings(path: str | Path = "config/app.toml") -> Settings:
         with config_path.open("rb") as handle:
             values = tomllib.load(handle)
     data, model = values.get("data", {}), values.get("model", {})
+    providers = values.get("providers", {})
+    footystats = providers.get("footystats", {})
     mode = os.getenv("FOOTBALL_ANALYTICS_DATA_MODE", data.get("mode", "demo")).lower()
     if mode not in {"demo", "historical"}:
         raise ValueError("FOOTBALL_ANALYTICS_DATA_MODE must be 'demo' or 'historical'")
@@ -57,4 +61,6 @@ def load_settings(path: str | Path = "config/app.toml") -> Settings:
         test_size=float(model.get("test_size", 0.25)),
         x_bins=int(model.get("x_bins", 16)),
         y_bins=int(model.get("y_bins", 12)),
+        footystats_raw_cache=Path(footystats.get("raw_cache", "data/provider/footystats/premier_league_raw.json")),
+        footystats_matches_cache=Path(footystats.get("matches_cache", "data/provider/footystats/premier_league_matches.csv")),
     )

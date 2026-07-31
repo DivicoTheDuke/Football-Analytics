@@ -13,3 +13,7 @@ models/*.json
 reports/*.html
 !models/.gitkeep
 !reports/.gitkeep
+# Locally cached provider data and derived forecasts
+/data/provider/footystats/*.json
+/data/provider/footystats/*.csv
+/reports/footystats_*.csv
