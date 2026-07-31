@@ -11,6 +11,7 @@ from .datasets import build_dataset_manifest
 from .demo import generate_demo
 from .forecasting import season_projection
 from .match_forecasting import load_cached_match_history, write_cached_forecasts
+from .training import retrain_and_recalculate
 from .providers.footystats import fetch_premier_league_once
 from .quality import validate_events
 from .reporting import build_match_report
@@ -28,6 +29,8 @@ def main():
     import_fs = sub.add_parser("import-footystats", help="Fetch and cache Premier League match history once")
     import_fs.add_argument("--league-id", type=int, action="append", required=True, dest="league_ids")
     import_fs.add_argument("--force", action="store_true", help="Deliberately replace an existing provider cache")
+    train_matches = sub.add_parser("train-match-models", help="Train match forecast models from the local FootyStats cache")
+    train_matches.add_argument("--test-fraction", type=float, default=0.25)
     projection = sub.add_parser("project-season", help="Create a probabilistic next-season projection")
     projection.add_argument("--output", default="reports/season_projection.csv")
     report = sub.add_parser("build-report", help="Build a self-contained match report")
@@ -50,11 +53,34 @@ def main():
         )
         history = load_cached_match_history(result.matches_path)
         season_path, fixtures_path = write_cached_forecasts(history, settings.report_dir)
+        bundle, ml_paths = retrain_and_recalculate(
+            history,
+            model_dir=settings.model_dir,
+            report_dir=settings.report_dir,
+            random_state=settings.random_state,
+            test_fraction=settings.test_size,
+        )
         print(
             f"Cached {result.match_count} Premier League matches from seasons "
             f"{', '.join(result.seasons)} using {result.request_count} paginated requests. "
-            f"Forecasts written to {season_path} and {fixtures_path}."
+            "The provider cache was then used locally to train the match models. "
+            f"Statistical forecasts: {season_path}, {fixtures_path}. "
+            f"ML bundle: {ml_paths['bundle']}."
         )
+        print(json.dumps(bundle.metrics.__dict__, indent=2))
+    elif args.command == "train-match-models":
+        history = load_cached_match_history(settings.footystats_matches_cache)
+        bundle, paths = retrain_and_recalculate(
+            history,
+            model_dir=settings.model_dir,
+            report_dir=settings.report_dir,
+            random_state=settings.random_state,
+            test_fraction=args.test_fraction,
+        )
+        print(json.dumps(bundle.metrics.__dict__, indent=2))
+        print("Saved local ML artifacts:")
+        for name, path in paths.items():
+            print(f"- {name}: {path}")
     elif args.command == "validate-data":
         events = load_events(settings.data_dir / settings.events_file)
         quality = validate_events(events); print(json.dumps(quality.to_dict(), indent=2)); raise SystemExit(0 if quality.passed else 1)

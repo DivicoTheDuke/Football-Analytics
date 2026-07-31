@@ -137,3 +137,32 @@ provider. It recalculates only from `premier_league_matches.csv`.
 
 The documented `key=example&league_id=1625` data represents EPL 2018/19. It is
 useful for integration testing, not for forecasting the current Premier League.
+
+## Cached FootyStats machine-learning workflow
+
+After the guarded provider import, the project trains match-level models locally. The provider is not contacted by model training or by the dashboard.
+
+```powershell
+$env:FOOTYSTATS_API_KEY = "example"
+football-analytics import-footystats --league-id 1625
+```
+
+The import command caches the provider response and then trains the local match models. To retrain later without any provider request:
+
+```powershell
+football-analytics train-match-models
+```
+
+Generated artifacts:
+
+```text
+models/match_forecast_bundle.joblib
+models/match_forecast_metadata.json
+reports/ml_match_model_metrics.json
+reports/ml_season_projection.csv
+reports/ml_fixture_forecasts.csv
+```
+
+The match models use chronological pre-match rolling features, a logistic-regression outcome classifier and separate Poisson goal regressors. The dashboard's **Platform Overview** explains which capabilities are available from real aggregate match data, which remain synthetic demonstrations, and which require additional licensed event, tracking or player-availability data.
+
+A cache containing only Premier League 2018/19 demonstrates the workflow but must not be presented as a current-season sporting forecast.

@@ -9,6 +9,7 @@ training_seasons = ["2021/22", "2022/23", "2023/24", "2024/25", "2025/26"]
 evaluation_season = "2025/26"
 
 [model]
+match_model_bundle = "models/match_forecast_bundle.joblib"
 random_state = 42
 test_size = 0.25
 x_bins = 16

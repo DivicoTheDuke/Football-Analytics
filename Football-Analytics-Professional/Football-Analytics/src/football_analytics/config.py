@@ -24,6 +24,7 @@ class Settings:
     y_bins: int = 12
     footystats_raw_cache: Path = Path("data/provider/footystats/premier_league_raw.json")
     footystats_matches_cache: Path = Path("data/provider/footystats/premier_league_matches.csv")
+    match_model_bundle: Path = Path("models/match_forecast_bundle.joblib")
 
     @property
     def data_dir(self) -> Path:
@@ -63,4 +64,5 @@ def load_settings(path: str | Path = "config/app.toml") -> Settings:
         y_bins=int(model.get("y_bins", 12)),
         footystats_raw_cache=Path(footystats.get("raw_cache", "data/provider/footystats/premier_league_raw.json")),
         footystats_matches_cache=Path(footystats.get("matches_cache", "data/provider/footystats/premier_league_matches.csv")),
+        match_model_bundle=Path(model.get("match_model_bundle", "models/match_forecast_bundle.joblib")),
     )

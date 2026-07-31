@@ -27,3 +27,12 @@
 - Added match-history forecasts using provider xG when available and goals as a labelled fallback.
 - Added a Streamlit recalculation button that performs no network request.
 - Prevented real goalscorer claims when only aggregate match data is available.
+
+## 2.3.0
+
+- Added leakage-safe chronological Premier League match features.
+- Added local scikit-learn match-outcome and goal models.
+- Added temporal holdout metrics and persisted model metadata.
+- Added local retraining and forecast regeneration from the cached FootyStats CSV.
+- Added a platform capability overview distinguishing available, demo-only and unavailable analyses.
+- Added explicit UI limitations for player, formation, pressing and attacking-channel forecasts.
