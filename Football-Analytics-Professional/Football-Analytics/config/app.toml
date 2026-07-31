@@ -1,10 +1,15 @@
 [data]
-directory = "data/demo"
+mode = "demo"
+demo_directory = "data/demo"
+historical_directory = "data/historical"
 events_file = "events.csv"
 matches_file = "matches.csv"
 lineups_file = "lineups.csv"
+training_seasons = ["2021/22", "2022/23", "2023/24", "2024/25", "2025/26"]
+evaluation_season = "2025/26"
 
 [model]
+match_model_bundle = "models/match_forecast_bundle.joblib"
 random_state = 42
 test_size = 0.25
 x_bins = 16
@@ -12,3 +17,8 @@ y_bins = 12
 
 [dashboard]
 default_match_id = "M0001"
+
+[providers.footystats]
+raw_cache = "data/provider/footystats/premier_league_raw.json"
+matches_cache = "data/provider/footystats/premier_league_matches.csv"
+# League IDs are supplied to the one-time CLI import because FootyStats IDs vary by season.

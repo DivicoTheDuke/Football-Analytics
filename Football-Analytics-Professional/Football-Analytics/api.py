@@ -5,13 +5,14 @@ from pydantic import BaseModel, Field
 import pandas as pd
 
 from football_analytics.metrics import player_summary, team_match_summary
+from football_analytics.forecasting import attacking_side_profile, forecast_fixture, scorer_probabilities, season_projection, team_style_profiles
 from football_analytics.scouting import player_similarity
 from football_analytics.service import datasets, enriched_events, models
 
 app = FastAPI(
     title="Football Analytics API",
     version="1.0.0",
-    description="Portfolio API for match, player and expected-goals analytics using synthetic data.",
+    description="Portfolio API for transparent football analytics and probabilistic forecasts. Demo data is synthetic unless historical mode is configured.",
 )
 
 
@@ -86,3 +87,29 @@ def xg_predict(request: ShotRequest):
     from football_analytics.xg import predict_xg
     probability = float(predict_xg(artifact.model, row).iloc[0]["xg"])
     return {"xg": probability}
+
+
+@app.get("/forecasts/season")
+def forecast_season_endpoint():
+    match_frame, _, _ = datasets(); _, shots = enriched_events()
+    return season_projection(match_frame, shots).round(4).to_dict(orient="records")
+
+
+@app.get("/forecasts/fixture")
+def forecast_fixture_endpoint(home_team: str, away_team: str):
+    match_frame, events, _ = datasets(); enriched, shots = enriched_events()
+    teams = set(match_frame["home_team"]) | set(match_frame["away_team"])
+    if home_team not in teams or away_team not in teams or home_team == away_team:
+        raise HTTPException(400, "Choose two different known teams")
+    forecast = forecast_fixture(match_frame, shots, home_team, away_team)
+    return {**forecast.__dict__, "home_scorers": scorer_probabilities(enriched, shots, home_team, forecast.home_xg).head(10).round(4).to_dict(orient="records"), "away_scorers": scorer_probabilities(enriched, shots, away_team, forecast.away_xg).head(10).round(4).to_dict(orient="records")}
+
+
+@app.get("/teams/{team}/identity")
+def team_identity(team: str):
+    _, events, _ = datasets()
+    identity = team_style_profiles(events).merge(attacking_side_profile(events), on="team", how="left")
+    row = identity.loc[identity["team"] == team]
+    if row.empty:
+        raise HTTPException(404, "Unknown team")
+    return row.iloc[0].to_dict()
