@@ -9,6 +9,7 @@ src/football_analytics/datasets.py
 src/football_analytics/demo.py
 src/football_analytics/features.py
 src/football_analytics/forecasting.py
+src/football_analytics/match_forecasting.py
 src/football_analytics/metrics.py
 src/football_analytics/networks.py
 src/football_analytics/quality.py
@@ -24,9 +25,11 @@ src/football_analytics.egg-info/entry_points.txt
 src/football_analytics.egg-info/requires.txt
 src/football_analytics.egg-info/top_level.txt
 src/football_analytics/providers/__init__.py
+src/football_analytics/providers/footystats.py
 src/football_analytics/providers/statsbomb.py
 tests/test_api.py
 tests/test_features.py
+tests/test_footystats.py
 tests/test_forecasting.py
 tests/test_metrics.py
 tests/test_networks.py
